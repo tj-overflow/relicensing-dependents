@@ -1,17 +1,17 @@
 event,old_licence,new_licence,restriction_scope,fork,milestone,date,detail
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,last_open_release,2022-09-06,"Akka core 2.6.20 and HTTP 10.2.10, Apache-2.0"
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,announcement,2022-09-07,New versions under BUSL-1.1 (Business Source License 1.1)
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,first_restricted_artifact,2022-09-09,2.7.0-M1 (milestone)
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,first_restricted_stable,2022-10-19,Core 2.7.0 and HTTP 10.4.0
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,fork_first_stable,2023-07-10,Apache Pekko core 1.0.0 (based on Akka 2.6.20)
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,last_open_patch,2023-06-21,"2.6.21, critical TLS fix"
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,open_line_end_of_life,2023-09,End of 2.6 and HTTP 10.2 patches
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,licence_keys,2024-10-01,New versions require a licence key for production use
-akka,Apache-2.0,BUSL-1.1,users: commercial production use (free licence below US$25M revenue in 2022),Apache Pekko,first_change_date,2025-10-19,2.7.0 and HTTP 10.4.0 revert to Apache-2.0 (three years after release)
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,last_open_release,2022-09-06,"Akka core 2.6.20 and HTTP 10.2.10, Apache-2.0"
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,announcement,2022-09-07,New versions under BUSL-1.1 (Business Source License 1.1)
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,first_restricted_artifact,2022-09-09,2.7.0-M1 (milestone)
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,first_restricted_stable,2022-10-19,Core 2.7.0 and HTTP 10.4.0
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,fork_first_stable,2023-07-10,Apache Pekko core 1.0.0 (based on Akka 2.6.20)
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,last_open_patch,2023-06-21,"2.6.21, critical TLS fix"
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,open_line_end_of_life,2023-09,End of 2.6 and HTTP 10.2 patches
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,licence_keys,2024-10-01,New versions require a license key for production use
+akka,Apache-2.0,BUSL-1.1,users: commercial production use (free license below US$25M revenue in 2022),Apache Pekko,first_change_date,2025-10-19,2.7.0 and HTTP 10.4.0 revert to Apache-2.0 (three years after release)
 elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,announcement,2021-01-14,New versions under ELv2 / SSPL
 elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,last_open_release,2021-01-15,"7.10.2, Apache-2.0"
 elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,first_restricted_stable,2021-02-10,7.11.0
 elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,fork_first_stable,2021-07-12,OpenSearch 1.0 GA (Maven artifacts 2021-08-27)
 elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,vendor_apache_client,2021-09-30,co.elastic.clients:elasticsearch-java 7.15.0
-elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,agpl_option_announced,2024-08-29,AGPL added as a licence option
+elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,agpl_option_announced,2024-08-29,AGPL added as a license option
 elasticsearch,Apache-2.0,ELv2;SSPL-1.0,competitors: providing the software as a hosted or managed service,OpenSearch,first_agpl_release,2024-11-12,8.16.0

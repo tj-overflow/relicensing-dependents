@@ -2,7 +2,7 @@
 
 Version 1.0 (November 2026). Archived on Zenodo: [doi:10.5281/zenodo.24440614](https://doi.org/10.5281/zenodo.24440614).
 
-This dataset records what downstream Maven projects did after two open-source suppliers moved new versions to non-OSI licences:
+This dataset records what downstream Maven projects did after two open-source suppliers moved new versions to non-OSI licenses:
 - **Akka.** Moved from Apache-2.0 to BUSL-1.1 in September 2022. Its fork is Apache Pekko.
 - **Elasticsearch.** Moved from Apache-2.0 to ELv2/SSPL in January 2021. Its fork is OpenSearch.
 
@@ -12,7 +12,7 @@ The dataset covers every package in the deps.dev Maven snapshot of 2026-11-02 th
 
 | File | Rows | Unit | Content |
 |---|---|---|---|
-| `events.csv` | 16 | event milestone | Licences, restriction scope, fork, and dated milestones of the two events |
+| `events.csv` | 16 | event milestone | Licenses, restriction scope, fork, and dated milestones of the two events |
 | `fork_ports.csv` | 144 | Akka-family artifact | First stable Pekko (or Play 3) release that substitutes for each Akka-family artifact declared by the risk set |
 | `akka_dependents.csv` | 427 | project | Akka risk set: activity, outcome at 2025-09-30, dates of the first switch and first BSL adoption, pre-event flags, date all needed ports existed |
 | `akka_release_status.csv` | 147,671 | artifact release | Status of every release of every risk-set artifact |
@@ -65,7 +65,7 @@ The dataset covers every package in the deps.dev Maven snapshot of 2026-11-02 th
   - `USER_REQUEST`;
   - see the codebook.
 
-  `action` is the stated action. The codes were assigned by a language model (Claude Opus 5.5, used interactively on 2026-11-10). The author coded a 60-repository sample blind to the model's codes (`text_validation_human.csv`). The acceptance threshold was κ ≥ 0.60 on both codes; agreement was κ = 0.90 for "licence given as a reason" and κ = 0.80 for `COMPAT`. Agreement on relevance was lower (κ = 0.35), because the model counted routine version bumps inside the fork as relevant.
+  `action` is the stated action. The codes were assigned by a language model (Claude Opus 5.5, used interactively on 2026-11-10). The author coded a 60-repository sample blind to the model's codes (`text_validation_human.csv`). The acceptance threshold was κ ≥ 0.60 on both codes; agreement was κ = 0.90 for "license given as a reason" and κ = 0.80 for `COMPAT`. Agreement on relevance was lower (κ = 0.35), because the model counted routine version bumps inside the fork as relevant.
 
 ## Validation
 
@@ -73,12 +73,12 @@ The dataset covers every package in the deps.dev Maven snapshot of 2026-11-02 th
 - **Elasticsearch.** κ = 0.85 under the registry rule.
 - **Known blind spot.** Projects that shade the supplier inside their own artifact are coded `removed` (for example Apache Flink).
 
-## Sources and licence
+## Sources and license
 
 - **Package metadata and declared dependencies.** deps.dev (Google Open Source Insights) BigQuery dataset, snapshot 2026-11-02. deps.dev states that the data it generates are available under CC BY 4.0. The underlying package metadata (for example the POM content and publication dates of Maven Central packages) originates from the package registries, chiefly Maven Central, and remains subject to their own terms. Fork port dates and supplier release dates also come from deps.dev.
 - **Owner types.** GitHub REST API. Only the account type is included.
 - **Motive codes.** Derived from public GitHub issues and pull requests. The text itself is not redistributed; the repositories are public and can be re-queried with the search script in the replication package.
-- **Licence.** The tables in this dataset are the author's derived coding and are released under **CC BY 4.0** (see `LICENSE`). Please cite the working paper and credit deps.dev (Google Open Source Insights) and Maven Central as the sources of the underlying package data. No raw registry files (such as POM files) are included.
+- **License.** The tables in this dataset are the author's derived coding and are released under **CC BY 4.0** (see `LICENSE`). Please cite the working paper and credit deps.dev (Google Open Source Insights) and Maven Central as the sources of the underlying package data. No raw registry files (such as POM files) are included.
 - **Personal data.** The tables contain GitHub owner and repository names as they appear in public package metadata. To have a project removed, contact the author (taejun.oh5@gmail.com).
 
 ## Citation

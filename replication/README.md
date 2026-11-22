@@ -76,7 +76,7 @@ The collection scripts need credentials and network access. Run them in step ord
 | Source | Scripts | Notes |
 |---|---|---|
 | deps.dev BigQuery | `step04d`, `step04f`, `step06a`, `step07p_bigquery_elastic`, `step08a`, `step09a`, `step12e`, `step15d_bigquery_r4` | Every query reads the snapshot partition `2026-11-02 21:00:03.179237+00:00`. About 415 GB were billed in total, including 45 GB for Step 15. Each script takes `--max-gb` as a hard cap. `step15d` runs in stages, with `step15e_r4_lists.py` between them. |
-| deps.dev documented API | `step03`, `step03b`, `step04c`, `step06b`, `step07a`, `step08c` | Release dates and licences |
+| deps.dev documented API | `step03`, `step03b`, `step04c`, `step06b`, `step07a`, `step08c` | Release dates and licenses |
 | Maven Central | `step08b`, `step09b` | Parent POMs; sequential, at 1 request per second |
 | GitHub REST and search API | `step05b`, `step05d`, `step09d`, `step11z`, `step12z` | Unauthenticated, paced (1 request per minute for users, 7 seconds for search) |
 | GitHub repositories (git protocol) | `step16a_tag_check` | `git ls-remote --tags`, sequential, 1 request per second |
@@ -84,9 +84,9 @@ The collection scripts need credentials and network access. Run them in step ord
 
 `step04a` and `step04b` are superseded by the BigQuery route and are not needed. Their partial output from an undocumented endpoint was discarded.
 
-## Data licence and attribution
+## Data license and attribution
 
-- **Code.** The scripts and `run_all.py` are released under the MIT licence (see `LICENSE`).
+- **Code.** The scripts and `run_all.py` are released under the MIT license (see `LICENSE`).
 - **Derived tables and outputs.** Released under CC BY 4.0. Please cite the paper and credit deps.dev (Google Open Source Insights) and Maven Central.
 - **Raw extracts (`data/raw/`).** These are query results from deps.dev and records from the GitHub API, Maven Central and the deps.dev API. deps.dev states that the data it generates are available under CC BY 4.0. The underlying package metadata originates from the package registries, chiefly Maven Central, and remains subject to their own terms. No POM files are redistributed.
 - The public dataset (`../dataset`) is the documented subset for reuse.

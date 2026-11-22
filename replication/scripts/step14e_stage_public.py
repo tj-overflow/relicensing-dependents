@@ -74,7 +74,7 @@ reproduces every result in the paper.
 The raw extracts used by the scripts (about 560 MB) are archived on Zenodo with the full replication package:
 [doi:10.5281/zenodo.24440614](https://doi.org/10.5281/zenodo.24440614). See `replication/data/README.md`.
 
-## Licence
+## License
 
 Code: MIT. Dataset, derived tables and outputs: CC BY 4.0. The underlying package metadata comes from deps.dev
 (Google Open Source Insights) and the package registries, chiefly Maven Central; see `LICENSE`.
