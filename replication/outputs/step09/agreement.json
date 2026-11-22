@@ -1,0 +1,153 @@
+{
+ "coded": {
+  "n_coded": 41,
+  "n_unclear": 1,
+  "n_compared": 40,
+  "raw_agreement": 0.775,
+  "weighted_agreement": 0.686,
+  "kappa": 0.729,
+  "confusion": {
+   "vendor_open -> vendor_open": 6,
+   "dual -> dual": 3,
+   "removed -> removed": 6,
+   "es_version_unresolved -> freeze": 1,
+   "switch -> switch": 4,
+   "switch -> removed": 2,
+   "switch -> dual": 1,
+   "upgrade -> upgrade": 5,
+   "upgrade -> removed": 2,
+   "freeze -> freeze": 7,
+   "freeze -> removed": 1,
+   "dual -> removed": 1,
+   "removed -> upgrade": 1
+  },
+  "disagreements": [
+   {
+    "project": "github.com/basestar/basestar",
+    "registry": "es_version_unresolved",
+    "hand": "freeze",
+    "note": "HLRC 6.4.3 / elasticsearch.version 7.4.2"
+   },
+   {
+    "project": "github.com/codelibs/fess-ds-db",
+    "registry": "switch",
+    "hand": "removed",
+    "note": "OpenSearch server jar in provided scope only (Fess plugin); version from org.codelibs.fess parent"
+   },
+   {
+    "project": "github.com/codelibs/fess-ds-gitbucket",
+    "registry": "switch",
+    "hand": "removed",
+    "note": "OpenSearch server jar in provided scope only (Fess plugin); version from org.codelibs.fess parent"
+   },
+   {
+    "project": "github.com/craftercms/search",
+    "registry": "switch",
+    "hand": "dual",
+    "note": "OpenSearch on default branch; ES HLRC and elasticsearch-java on maintained support/4.0.x"
+   },
+   {
+    "project": "github.com/hs-web/hsweb-easy-orm",
+    "registry": "upgrade",
+    "hand": "removed",
+    "note": "server 7.11.2 in root dependencyManagement only; no module declares it"
+   },
+   {
+    "project": "github.com/kahle23/artoria-extend",
+    "registry": "freeze",
+    "hand": "removed",
+    "note": "HLRC 6.7.1 provided scope only"
+   },
+   {
+    "project": "github.com/kamon-io/kamon",
+    "registry": "dual",
+    "hand": "removed",
+    "note": "sbt: ES rest-client and HLRC 7.9.1 provided; opensearch-rest-client 1.3.14 provided"
+   },
+   {
+    "project": "github.com/pivotal/java-functions",
+    "registry": "upgrade",
+    "hand": "removed",
+    "note": "no Elasticsearch artifact in build files"
+   },
+   {
+    "project": "github.com/sonarsource/sonarqube",
+    "registry": "removed",
+    "hand": "upgrade",
+    "note": "HLRC 7.17.22 (server distribution 8.14.1 is not a library dependency)"
+   }
+  ],
+  "unclear": [
+   {
+    "project": "github.com/apache/streampipes",
+    "registry": "removed",
+    "note": "HLRC and server jar in experimental-flink module; version not set in repository (external management)"
+   }
+  ]
+ },
+ "coded_provided_as_declared": {
+  "n_coded": 41,
+  "n_unclear": 1,
+  "n_compared": 40,
+  "raw_agreement": 0.875,
+  "weighted_agreement": 0.915,
+  "kappa": 0.85,
+  "confusion": {
+   "vendor_open -> vendor_open": 6,
+   "dual -> dual": 4,
+   "removed -> removed": 6,
+   "es_version_unresolved -> freeze": 1,
+   "switch -> switch": 6,
+   "switch -> dual": 1,
+   "upgrade -> upgrade": 5,
+   "upgrade -> removed": 2,
+   "freeze -> freeze": 8,
+   "removed -> upgrade": 1
+  },
+  "disagreements": [
+   {
+    "project": "github.com/basestar/basestar",
+    "registry": "es_version_unresolved",
+    "hand": "freeze",
+    "note": "HLRC 6.4.3 / elasticsearch.version 7.4.2"
+   },
+   {
+    "project": "github.com/craftercms/search",
+    "registry": "switch",
+    "hand": "dual",
+    "note": "OpenSearch on default branch; ES HLRC and elasticsearch-java on maintained support/4.0.x"
+   },
+   {
+    "project": "github.com/hs-web/hsweb-easy-orm",
+    "registry": "upgrade",
+    "hand": "removed",
+    "note": "server 7.11.2 in root dependencyManagement only; no module declares it"
+   },
+   {
+    "project": "github.com/pivotal/java-functions",
+    "registry": "upgrade",
+    "hand": "removed",
+    "note": "no Elasticsearch artifact in build files"
+   },
+   {
+    "project": "github.com/sonarsource/sonarqube",
+    "registry": "removed",
+    "hand": "upgrade",
+    "note": "HLRC 7.17.22 (server distribution 8.14.1 is not a library dependency)"
+   }
+  ],
+  "unclear": [
+   {
+    "project": "github.com/apache/streampipes",
+    "registry": "removed",
+    "note": "HLRC and server jar in experimental-flink module; version not set in repository (external management)"
+   }
+  ]
+ },
+ "kind_vs_registry_stratum": {
+  "client": 27,
+  "other": 8,
+  "plugin": 6
+ },
+ "bom_managed_hand": 2
+}

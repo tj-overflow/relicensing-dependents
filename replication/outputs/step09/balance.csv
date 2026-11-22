@@ -1,0 +1,5 @@
+covariate,mean_es,mean_cmp,smd_raw,smd_weighted
+rel_per_year_pre,12.63,12.827,-0.006,-0.038
+n_artifacts,1.846,2.323,-0.163,0.036
+age_years_at_event,2.746,3.66,-0.357,0.04
+bom_pre,0.02,0.015,0.041,0.026

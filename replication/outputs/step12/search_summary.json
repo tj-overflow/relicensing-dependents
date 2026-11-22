@@ -1,0 +1,61 @@
+{
+ "repos": 631,
+ "errors": 107,
+ "with_hits": 213,
+ "truncated": [
+  [
+   "ghostdogpr/caliban",
+   133
+  ],
+  [
+   "softwaremill/tapir",
+   226
+  ],
+  [
+   "apache/pulsar",
+   285
+  ],
+  [
+   "apache/skywalking",
+   152
+  ],
+  [
+   "apache/streampipes",
+   1738
+  ],
+  [
+   "codelibs/fess",
+   260
+  ],
+  [
+   "hazelcast/hazelcast",
+   167
+  ],
+  [
+   "lukas-krecan/shedlock",
+   139
+  ],
+  [
+   "opencast/opencast",
+   117
+  ],
+  [
+   "quarkusio/quarkus",
+   294
+  ],
+  [
+   "spring-projects/spring-data-elasticsearch",
+   151
+  ],
+  [
+   "trinodb/trino",
+   143
+  ]
+ ],
+ "items": 4053,
+ "items_by_event": {
+  "akka": 2010,
+  "es": 2043
+ },
+ "bot_items": 1804
+}

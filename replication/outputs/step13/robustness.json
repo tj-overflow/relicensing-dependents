@@ -1,0 +1,612 @@
+{
+ "0 primary | akka | M1 (Step 11)": {
+  "coef": -0.2968,
+  "se": 0.0591,
+  "ci95": [
+   -0.4129,
+   -0.1807
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545
+ },
+ "0 primary | akka | M1 balanced non-switchers (Step 11)": {
+  "coef": -0.2325,
+  "se": 0.0637,
+  "ci95": [
+   -0.358,
+   -0.107
+  ],
+  "p": 0.0003,
+  "n_obs": 2650,
+  "n_clusters": 246,
+  "n_treated": 101,
+  "n_cmp": 267
+ },
+ "1 outcome | akka | M1c": {
+  "coef": -0.3008,
+  "se": 0.0602,
+  "ci95": [
+   -0.4191,
+   -0.1824
+  ],
+  "p": 0.0,
+  "n_obs": 4085,
+  "n_clusters": 512,
+  "n_treated": 341,
+  "n_cmp": 497
+ },
+ "1 outcome | akka | M1c balanced non-switchers": {
+  "coef": -0.2365,
+  "se": 0.0646,
+  "ci95": [
+   -0.3638,
+   -0.1092
+  ],
+  "p": 0.0003,
+  "n_obs": 2520,
+  "n_clusters": 232,
+  "n_treated": 97,
+  "n_cmp": 248
+ },
+ "1 outcome | akka | M1s": {
+  "coef": -0.2691,
+  "se": 0.0629,
+  "ci95": [
+   -0.3927,
+   -0.1455
+  ],
+  "p": 0.0,
+  "n_obs": 3299,
+  "n_clusters": 482,
+  "n_treated": 330,
+  "n_cmp": 441
+ },
+ "1 outcome | akka | M1s balanced non-switchers": {
+  "coef": -0.2245,
+  "se": 0.0723,
+  "ci95": [
+   -0.3671,
+   -0.0819
+  ],
+  "p": 0.0022,
+  "n_obs": 1907,
+  "n_clusters": 205,
+  "n_treated": 91,
+  "n_cmp": 201
+ },
+ "2 outcome | akka | M3": {
+  "coef": -0.5776,
+  "se": 0.0571,
+  "ci95": [
+   -0.6897,
+   -0.4654
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545
+ },
+ "3 form | akka | unweighted": {
+  "coef": -0.3003,
+  "se": 0.0473,
+  "ci95": [
+   -0.3932,
+   -0.2073
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545
+ },
+ "3 form | akka | unweighted, balanced non-switchers": {
+  "coef": -0.2391,
+  "se": 0.0529,
+  "ci95": [
+   -0.3434,
+   -0.1348
+  ],
+  "p": 0.0,
+  "n_obs": 2650,
+  "n_clusters": 246,
+  "n_treated": 101,
+  "n_cmp": 267
+ },
+ "3 form | akka | no project FE (group FE)": {
+  "coef": -0.3128,
+  "se": 0.0557,
+  "ci95": [
+   -0.4221,
+   -0.2035
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545
+ },
+ "3 form | akka | no project FE, unweighted": {
+  "coef": -0.3355,
+  "se": 0.045,
+  "ci95": [
+   -0.4238,
+   -0.2472
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545
+ },
+ "4 line | akka | vs cats-effect only": {
+  "coef": -0.2998,
+  "se": 0.0635,
+  "ci95": [
+   -0.4246,
+   -0.175
+  ],
+  "p": 0.0,
+  "n_obs": 3351,
+  "n_clusters": 463,
+  "n_treated": 385,
+  "n_cmp": 333
+ },
+ "5 top owners | akka | excluding top 3 owners per group": {
+  "coef": -0.26,
+  "se": 0.0547,
+  "ci95": [
+   -0.3674,
+   -0.1525
+  ],
+  "p": 0.0,
+  "n_obs": 3907,
+  "n_clusters": 554,
+  "n_treated": 369,
+  "n_cmp": 483,
+  "owners_excluded": [
+   "davenverse",
+   "trace4cats",
+   "gemini-hlsw",
+   "softwaremill",
+   "rustedbones",
+   "emartech"
+  ]
+ },
+ "6 placebo date | akka | placebo 2021Q3, pre-period only": {
+  "coef": -0.1566,
+  "se": 0.0893,
+  "ci95": [
+   -0.332,
+   0.0187
+  ],
+  "p": 0.0799,
+  "n_obs": 2051,
+  "n_clusters": 528,
+  "n_treated": 358,
+  "n_cmp": 493
+ },
+ "7 placebo library | akka | cats_effect vs other comparison libraries": {
+  "coef": -0.1577,
+  "se": 0.0548,
+  "ci95": [
+   -0.2656,
+   -0.0499
+  ],
+  "p": 0.0043,
+  "n_obs": 2542,
+  "n_clusters": 310,
+  "n_treated": 334,
+  "n_cmp": 215
+ },
+ "7 placebo library | akka | fs2 vs other comparison libraries": {
+  "coef": 0.0453,
+  "se": 0.0767,
+  "ci95": [
+   -0.1056,
+   0.1961
+  ],
+  "p": 0.5553,
+  "n_obs": 2542,
+  "n_clusters": 310,
+  "n_treated": 48,
+  "n_cmp": 501
+ },
+ "7 placebo library | akka | http4s vs other comparison libraries": {
+  "coef": -0.0429,
+  "se": 0.0896,
+  "ci95": [
+   -0.2192,
+   0.1334
+  ],
+  "p": 0.6323,
+  "n_obs": 2542,
+  "n_clusters": 310,
+  "n_treated": 57,
+  "n_cmp": 492
+ },
+ "7 placebo library | akka | zio vs other comparison libraries": {
+  "coef": 0.2913,
+  "se": 0.0742,
+  "ci95": [
+   0.1453,
+   0.4374
+  ],
+  "p": 0.0001,
+  "n_obs": 2542,
+  "n_clusters": 310,
+  "n_treated": 110,
+  "n_cmp": 439
+ },
+ "X foundation (exploratory) | akka | D x foundation owner": {
+  "coef": -0.388,
+  "se": 0.042,
+  "ci95": [
+   -0.4706,
+   -0.3055
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_found_treated": 3,
+  "n_found_treated_post": 1,
+  "D_nonfoundation": {
+   "coef": -0.2937,
+   "se": 0.0593,
+   "ci95": [
+    -0.4102,
+    -0.1772
+   ],
+   "p": 0.0,
+   "n_obs": 4307,
+   "n_clusters": 560
+  }
+ },
+ "X linear trend (added) | akka | with treated-specific linear trend": {
+  "coef": -0.1839,
+  "se": 0.0993,
+  "ci95": [
+   -0.379,
+   0.0113
+  ],
+  "p": 0.0647,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545
+ },
+ "0 primary | es | M1 (Step 11)": {
+  "coef": 0.0322,
+  "se": 0.049,
+  "ci95": [
+   -0.0641,
+   0.1284
+  ],
+  "p": 0.5118,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260
+ },
+ "0 primary | es | M1 balanced non-switchers (Step 11)": {
+  "coef": 0.0438,
+  "se": 0.0465,
+  "ci95": [
+   -0.0479,
+   0.1355
+  ],
+  "p": 0.3478,
+  "n_obs": 2676,
+  "n_clusters": 222,
+  "n_treated": 110,
+  "n_cmp": 157
+ },
+ "1 outcome | es | M1c": {
+  "coef": 0.0051,
+  "se": 0.0502,
+  "ci95": [
+   -0.0936,
+   0.1038
+  ],
+  "p": 0.9197,
+  "n_obs": 3312,
+  "n_clusters": 370,
+  "n_treated": 261,
+  "n_cmp": 214
+ },
+ "1 outcome | es | M1c balanced non-switchers": {
+  "coef": 0.0115,
+  "se": 0.0467,
+  "ci95": [
+   -0.0806,
+   0.1035
+  ],
+  "p": 0.8062,
+  "n_obs": 2486,
+  "n_clusters": 198,
+  "n_treated": 96,
+  "n_cmp": 140
+ },
+ "1 outcome | es | M1s": {
+  "coef": 0.0023,
+  "se": 0.0502,
+  "ci95": [
+   -0.0964,
+   0.101
+  ],
+  "p": 0.9628,
+  "n_obs": 3163,
+  "n_clusters": 365,
+  "n_treated": 256,
+  "n_cmp": 211
+ },
+ "1 outcome | es | M1s balanced non-switchers": {
+  "coef": 0.0086,
+  "se": 0.0466,
+  "ci95": [
+   -0.0832,
+   0.1005
+  ],
+  "p": 0.8529,
+  "n_obs": 2373,
+  "n_clusters": 194,
+  "n_treated": 95,
+  "n_cmp": 137
+ },
+ "2 outcome | es | M3": {
+  "coef": -0.0704,
+  "se": 0.0569,
+  "ci95": [
+   -0.1823,
+   0.0415
+  ],
+  "p": 0.2168,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260
+ },
+ "3 form | es | unweighted": {
+  "coef": 0.0161,
+  "se": 0.0441,
+  "ci95": [
+   -0.0706,
+   0.1027
+  ],
+  "p": 0.7156,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260
+ },
+ "3 form | es | unweighted, balanced non-switchers": {
+  "coef": 0.0265,
+  "se": 0.0411,
+  "ci95": [
+   -0.0546,
+   0.1076
+  ],
+  "p": 0.5205,
+  "n_obs": 2676,
+  "n_clusters": 222,
+  "n_treated": 110,
+  "n_cmp": 157
+ },
+ "3 form | es | no project FE (group FE)": {
+  "coef": -0.0719,
+  "se": 0.07,
+  "ci95": [
+   -0.2095,
+   0.0656
+  ],
+  "p": 0.3045,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260
+ },
+ "3 form | es | no project FE, unweighted": {
+  "coef": -0.0897,
+  "se": 0.066,
+  "ci95": [
+   -0.2195,
+   0.0401
+  ],
+  "p": 0.1749,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260
+ },
+ "4 line | es | embedded vs Lucene": {
+  "coef": 0.0493,
+  "se": 0.0701,
+  "ci95": [
+   -0.089,
+   0.1876
+  ],
+  "p": 0.4829,
+  "n_obs": 1550,
+  "n_clusters": 169,
+  "n_treated": 88,
+  "n_cmp": 140
+ },
+ "4 line | es | client vs SolrJ": {
+  "coef": 0.0899,
+  "se": 0.0575,
+  "ci95": [
+   -0.0234,
+   0.2032
+  ],
+  "p": 0.1191,
+  "n_obs": 1711,
+  "n_clusters": 226,
+  "n_treated": 202,
+  "n_cmp": 63
+ },
+ "5 top owners | es | excluding top 3 owners per group": {
+  "coef": 0.0401,
+  "se": 0.0525,
+  "ci95": [
+   -0.0632,
+   0.1434
+  ],
+  "p": 0.4457,
+  "n_obs": 3048,
+  "n_clusters": 427,
+  "n_treated": 233,
+  "n_cmp": 246,
+  "owners_excluded": [
+   "apache",
+   "clulab",
+   "eclipse",
+   "codelibs",
+   "apache",
+   "skroutz"
+  ]
+ },
+ "6 placebo date | es | placebo 2020Q1, pre-period only": {
+  "coef": 0.1238,
+  "se": 0.0422,
+  "ci95": [
+   0.0407,
+   0.2068
+  ],
+  "p": 0.0036,
+  "n_obs": 1665,
+  "n_clusters": 419,
+  "n_treated": 283,
+  "n_cmp": 252
+ },
+ "7 placebo library | es | hbase vs other comparison libraries": {
+  "coef": -0.0376,
+  "se": 0.0611,
+  "ci95": [
+   -0.158,
+   0.0828
+  ],
+  "p": 0.5387,
+  "n_obs": 1888,
+  "n_clusters": 231,
+  "n_treated": 57,
+  "n_cmp": 203
+ },
+ "7 placebo library | es | lucene vs other comparison libraries": {
+  "coef": 0.1248,
+  "se": 0.0546,
+  "ci95": [
+   0.0172,
+   0.2323
+  ],
+  "p": 0.0232,
+  "n_obs": 1888,
+  "n_clusters": 231,
+  "n_treated": 140,
+  "n_cmp": 120
+ },
+ "7 placebo library | es | solrj vs other comparison libraries": {
+  "coef": -0.1249,
+  "se": 0.0583,
+  "ci95": [
+   -0.2396,
+   -0.0101
+  ],
+  "p": 0.0332,
+  "n_obs": 1888,
+  "n_clusters": 231,
+  "n_treated": 63,
+  "n_cmp": 197
+ },
+ "X foundation (exploratory) | es | D x foundation owner": {
+  "coef": -0.1692,
+  "se": 0.0547,
+  "ci95": [
+   -0.2767,
+   -0.0618
+  ],
+  "p": 0.0021,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_found_treated": 14,
+  "n_found_treated_post": 9,
+  "D_nonfoundation": {
+   "coef": 0.0474,
+   "se": 0.0485,
+   "ci95": [
+    -0.048,
+    0.1428
+   ],
+   "p": 0.3296,
+   "n_obs": 3598,
+   "n_clusters": 432
+  }
+ },
+ "X linear trend (added) | es | with treated-specific linear trend": {
+  "coef": 0.0079,
+  "se": 0.0671,
+  "ci95": [
+   -0.124,
+   0.1398
+  ],
+  "p": 0.9063,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260
+ },
+ "8 window | akka | post-period to 2024Q3": {
+  "coef": -0.294,
+  "se": 0.0623,
+  "ci95": [
+   -0.4162,
+   -0.1717
+  ],
+  "p": 0.0,
+  "n_obs": 3897,
+  "n_clusters": 559,
+  "n_treated": 384,
+  "n_cmp": 545
+ },
+ "8 window | akka | post-period to 2024Q3, balanced non-switchers": {
+  "coef": -0.2477,
+  "se": 0.069,
+  "ci95": [
+   -0.3836,
+   -0.1118
+  ],
+  "p": 0.0004,
+  "n_obs": 2310,
+  "n_clusters": 240,
+  "n_treated": 100,
+  "n_cmp": 256
+ },
+ "9 strict codebook | es | provided scope not declared": {
+  "coef": 0.0313,
+  "se": 0.0526,
+  "ci95": [
+   -0.0721,
+   0.1347
+  ],
+  "p": 0.5518,
+  "n_obs": 3086,
+  "n_clusters": 397,
+  "n_treated": 240,
+  "n_cmp": 234
+ },
+ "9 strict codebook | es | provided scope not declared, balanced non-switchers": {
+  "coef": 0.0397,
+  "se": 0.0487,
+  "ci95": [
+   -0.0564,
+   0.1358
+  ],
+  "p": 0.4167,
+  "n_obs": 2357,
+  "n_clusters": 203,
+  "n_treated": 96,
+  "n_cmp": 141
+ }
+}

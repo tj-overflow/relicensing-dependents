@@ -1,0 +1,15 @@
+Dependents of Relicensed Open-Source Suppliers: Akka and Elasticsearch (dataset, version 1.0)
+Copyright (c) 2026 Taejun Oh
+
+The tables in this dataset are licensed under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt the tables for any purpose, provided you give appropriate credit:
+cite the accompanying working paper ("Frozen on the Last Open Version", Oh, 2026) and
+credit deps.dev (Google Open Source Insights) and Maven Central as the sources of the
+underlying package data.
+
+The tables are the author's derived coding. deps.dev states that the data it generates are
+available under CC BY 4.0; the underlying package metadata originates from the package
+registries, chiefly Maven Central, and remains subject to their own terms. No raw registry
+files (such as POM files) are included.

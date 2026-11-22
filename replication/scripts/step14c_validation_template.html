@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motive Coding</title>
+<style>
+:root{
+  --bg:#f7f7f5; --panel:#ffffff; --ink:#1d1d1b; --ink2:#55554f; --muted:#8a8a83;
+  --line:#e2e2dc; --accent:#2f6db3; --accent-ink:#ffffff; --done:#2e7d4f; --warn:#b5541c;
+  --text-bg:#fafaf8;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#161615; --panel:#1f1f1d; --ink:#ecece6; --ink2:#b4b4ac; --muted:#85857e;
+    --line:#33332f; --accent:#6c9fe0; --accent-ink:#0f1a2a; --done:#5fbf86; --warn:#e08a52;
+    --text-bg:#1a1a18;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:10px 16px}
+header h1{font-size:16px;margin:0 8px 0 0}
+header .grow{flex:1}
+input[type=text]{font:inherit;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:7em}
+button{font:inherit;padding:5px 12px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+button:disabled{opacity:.45;cursor:default}
+.wrap{display:grid;grid-template-columns:260px 1fr 340px;gap:0;min-height:calc(100vh - 54px)}
+nav{border-right:1px solid var(--line);overflow:auto;max-height:calc(100vh - 54px);position:sticky;top:54px;background:var(--panel)}
+nav a{display:flex;gap:8px;align-items:center;padding:6px 12px;color:var(--ink2);text-decoration:none;font-size:13px;border-bottom:1px solid var(--line);word-break:break-all}
+nav a.cur{background:var(--bg);color:var(--ink);font-weight:600}
+nav .dot{flex:none;width:9px;height:9px;border-radius:50%;border:1.5px solid var(--muted)}
+nav a.done .dot{background:var(--done);border-color:var(--done)}
+main{padding:16px 20px 60px;min-width:0}
+main h2{margin:0 0 2px;font-size:20px;word-break:break-all}
+.sub{color:var(--ink2);margin-bottom:14px}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:8px;margin:0 0 14px;padding:12px 14px}
+.item .meta{font-size:12.5px;color:var(--muted);margin-bottom:4px}
+.item .t{font-weight:600;margin-bottom:8px}
+.item pre{white-space:pre-wrap;word-break:break-word;font:13px/1.5 ui-monospace,Consolas,monospace;background:var(--text-bg);
+  border-radius:6px;padding:10px;margin:0;max-height:480px;overflow:auto;color:var(--ink)}
+.badge{display:inline-block;font-size:11px;padding:0 6px;border-radius:4px;border:1px solid var(--line);margin-left:6px}
+aside{border-left:1px solid var(--line);background:var(--panel);padding:14px 16px;position:sticky;top:54px;max-height:calc(100vh - 54px);overflow:auto}
+fieldset{border:none;padding:0;margin:0 0 14px}
+legend{font-weight:600;margin-bottom:6px;padding:0}
+label.opt{display:flex;gap:8px;align-items:flex-start;padding:3px 0;cursor:pointer;font-size:14px}
+label.opt small{display:block;color:var(--muted);font-size:12px;line-height:1.35}
+textarea{width:100%;min-height:60px;font:inherit;font-size:13px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);padding:6px}
+.msg{font-size:13px;color:var(--warn);min-height:1.2em;margin:6px 0}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+details.cb{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-bottom:16px}
+details.cb summary{cursor:pointer;font-weight:600}
+details.cb table{border-collapse:collapse;font-size:13.5px;margin:8px 0}
+details.cb td,details.cb th{border-bottom:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}
+.dim{opacity:.4;pointer-events:none}
+@media (max-width:980px){
+  .wrap{grid-template-columns:1fr}
+  nav,aside{position:static;max-height:none;border:none;border-bottom:1px solid var(--line)}
+  nav{max-height:180px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Motive coding: human validation</h1>
+  <label>Coder initials <input type="text" id="coder" maxlength="8"></label>
+  <span id="progress" class="sub" style="margin:0"></span>
+  <span class="grow"></span>
+  <button id="exportBtn">Export CSV</button>
+  <label><button id="importBtn" type="button">Import CSV</button><input type="file" id="importFile" accept=".csv" hidden></label>
+</header>
+
+<div class="wrap">
+<nav id="nav"></nav>
+
+<main>
+<details class="cb" id="codebook">
+<summary>Codebook and rules (read once before starting)</summary>
+<p><b>Unit.</b> One repository. Code the repository from all the items shown for it together: a code applies if any item states it. Code only from the text shown here. Do not open the repository on GitHub. Do not code a motive that you infer from the action; code it only when the text states it.</p>
+<p><b>Relevance (R).</b> R = 1 if any item discusses the supplier's licence change, a move to, from or alongside the fork (Pekko, OpenSearch), or the choice of supplier version in light of the relicensing. R = 0 otherwise: the project's own LICENSE file, other libraries' licences, or automated bumps that do not mention the licence or the fork.</p>
+<table>
+<tr><th>Code</th><th>Apply when the text states...</th></tr>
+<tr><td>LEGAL_OWN</td><td>The licence terms bind the project itself: fees, compliance, commercial use, legal review, incompatibility with the project's own licence or its foundation's policy (for example ASF Category X), or failing licence checks.</td></tr>
+<tr><td>LEGAL_USERS</td><td>Downstream users or customers cannot or will not accept the licence (the licence is given as the users' reason).</td></tr>
+<tr><td>LICENCE_UNSPEC</td><td>The licence change is given as a reason, but the text does not say how it binds (for example "switching to Pekko because Akka is now BSL"). Use only when neither LEGAL_OWN nor LEGAL_USERS applies.</td></tr>
+<tr><td>USER_REQUEST</td><td>Someone asks the project for a fork variant or fork support. Can be combined with other codes when a motive is also stated.</td></tr>
+<tr><td>TRUST</td><td>Distrust of the supplier: fear of further restriction, "rug pull", vendor lock-in, preference for foundation or community governance.</td></tr>
+<tr><td>AGEING</td><td>Security fixes, CVEs, end of patches for the open line, bugs fixed only in newer versions.</td></tr>
+<tr><td>COMPAT</td><td>Compatibility needs: Scala 3, JDK, a server or another dependency requiring a newer supplier or fork version, or clients that refuse to connect.</td></tr>
+<tr><td>COORD</td><td>Waiting for, or following, other dependencies or the ecosystem (ports not yet available, Play 3, other libraries moved).</td></tr>
+<tr><td>COST</td><td>Effort, risk or breakage of migrating or upgrading.</td></tr>
+</table>
+<p><b>Action (one value, R = 1 only).</b> The decision shown by the latest item that states one: SWITCH (replace with the fork), DUAL (publish both), STAY (keep the open line), UPGRADE (take the restricted versions), REMOVE (drop the supplier), DISCUSS (no decision in the items).</p>
+<p><b>Saving.</b> Codes save in this browser as you go. Use <i>Export CSV</i> when you finish, or to back up. To continue on another browser, use <i>Import CSV</i>.</p>
+</details>
+
+<div id="repo"></div>
+</main>
+
+<aside>
+  <fieldset>
+    <legend>Relevance</legend>
+    <label class="opt"><input type="radio" name="R" value="1"> R = 1, relevant</label>
+    <label class="opt"><input type="radio" name="R" value="0"> R = 0, not relevant</label>
+  </fieldset>
+  <div id="r1">
+  <fieldset>
+    <legend>Stated motives (any number)</legend>
+    <div id="codes"></div>
+  </fieldset>
+  <fieldset>
+    <legend>Action</legend>
+    <div id="actions"></div>
+  </fieldset>
+  </div>
+  <fieldset>
+    <legend>Note (optional)</legend>
+    <textarea id="note" placeholder="Short quote or doubt"></textarea>
+  </fieldset>
+  <div class="msg" id="msg"></div>
+  <div class="row">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn" class="primary">Save and next</button>
+  </div>
+</aside>
+</div>
+
+<script>
+const DATA = /*__DATA__*/[];
+const CODES = [
+  ["LEGAL_OWN","Binds the project itself"],
+  ["LEGAL_USERS","Users cannot accept the licence"],
+  ["LICENCE_UNSPEC","Licence given, binding not stated"],
+  ["USER_REQUEST","Someone asks for the fork"],
+  ["TRUST","Distrust of the supplier"],
+  ["AGEING","Security fixes, end of patches"],
+  ["COMPAT","Compatibility needs"],
+  ["COORD","Following other dependencies"],
+  ["COST","Migration effort or risk"]];
+const ACTIONS = ["SWITCH","DUAL","STAY","UPGRADE","REMOVE","DISCUSS"];
+const EVENT = {akka:"Akka (BSL, 2022) → fork Apache Pekko", es:"Elasticsearch (SSPL/ELv2, 2021) → fork OpenSearch"};
+const KEY = "relicensing_validation_v1";
+const key = u => u.event + "|" + u.repo;
+
+let store = {coder:"", codes:{}};
+try { store = JSON.parse(localStorage.getItem(KEY)) || store; } catch(e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch(e) {} };
+let cur = 0;
+
+const $ = id => document.getElementById(id);
+$("codes").innerHTML = CODES.map(([c,d]) =>
+  `<label class="opt"><input type="checkbox" value="${c}"><span>${c}<small>${d}</small></span></label>`).join("");
+$("actions").innerHTML = ACTIONS.map(a =>
+  `<label class="opt"><input type="radio" name="A" value="${a}"> ${a}</label>`).join("");
+$("coder").value = store.coder || "";
+$("coder").addEventListener("input", e => { store.coder = e.target.value.trim(); save(); });
+
+function isDone(u){ const r = store.codes[key(u)]; return r && (r.R === "0" || (r.R === "1" && r.action)); }
+
+function renderNav(){
+  $("nav").innerHTML = DATA.map((u,i) =>
+    `<a href="#" data-i="${i}" class="${i===cur?'cur':''} ${isDone(u)?'done':''}"><span class="dot"></span>${i+1}. ${u.repo}</a>`).join("");
+  const n = DATA.filter(isDone).length;
+  $("progress").textContent = `${n} of ${DATA.length} coded`;
+}
+$("nav").addEventListener("click", e => {
+  const a = e.target.closest("a"); if (!a) return; e.preventDefault();
+  collect(); cur = +a.dataset.i; render();
+});
+
+function el(tag, cls, text){ const x = document.createElement(tag); if (cls) x.className = cls; if (text != null) x.textContent = text; return x; }
+
+function render(){
+  const u = DATA[cur];
+  const box = $("repo"); box.innerHTML = "";
+  box.appendChild(el("h2", null, u.repo));
+  box.appendChild(el("div", "sub", `${EVENT[u.event] || u.event} · ${u.items.length} item${u.items.length>1?'s':''} · repository ${cur+1} of ${DATA.length}`));
+  u.items.forEach(it => {
+    const d = el("div","item");
+    const m = el("div","meta", `${it.kind} #${it.number} · ${it.created}`);
+    if (it.bot) m.appendChild(el("span","badge","bot"));
+    d.appendChild(m);
+    d.appendChild(el("div","t", it.title));
+    d.appendChild(el("pre", null, it.text || "(no body text)"));
+    box.appendChild(d);
+  });
+  const r = store.codes[key(u)] || {};
+  document.querySelectorAll("input[name=R]").forEach(x => x.checked = x.value === r.R);
+  document.querySelectorAll("#codes input").forEach(x => x.checked = (r.codes||[]).includes(x.value));
+  document.querySelectorAll("input[name=A]").forEach(x => x.checked = x.value === r.action);
+  $("note").value = r.note || "";
+  $("msg").textContent = "";
+  $("prevBtn").disabled = cur === 0;
+  $("nextBtn").textContent = cur === DATA.length-1 ? "Save" : "Save and next";
+  syncR(); renderNav(); window.scrollTo(0,0);
+}
+
+function syncR(){
+  const R = (document.querySelector("input[name=R]:checked")||{}).value;
+  $("r1").classList.toggle("dim", R !== "1");
+}
+
+function collect(){
+  const u = DATA[cur];
+  const R = (document.querySelector("input[name=R]:checked")||{}).value;
+  if (!R) return false;
+  const rec = {R, note: $("note").value.trim(), at: new Date().toISOString()};
+  if (R === "1"){
+    rec.codes = [...document.querySelectorAll("#codes input:checked")].map(x => x.value);
+    rec.action = (document.querySelector("input[name=A]:checked")||{}).value || "";
+  } else { rec.codes = []; rec.action = ""; }
+  store.codes[key(u)] = rec; save(); return true;
+}
+
+document.querySelectorAll("input[name=R]").forEach(x => x.addEventListener("change", () => { syncR(); collect(); renderNav(); }));
+$("codes").addEventListener("change", () => { collect(); renderNav(); });
+$("actions").addEventListener("change", () => { collect(); renderNav(); });
+$("note").addEventListener("change", collect);
+
+$("nextBtn").addEventListener("click", () => {
+  const R = (document.querySelector("input[name=R]:checked")||{}).value;
+  if (!R){ $("msg").textContent = "Choose R = 1 or R = 0."; return; }
+  const LEG = ["LEGAL_OWN","LEGAL_USERS"];
+  const sel = [...document.querySelectorAll("#codes input:checked")].map(x => x.value);
+  if (R === "1" && !(document.querySelector("input[name=A]:checked"))){ $("msg").textContent = "Choose an action (DISCUSS if no decision)."; return; }
+  if (sel.includes("LICENCE_UNSPEC") && sel.some(c => LEG.includes(c))){ $("msg").textContent = "LICENCE_UNSPEC cannot be combined with LEGAL_OWN or LEGAL_USERS."; return; }
+  collect();
+  if (cur < DATA.length-1){ cur++; render(); } else { renderNav(); $("msg").textContent = "Saved. Export the CSV when all repositories are coded."; }
+});
+$("prevBtn").addEventListener("click", () => { collect(); if (cur>0){ cur--; render(); } });
+
+const q = s => /[",\n]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
+$("exportBtn").addEventListener("click", () => {
+  collect();
+  const head = ["coder","event","repo","R",...CODES.map(c=>c[0]),"action","note","coded_at"];
+  const rows = DATA.map(u => {
+    const r = store.codes[key(u)];
+    if (!r) return [store.coder,u.event,u.repo,"",...CODES.map(()=>""),"","",""];
+    return [store.coder,u.event,u.repo,r.R,...CODES.map(c => r.R==="1" ? (r.codes.includes(c[0])?1:0) : 0),r.action,r.note||"",r.at];
+  });
+  const csv = [head,...rows].map(r => r.map(x => q(String(x))).join(",")).join("\n") + "\n";
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv],{type:"text/csv"}));
+  a.download = `human_codes_${(store.coder||"coder").replace(/[^A-Za-z0-9]/g,"")}.csv`;
+  a.click();
+});
+
+function parseCSV(t){
+  const out=[]; let row=[], f="", i=0, inq=false;
+  while (i<t.length){ const c=t[i];
+    if (inq){ if (c==='"'){ if (t[i+1]==='"'){ f+='"'; i++; } else inq=false; } else f+=c; }
+    else if (c==='"') inq=true; else if (c===','){ row.push(f); f=""; }
+    else if (c==='\n'){ row.push(f); out.push(row); row=[]; f=""; } else if (c!=='\r') f+=c;
+    i++; }
+  if (f||row.length){ row.push(f); out.push(row); }
+  return out;
+}
+$("importBtn").addEventListener("click", () => $("importFile").click());
+$("importFile").addEventListener("change", async e => {
+  const f = e.target.files[0]; if (!f) return;
+  const rows = parseCSV(await f.text()); const h = rows.shift(); const ix = n => h.indexOf(n);
+  let n = 0;
+  rows.forEach(r => { if (!r[ix("R")]) return;
+    const codes = CODES.map(c=>c[0]).filter(c => r[ix(c)] === "1");
+    store.codes[r[ix("event")]+"|"+r[ix("repo")]] = {R:r[ix("R")], codes, action:r[ix("action")], note:r[ix("note")], at:r[ix("coded_at")]};
+    if (r[ix("coder")]) store.coder = r[ix("coder")]; n++; });
+  save(); $("coder").value = store.coder; render(); $("msg").textContent = `Imported ${n} coded repositories.`;
+});
+
+const firstOpen = DATA.findIndex(u => !isDone(u));
+cur = firstOpen < 0 ? 0 : firstOpen;
+if (Object.keys(store.codes).length === 0) $("codebook").open = true;
+render();
+</script>
+</body>
+</html>

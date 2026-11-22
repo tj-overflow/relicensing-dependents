@@ -1,0 +1,272 @@
+{
+ "sizes": {
+  "org.scala-lang.modules:scala-collection-compat": {
+   "early": {
+    "risk_set": 15,
+    "active240": 12
+   },
+   "late": {
+    "risk_set": 242,
+    "active240": 165
+   }
+  },
+  "org.typelevel:cats-core": {
+   "early": {
+    "risk_set": 174,
+    "active240": 118
+   },
+   "late": {
+    "risk_set": 331,
+    "active240": 177
+   }
+  },
+  "com.fasterxml.jackson.module:jackson-module-scala": {
+   "early": {
+    "risk_set": 54,
+    "active240": 32
+   },
+   "late": {
+    "risk_set": 74,
+    "active240": 44
+   }
+  },
+  "org.scalacheck:scalacheck": {
+   "early": {
+    "risk_set": 20,
+    "active240": 16
+   },
+   "late": {
+    "risk_set": 66,
+    "active240": 39
+   }
+  },
+  "org.scalameta:scalameta": {
+   "early": {
+    "risk_set": 9,
+    "active240": 5
+   },
+   "late": {
+    "risk_set": 23,
+    "active240": 12
+   }
+  },
+  "org.typelevel:cats-core_sjs1": {
+   "early": {
+    "risk_set": 0,
+    "active240": 0
+   },
+   "late": {
+    "risk_set": 92,
+    "active240": 47
+   }
+  },
+  "com.lihaoyi:upickle": {
+   "early": {
+    "risk_set": 18,
+    "active240": 11
+   },
+   "late": {
+    "risk_set": 11,
+    "active240": 9
+   }
+  },
+  "org.apache.kafka:kafka": {
+   "early": {
+    "risk_set": 17,
+    "active240": 12
+   },
+   "late": {
+    "risk_set": 5,
+    "active240": 3
+   }
+  },
+  "com.lihaoyi:sourcecode": {
+   "early": {
+    "risk_set": 29,
+    "active240": 21
+   },
+   "late": {
+    "risk_set": 38,
+    "active240": 26
+   }
+  },
+  "com.lihaoyi:os-lib": {
+   "early": {
+    "risk_set": 5,
+    "active240": 3
+   },
+   "late": {
+    "risk_set": 41,
+    "active240": 29
+   }
+  },
+  "org.typelevel:cats-free": {
+   "early": {
+    "risk_set": 17,
+    "active240": 10
+   },
+   "late": {
+    "risk_set": 35,
+    "active240": 16
+   }
+  },
+  "io.kamon:kamon-core": {
+   "early": {
+    "risk_set": 4,
+    "active240": 3
+   },
+   "late": {
+    "risk_set": 3,
+    "active240": 2
+   }
+  },
+  "org.specs2:specs2-core": {
+   "early": {
+    "risk_set": 20,
+    "active240": 16
+   },
+   "late": {
+    "risk_set": 19,
+    "active240": 11
+   }
+  },
+  "com.lihaoyi:requests": {
+   "early": {
+    "risk_set": 2,
+    "active240": 1
+   },
+   "late": {
+    "risk_set": 13,
+    "active240": 10
+   }
+  },
+  "org.typelevel:cats-kernel": {
+   "early": {
+    "risk_set": 7,
+    "active240": 7
+   },
+   "late": {
+    "risk_set": 21,
+    "active240": 12
+   }
+  },
+  "com.github.plokhotnyuk.jsoniter-scala:jsoniter-scala-core": {
+   "early": {
+    "risk_set": 4,
+    "active240": 3
+   },
+   "late": {
+    "risk_set": 20,
+    "active240": 16
+   }
+  },
+  "com.github.nscala-time:nscala-time": {
+   "early": {
+    "risk_set": 9,
+    "active240": 5
+   },
+   "late": {
+    "risk_set": 8,
+    "active240": 4
+   }
+  },
+  "com.github.plokhotnyuk.jsoniter-scala:jsoniter-scala-macros": {
+   "early": {
+    "risk_set": 3,
+    "active240": 2
+   },
+   "late": {
+    "risk_set": 12,
+    "active240": 11
+   }
+  },
+  "com.lihaoyi:scalatags": {
+   "early": {
+    "risk_set": 13,
+    "active240": 10
+   },
+   "late": {
+    "risk_set": 21,
+    "active240": 12
+   }
+  },
+  "org.typelevel:cats-laws": {
+   "early": {
+    "risk_set": 15,
+    "active240": 12
+   },
+   "late": {
+    "risk_set": 11,
+    "active240": 8
+   }
+  }
+ },
+ "vendor_owners": {
+  "org.scala-lang.modules:scala-collection-compat": [
+   "scala"
+  ],
+  "org.typelevel:cats-core": [
+   "typelevel"
+  ],
+  "com.fasterxml.jackson.module:jackson-module-scala": [],
+  "org.scalacheck:scalacheck": [],
+  "org.scalameta:scalameta": [
+   "scalameta"
+  ],
+  "org.typelevel:cats-core_sjs1": [
+   "typelevel"
+  ],
+  "com.lihaoyi:upickle": [
+   "com-lihaoyi"
+  ],
+  "org.apache.kafka:kafka": [
+   "maven:org.apache.kafka"
+  ],
+  "com.lihaoyi:sourcecode": [
+   "com-lihaoyi"
+  ],
+  "com.lihaoyi:os-lib": [
+   "com-lihaoyi"
+  ],
+  "org.typelevel:cats-free": [
+   "typelevel"
+  ],
+  "io.kamon:kamon-core": [
+   "kamon-io"
+  ],
+  "org.specs2:specs2-core": [
+   "etorreborre"
+  ],
+  "com.lihaoyi:requests": [
+   "com-lihaoyi"
+  ],
+  "org.typelevel:cats-kernel": [
+   "typelevel"
+  ],
+  "com.github.plokhotnyuk.jsoniter-scala:jsoniter-scala-core": [
+   "plokhotnyuk"
+  ],
+  "com.github.nscala-time:nscala-time": [],
+  "com.github.plokhotnyuk.jsoniter-scala:jsoniter-scala-macros": [
+   "plokhotnyuk"
+  ],
+  "com.lihaoyi:scalatags": [
+   "com-lihaoyi"
+  ],
+  "org.typelevel:cats-laws": [
+   "typelevel"
+  ]
+ },
+ "qualifying": [
+  "org.typelevel:cats-core",
+  "com.fasterxml.jackson.module:jackson-module-scala"
+ ],
+ "kept": [
+  "org.typelevel:cats-core",
+  "com.fasterxml.jackson.module:jackson-module-scala"
+ ],
+ "pooled_counts": {
+  "early": 228,
+  "late": 404
+ }
+}

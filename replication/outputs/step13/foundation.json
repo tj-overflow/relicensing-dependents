@@ -1,0 +1,30 @@
+{
+ "es": {
+  "coef_DF": -0.1692,
+  "se_owner": 0.0547,
+  "se_project": 0.1067,
+  "coef_D_nonfoundation": 0.0474,
+  "treated_foundation_projects": 14,
+  "treated_foundation_owners": [
+   "apache",
+   "eclipse"
+  ],
+  "foundation_projects_identifying": 9,
+  "p_ri": 0.1875,
+  "ri_sd": 0.1318
+ },
+ "akka": {
+  "coef_DF": -0.388,
+  "se_owner": 0.042,
+  "se_project": 0.0346,
+  "coef_D_nonfoundation": -0.2937,
+  "treated_foundation_projects": 3,
+  "treated_foundation_owners": [
+   "apache",
+   "eclipse-ditto"
+  ],
+  "foundation_projects_identifying": 1,
+  "p_ri": 0.349,
+  "ri_sd": 0.478
+ }
+}

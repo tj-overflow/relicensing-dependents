@@ -1,0 +1,24 @@
+{
+ "risk_set": 427,
+ "active": 214,
+ "active_non_vendor": 206,
+ "owners_active_non_vendor": 168,
+ "outcome_active": {
+  "dual_or_partial": 35,
+  "switch": 44,
+  "freeze": 92,
+  "upgrade": 24,
+  "removed": 19
+ },
+ "outcome_active_non_vendor": {
+  "dual_or_partial": 30,
+  "switch": 44,
+  "freeze": 89,
+  "upgrade": 24,
+  "removed": 19
+ },
+ "ever_switched_active": 81,
+ "ever_switched_active_non_vendor": 76,
+ "non_switchers_active_non_vendor": 130,
+ "active_post_pekko1_non_vendor": 163
+}

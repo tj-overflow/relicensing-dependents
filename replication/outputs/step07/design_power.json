@@ -1,0 +1,143 @@
+{
+ "n_active_nonvendor": 206,
+ "cohorts_quarter": {
+  "2023Q3": 169,
+  "2023Q4": 11,
+  "2024Q1": 4,
+  "2024Q2": 1,
+  "2024Q3": 1,
+  "2025Q3": 3,
+  "never": 17
+ },
+ "cohorts_month": {
+  "2023-07": 135,
+  "2023-08": 24,
+  "2023-09": 10,
+  "2023-10": 9,
+  "2023-11": 1,
+  "2023-12": 1,
+  "2024-01": 3,
+  "2024-02": 1,
+  "2024-05": 1,
+  "2024-08": 1,
+  "2025-07": 2,
+  "2025-09": 1,
+  "never": 17
+ },
+ "quarter_cohorts_with_ge10": 2,
+ "month_cohorts_with_ge10": 3,
+ "never_treated_by_horizon": 17,
+ "T_first_party_only_cohorts_quarter": {
+  "2023Q3": 190,
+  "2023Q4": 13,
+  "never": 3
+ },
+ "projects_with_third_party_upstreams": 58,
+ "T_set_by_third_party": 34,
+ "exogeneity": {
+  "predetermined only": {
+   "n": 189,
+   "joint_chi2": 5.64,
+   "joint_p": 0.3429,
+   "r2": 0.049,
+   "coefs": {
+    "log_rel": [
+     0.626,
+     0.048
+    ],
+    "log_art": [
+     -1.078,
+     0.126
+    ],
+    "scala3": [
+     -0.657,
+     0.085
+    ],
+    "age_years_at_event": [
+     0.064,
+     0.589
+    ],
+    "provided": [
+     1.062,
+     0.397
+    ]
+   }
+  },
+  "with module composition": {
+   "n": 189,
+   "joint_chi2": 5.725,
+   "joint_p": 0.3339,
+   "r2": 0.102,
+   "coefs": {
+    "log_rel": [
+     0.606,
+     0.04
+    ],
+    "log_art": [
+     -1.173,
+     0.09
+    ],
+    "scala3": [
+     -0.194,
+     0.602
+    ],
+    "age_years_at_event": [
+     0.042,
+     0.729
+    ],
+    "provided": [
+     1.309,
+     0.257
+    ],
+    "http": [
+     0.378,
+     0.416
+    ],
+    "persistence": [
+     -0.778,
+     0.661
+    ],
+    "cluster": [
+     2.538,
+     0.209
+    ],
+    "connectors": [
+     1.122,
+     0.012
+    ]
+   }
+  },
+  "module composition alone R2": 0.055
+ },
+ "demand_check_upstream_port_vs_dependents": {
+  "n_upstreams_ported": 61,
+  "spearman_rho": -0.431,
+  "p": 0.0005
+ },
+ "upstreams_total": 100,
+ "upstreams_never_ported": 39,
+ "E1_power": {
+  "project_months_at_risk": 6185,
+  "monthly_switch_hazard": 0.0123,
+  "placebo_se_monthly": 0.0069,
+  "mde_monthly_hazard": 0.0192,
+  "mde_12m_cumulative_approx": 0.181,
+  "placebo_mean": -0.0006,
+  "reps": 500,
+  "note": "hazard LPM; owner clustering affects inference but the permutation SD is the null spread"
+ },
+ "E2_mde": {
+  "switch_or_dual_share": 0.359,
+  "n": 206,
+  "share_exposed_A1": 0.593,
+  "avg_projects_per_owner": 1.23,
+  "icc_assumed": 0.3,
+  "mde": 0.197,
+  "mde_with_misclassification": 0.354,
+  "note": "the misclassification line scales by 1/(2*agreement-1), a nondifferential binary error bound"
+ },
+ "E3_mde": {
+  "all": 0.126,
+  "balanced_nonswitchers": 0.157
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "akka": {
+  "projects": {
+   "akka": 395,
+   "cmp": 570
+  },
+  "active": {
+   "akka": 194,
+   "cmp": 301
+  },
+  "project_quarters_M1": {
+   "event": {
+    "akka": 123,
+    "cmp": 198
+   },
+   "post": {
+    "akka": 738,
+    "cmp": 1157
+   },
+   "pre": {
+    "akka": 1044,
+    "cmp": 1385
+   }
+  },
+  "M1_mean": {
+   "event": {
+    "akka": 0.496,
+    "cmp": 0.626
+   },
+   "post": {
+    "akka": 0.22,
+    "cmp": 0.704
+   },
+   "pre": {
+    "akka": 0.503,
+    "cmp": 0.656
+   }
+  },
+  "M1s_nonmissing_share": 0.757,
+  "switchers_treated": 86
+ },
+ "es": {
+  "projects": {
+   "cmp": 266,
+   "es": 293
+  },
+  "active": {
+   "cmp": 171,
+   "es": 173
+  },
+  "project_quarters_M1": {
+   "event": {
+    "cmp": 105,
+    "es": 91
+   },
+   "other": {
+    "cmp": 185,
+    "es": 73
+   },
+   "post": {
+    "cmp": 1022,
+    "es": 683
+   },
+   "pre": {
+    "cmp": 866,
+    "es": 1027
+   }
+  },
+  "M1_mean": {
+   "event": {
+    "cmp": 0.219,
+    "es": 0.418
+   },
+   "other": {
+    "cmp": 0.395,
+    "es": 0.247
+   },
+   "post": {
+    "cmp": 0.298,
+    "es": 0.41
+   },
+   "pre": {
+    "cmp": 0.226,
+    "es": 0.426
+   }
+  },
+  "M1s_nonmissing_share": 0.887,
+  "switchers_treated": 48
+ }
+}

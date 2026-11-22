@@ -1,0 +1,114 @@
+{
+ "scala3_pre_event": {
+  "n_treated_s1": 40,
+  "n_treated_s0": 345,
+  "effect_s0": {
+   "coef": -0.2628,
+   "se": 0.0568
+  },
+  "effect_s1": {
+   "coef": -0.4254,
+   "se": 0.0942
+  },
+  "difference": {
+   "coef": -0.1626,
+   "se": 0.08,
+   "ci95": [
+    -0.3197,
+    -0.0056
+   ],
+   "p": 0.0424,
+   "q_bh": 0.2121
+  }
+ },
+ "play_user_pre": {
+  "n_treated_s1": 14,
+  "n_treated_s0": 371,
+  "effect_s0": {
+   "coef": -0.2843,
+   "se": 0.057
+  },
+  "effect_s1": {
+   "coef": -0.437,
+   "se": 0.1413
+  },
+  "difference": {
+   "coef": -0.1528,
+   "se": 0.1269,
+   "ci95": [
+    -0.4021,
+    0.0966
+   ],
+   "p": 0.2294,
+   "q_bh": 0.5574
+  }
+ },
+ "http_user": {
+  "n_treated_s1": 192,
+  "n_treated_s0": 193,
+  "effect_s0": {
+   "coef": -0.2702,
+   "se": 0.062
+  },
+  "effect_s1": {
+   "coef": -0.319,
+   "se": 0.0742
+  },
+  "difference": {
+   "coef": -0.0488,
+   "se": 0.0718,
+   "ci95": [
+    -0.1898,
+    0.0922
+   ],
+   "p": 0.4972,
+   "q_bh": 0.6215
+  }
+ },
+ "A1": {
+  "n_treated_s1": 214,
+  "n_treated_s0": 151,
+  "effect_s0": {
+   "coef": -0.2947,
+   "se": 0.0734
+  },
+  "effect_s1": {
+   "coef": -0.2983,
+   "se": 0.0673
+  },
+  "difference": {
+   "coef": -0.0036,
+   "se": 0.0779,
+   "ci95": [
+    -0.1566,
+    0.1495
+   ],
+   "p": 0.9636,
+   "bound_abs_over_PPV": 0.0057,
+   "q_bh": 0.9636
+  },
+  "excluded_treated_foundation_or_unknown": 21
+ },
+ "provided_only": {
+  "n_treated_s1": 50,
+  "n_treated_s0": 335,
+  "effect_s0": {
+   "coef": -0.2901,
+   "se": 0.0617
+  },
+  "effect_s1": {
+   "coef": -0.3532,
+   "se": 0.0645
+  },
+  "difference": {
+   "coef": -0.0631,
+   "se": 0.0653,
+   "ci95": [
+    -0.1914,
+    0.0652
+   ],
+   "p": 0.3344,
+   "q_bh": 0.5574
+  }
+ }
+}

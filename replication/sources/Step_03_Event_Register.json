@@ -1,0 +1,251 @@
+{
+  "step": 3,
+  "retrieved": "2026-11-08",
+  "status_codes": {
+    "P": "primary source (registry, licence text, vendor page, release notes, project ticket)",
+    "S": "secondary only",
+    "D": "derived from rule"
+  },
+  "akka": [
+    {
+      "date": "2021-10-18",
+      "event": "Akka core first Scala 3 artifacts (2.6.17, Apache-2.0)",
+      "status": "P",
+      "source": "deps.dev akka-actor_3"
+    },
+    {
+      "date": "2022-09-06",
+      "event": "Last Apache releases of all modules (core 2.6.20, HTTP 10.2.10; others 08-30 to 09-06)",
+      "status": "P",
+      "source": "deps.dev; outputs/step03/release_calendar.csv"
+    },
+    {
+      "date": "2022-09-07",
+      "event": "Relicensing announced (Boner blog)",
+      "status": "P (current page)",
+      "source": "https://akka.io/blog/why-we-are-changing-the-license-for-akka"
+    },
+    {
+      "date": "2022-09-07",
+      "event": "FAQ at announcement: existing versions get no additional features, enhancements, security updates or bug fixes",
+      "status": "P",
+      "source": "https://web.archive.org/web/20220907063228/https://www.lightbend.com/akka/license-faq"
+    },
+    {
+      "date": "2022-09-09",
+      "event": "FAQ adds Play questions: Play users not directly using Akka exempt via Additional Use Grant; direct Akka users need production licence",
+      "status": "P",
+      "source": "https://web.archive.org/web/20220909085557/https://www.lightbend.com/akka/license-faq"
+    },
+    {
+      "date": "2022-09-09..2022-09-12",
+      "event": "FAQ revised: critical security updates and critical bugs patched in 2.6.x under Apache 2 until September 2023",
+      "status": "P (absent 2022-09-09 08:55 UTC; present 2022-09-12 09:44 UTC)",
+      "source": "https://web.archive.org/web/20220912094412/https://www.lightbend.com/akka/license-faq"
+    },
+    {
+      "date": "by 2022-09-22",
+      "event": "FAQ adds ISV programme",
+      "status": "P",
+      "source": "https://web.archive.org/web/20220922095902/https://www.lightbend.com/akka/license-faq"
+    },
+    {
+      "date": "2022-09-09",
+      "event": "First BSL artifact on Maven Central: 2.7.0-M1 (BUSL-1.1)",
+      "status": "P",
+      "source": "deps.dev"
+    },
+    {
+      "date": "2022-10-19",
+      "event": "First stable BSL releases (core 2.7.0, HTTP 10.4.0; other modules 10-20/21); GitHub notes list 'Change license'",
+      "status": "P",
+      "source": "deps.dev; github.com/akka/akka-core/releases/tag/v2.7.0"
+    },
+    {
+      "date": "2023-02-21..2023-05-11",
+      "event": "Scala 3 builds of all non-core modules appear only under BSL (HTTP, gRPC, Management, Kafka, Alpakka, Cassandra, Projection); none for persistence-jdbc",
+      "status": "P",
+      "source": "outputs/step03/scala_availability.csv"
+    },
+    {
+      "date": "2023-03-16",
+      "event": "Akka 2.8.0 (BSL)",
+      "status": "P",
+      "source": "deps.dev"
+    },
+    {
+      "date": "2023-06-21",
+      "event": "Last Apache patch 2.6.21: critical TLS fix backport only",
+      "status": "P",
+      "source": "deps.dev; github.com/akka/akka-core/releases/tag/v2.6.21"
+    },
+    {
+      "date": "2023-09",
+      "event": "End of life of Akka 2.6 and Akka HTTP 10.2",
+      "status": "P",
+      "source": "playframework.com/documentation/latest/General; FLINK-32468"
+    },
+    {
+      "date": "2023-10-23/31",
+      "event": "Akka 2.9.0 (GitHub 10-23); 23.10 release notes (10-31): published to Lightbend's own repository from this release; 2.9.0 GA absent from Maven Central",
+      "status": "P",
+      "source": "GitHub; doc.akka.io release notes; deps.dev"
+    },
+    {
+      "date": "2024-10-01",
+      "event": "Licence keys required for production use of new versions 2.9.6, 2.8.7, 2.7.1; free for pre-production, OSS, startups, academia, personal",
+      "status": "P",
+      "source": "https://akka.io/blog/akka-license-keys-and-no-spam-promise"
+    },
+    {
+      "date": "2024-10-28",
+      "event": "Last 2.8.x on Maven Central (2.8.8)",
+      "status": "P",
+      "source": "deps.dev"
+    },
+    {
+      "date": "~2025-10",
+      "event": "Akka 2.7.0 reverts to Apache 2.0",
+      "status": "D",
+      "source": "licence text: 3 years after release"
+    }
+  ],
+  "pekko_and_play": [
+    {
+      "date": "2023-07-10",
+      "substitute": "Pekko core 1.0.0 (actor, stream, cluster, persistence; Scala 2.12/2.13/3) ; based on Akka 2.6.20 (Pekko release notes)",
+      "status": "verified"
+    },
+    {
+      "date": "2023-07-31",
+      "substitute": "Pekko HTTP 1.0.0",
+      "status": "verified"
+    },
+    {
+      "date": "2023-08-01",
+      "substitute": "Pekko Connectors Kafka 1.0.0 (RC1 2023-07-26)",
+      "status": "verified"
+    },
+    {
+      "date": "2023-08-11",
+      "substitute": "Pekko Management 1.0.0",
+      "status": "verified"
+    },
+    {
+      "date": "2023-08-19",
+      "substitute": "Pekko gRPC 1.0.0",
+      "status": "verified"
+    },
+    {
+      "date": "2023-09-04",
+      "substitute": "Pekko Connectors (S3 etc.) 1.0.0; Pekko persistence-jdbc 1.0.0",
+      "status": "verified"
+    },
+    {
+      "date": "2023-10-05",
+      "substitute": "Pekko persistence-cassandra 1.0.0",
+      "status": "verified"
+    },
+    {
+      "date": "2023-10-17",
+      "substitute": "(dependent) Eclipse Ditto 3.4.0 switches to Pekko, citing BSL",
+      "status": "P",
+      "source": "https://eclipse.dev/ditto/release_notes_340.html"
+    },
+    {
+      "date": "2023-10-23",
+      "substitute": "Pekko Projection 1.0.0",
+      "status": "verified"
+    },
+    {
+      "date": "2023-10-25",
+      "substitute": "Play 3.0.0 (Pekko) and Play 2.9.0 (Akka 2.6.21, Apache)",
+      "status": "verified"
+    }
+  ],
+  "foundation_policy": [
+    {
+      "foundation": "Apache Software Foundation",
+      "rule": "BUSL-1.1, RSAL, SSPL v1, Commons Clause, Confluent Community License in Category X; may not be distributed; only optional reliance allowed",
+      "status": "verified",
+      "source": "https://www.apache.org/legal/resolved.html"
+    },
+    {
+      "foundation": "Eclipse Foundation",
+      "rule": "approved-licence list; unlisted licences need IP-team review; BUSL-1.1 status unconfirmed",
+      "status": "partly P",
+      "source": "https://www.eclipse.org/legal/licenses/"
+    }
+  ],
+  "dependent_cases": [
+    {
+      "project": "Apache Flink",
+      "event": "FLINK-32468 replace Akka by Pekko; stated reason: end of Akka 2.6 security fixes",
+      "status": "verified (ticket)",
+      "source": "https://issues.apache.org/jira/browse/FLINK-32468"
+    },
+    {
+      "project": "Eclipse Ditto",
+      "event": "3.4.0 (2023-10-17) switches to Pekko citing BSL; full cluster restart required",
+      "status": "P",
+      "source": "https://eclipse.dev/ditto/release_notes_340.html"
+    },
+    {
+      "project": "Play Framework",
+      "event": "2.9 stays on Akka 2.6/HTTP 10.2 deliberately avoiding BSL; 3.0 moves to Pekko; both 2023-10-25",
+      "status": "P",
+      "source": "playframework.com Highlights29, Highlights30, General"
+    }
+  ],
+  "secondary_events": [
+    {
+      "vendor": "Elastic",
+      "product": "Elasticsearch",
+      "relicense": "2021-02-03",
+      "to": "SSPL + Elastic License",
+      "restricts": "ELv2: no hosted/managed service to third parties; no licence-key circumvention",
+      "fork": "OpenSearch 2021-04-12",
+      "reversal": "AGPL added as third option 2024-08-29 (P: elastic.co blog)",
+      "status": "P"
+    },
+    {
+      "vendor": "HashiCorp",
+      "product": "Terraform, Vault",
+      "relicense": "2023-08-10",
+      "to": "BSL 1.1",
+      "restricts": "production use allowed except offering to third parties on a hosted or embedded basis to compete with paid versions; internal use not competitive; change date 4 years to MPL 2.0",
+      "fork": "OpenTofu announced 2023-08-25, GA v1.6.0 2024-01-09/10; OpenBao",
+      "reversal": "none",
+      "status": "P (hashicorp.com/en/bsl; terraform LICENSE)"
+    },
+    {
+      "vendor": "Redis",
+      "product": "Redis",
+      "relicense": "2024-03-20",
+      "to": "RSALv2 + SSPLv1",
+      "restricts": "RSALv2: no making functionality available to third parties as a service",
+      "fork": "Valkey 2024-03-28",
+      "reversal": "AGPLv3 option with Redis 8, 2025-05-01 (P: redis.io/blog/agplv3)",
+      "status": "P"
+    },
+    {
+      "vendor": "Lightbend",
+      "product": "Akka",
+      "relicense": "2022-09-07 announced / 2022-10-19 first release",
+      "to": "BSL 1.1",
+      "restricts": "all production use requires commercial licence; free below US$25M company revenue; licence keys for new versions from 2024-10-01",
+      "fork": "Apache Pekko 2023-07-10",
+      "reversal": "none; per-version 3-year reversion",
+      "status": "P (current pages)"
+    }
+  ],
+  "revision": "2026-11-08 rev3: Internet Archive captures of 2022 FAQ, blog and pricing (data/raw/wayback/manifest.json)",
+  "licence_terms": {
+    "text": "Licensor Lightbend; Change Date 3 years after release; Change License Apache-2.0; Additional Use Grant limited to Play Framework streams usage (P: akka.io/bsl/license)",
+    "faq": "production use requires commercial licence; dev/test/staging free; non-profits/governments >US$25M budget must buy; OSS grants mentioned without process; pricing from US$0.25/core-hour (current) (P: akka.io/bsl-license-faq)",
+    "threshold": "free commercial licence for companies < US$25M revenue (P: announcement blog, current version)",
+    "unverifiable": "none of the previously listed items; Eclipse rule on BUSL still open",
+    "faq_2022": "Everyone using latest releases in production affected; <US$25M free; mixed code requires commercial licence for production; OSS grants case-by-case via akka-license@lightbend.com; no backporting BSL code to OSS versions; no Apache redistribution of modified BSL code (P: archived FAQ 2022-09-07)",
+    "pricing_2022": "Startup US$0 (<US$25M revenue); Akka Standard US$1,995 per core per year; Akka Enterprise US$2,995 per core per year; non-production development free (P: https://web.archive.org/web/20221001011647/https://www.lightbend.com/akka)"
+  }
+}

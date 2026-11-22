@@ -1,0 +1,109 @@
+{
+ "A_exit_from_bsl": {
+  "keys_window_2024-09_to_2025-09": {
+   "n": 23,
+   "status_at_end": {
+    "upgrade": 18,
+    "switch": 4,
+    "removed": 1
+   }
+  },
+  "placebo_window_2023-09_to_2024-09": {
+   "n": 23,
+   "status_at_end": {
+    "switch": 5,
+    "upgrade": 17,
+    "removed": 1
+   }
+  },
+  "frozen_keys_window_for_reference": {
+   "n": 95,
+   "status_at_end": {
+    "freeze": 86,
+    "switch": 2,
+    "upgrade": 4,
+    "dual": 2,
+    "removed": 1
+   }
+  },
+  "frozen_placebo_window_for_reference": {
+   "n": 122,
+   "status_at_end": {
+    "freeze": 87,
+    "upgrade": 4,
+    "switch": 17,
+    "dual": 12,
+    "removed": 2
+   }
+  }
+ },
+ "B_reversions": {
+  "projects_ever_on_bsl_after_event": 44,
+  "artifact_moves_away_from_bsl": 23,
+  "projects_with_move_by_destination": {
+   "akka_open": 1,
+   "none": 6,
+   "pekko": 9
+  },
+  "projects_with_any_move": 16,
+  "moves_by_half_year": {
+   "2022H2": {
+    "akka_open": 1,
+    "none": 0,
+    "pekko": 0
+   },
+   "2023H2": {
+    "akka_open": 0,
+    "none": 3,
+    "pekko": 1
+   },
+   "2024H1": {
+    "akka_open": 0,
+    "none": 0,
+    "pekko": 5
+   },
+   "2025H1": {
+    "akka_open": 0,
+    "none": 2,
+    "pekko": 0
+   },
+   "2025H2": {
+    "akka_open": 0,
+    "none": 0,
+    "pekko": 3
+   },
+   "2026H1": {
+    "akka_open": 0,
+    "none": 1,
+    "pekko": 0
+   }
+  },
+  "note": "'none' means the artifact's later release declares no Akka or Pekko dependency (removal)."
+ },
+ "C_end_of_patches_by_ports": {
+  "ported_by_2023-09-30": {
+   "n": 105,
+   "freeze": 69,
+   "dual": 17,
+   "switch": 16,
+   "upgrade": 2,
+   "removed": 1
+  },
+  "not_ported_by_2023-09-30": {
+   "n": 24,
+   "dual": 4,
+   "freeze": 15,
+   "upgrade": 3,
+   "switch": 2
+  }
+ },
+ "B_es_moves_from_restricted": {
+  "projects_ever_on_restricted_after_event": 65,
+  "projects_with_any_move": 16,
+  "projects_with_move_by_destination": {
+   "es_agpl": 3,
+   "opensearch": 1,
+   "other_or_none": 12
+  }
+ }
+}

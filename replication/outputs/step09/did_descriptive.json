@@ -1,0 +1,182 @@
+{
+ "M1 all": {
+  "coef": -0.081,
+  "se": 0.066,
+  "n_es": 290,
+  "n_cmp": 261,
+  "n_owner_clusters": 432,
+  "coef_weighted": -0.064,
+  "se_weighted": 0.07
+ },
+ "M1 excl_codelibs": {
+  "coef": -0.01,
+  "se": 0.047,
+  "n_es": 252,
+  "n_cmp": 261,
+  "n_owner_clusters": 431,
+  "coef_weighted": 0.008,
+  "se_weighted": 0.051
+ },
+ "M1 client": {
+  "coef": 0.011,
+  "se": 0.053,
+  "n_es": 202,
+  "n_cmp": 121,
+  "n_owner_clusters": 275,
+  "coef_weighted": 0.047,
+  "se_weighted": 0.051
+ },
+ "M1 embedded": {
+  "coef": -0.099,
+  "se": 0.067,
+  "n_es": 88,
+  "n_cmp": 140,
+  "n_owner_clusters": 169,
+  "coef_weighted": -0.099,
+  "se_weighted": 0.077
+ },
+ "M1 bom_pre=1": {
+  "coef": 0.08,
+  "se": 0.228,
+  "n_es": 6,
+  "n_cmp": 4,
+  "n_owner_clusters": 9,
+  "coef_weighted": 0.126,
+  "se_weighted": 0.249
+ },
+ "M1 bom_pre=0": {
+  "coef": -0.085,
+  "se": 0.067,
+  "n_es": 284,
+  "n_cmp": 257,
+  "n_owner_clusters": 424,
+  "coef_weighted": -0.07,
+  "se_weighted": 0.07
+ },
+ "M1c all": {
+  "coef": -0.106,
+  "se": 0.075,
+  "n_es": 263,
+  "n_cmp": 216,
+  "n_owner_clusters": 374,
+  "coef_weighted": -0.095,
+  "se_weighted": 0.078
+ },
+ "M1c excl_codelibs": {
+  "coef": -0.021,
+  "se": 0.049,
+  "n_es": 226,
+  "n_cmp": 216,
+  "n_owner_clusters": 373,
+  "coef_weighted": -0.01,
+  "se_weighted": 0.053
+ },
+ "M1c client": {
+  "coef": 0.007,
+  "se": 0.057,
+  "n_es": 185,
+  "n_cmp": 100,
+  "n_owner_clusters": 240,
+  "coef_weighted": 0.035,
+  "se_weighted": 0.054
+ },
+ "M1c embedded": {
+  "coef": -0.166,
+  "se": 0.07,
+  "n_es": 78,
+  "n_cmp": 116,
+  "n_owner_clusters": 142,
+  "coef_weighted": -0.169,
+  "se_weighted": 0.079
+ },
+ "M1c bom_pre=1": {
+  "coef": 0.076,
+  "se": 0.228,
+  "n_es": 6,
+  "n_cmp": 4,
+  "n_owner_clusters": 9,
+  "coef_weighted": 0.121,
+  "se_weighted": 0.248
+ },
+ "M1c bom_pre=0": {
+  "coef": -0.111,
+  "se": 0.075,
+  "n_es": 257,
+  "n_cmp": 212,
+  "n_owner_clusters": 366,
+  "coef_weighted": -0.101,
+  "se_weighted": 0.078
+ },
+ "M3 all": {
+  "coef": -0.146,
+  "se": 0.072,
+  "n_es": 290,
+  "n_cmp": 261,
+  "n_owner_clusters": 432,
+  "coef_weighted": -0.148,
+  "se_weighted": 0.074
+ },
+ "M3 excl_codelibs": {
+  "coef": -0.081,
+  "se": 0.059,
+  "n_es": 252,
+  "n_cmp": 261,
+  "n_owner_clusters": 431,
+  "coef_weighted": -0.082,
+  "se_weighted": 0.061
+ },
+ "M3 client": {
+  "coef": -0.054,
+  "se": 0.074,
+  "n_es": 202,
+  "n_cmp": 121,
+  "n_owner_clusters": 275,
+  "coef_weighted": -0.039,
+  "se_weighted": 0.074
+ },
+ "M3 embedded": {
+  "coef": -0.213,
+  "se": 0.074,
+  "n_es": 88,
+  "n_cmp": 140,
+  "n_owner_clusters": 169,
+  "coef_weighted": -0.228,
+  "se_weighted": 0.08
+ },
+ "M3 bom_pre=1": {
+  "coef": -0.058,
+  "se": 0.134,
+  "n_es": 6,
+  "n_cmp": 4,
+  "n_owner_clusters": 9,
+  "coef_weighted": -0.045,
+  "se_weighted": 0.145
+ },
+ "M3 bom_pre=0": {
+  "coef": -0.15,
+  "se": 0.073,
+  "n_es": 284,
+  "n_cmp": 257,
+  "n_owner_clusters": 424,
+  "coef_weighted": -0.153,
+  "se_weighted": 0.075
+ },
+ "es_M1_decomposition": {
+  "pre": {
+   "n_project_quarters": 1027,
+   "M1": 0.426,
+   "M1_open": 0.426,
+   "M1_restr": 0.0
+  },
+  "post": {
+   "n_project_quarters": 774,
+   "M1": 0.411,
+   "M1_open": 0.109,
+   "M1_restr": 0.331
+  }
+ },
+ "cmp_M1": {
+  "pre": 0.226,
+  "post": 0.291
+ }
+}

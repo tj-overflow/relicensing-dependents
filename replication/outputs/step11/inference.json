@@ -1,0 +1,28 @@
+{
+ "primary akka M1": {
+  "beta": -0.2968,
+  "t": -5.022,
+  "p_wcb": 0.0,
+  "replications": 9999,
+  "clusters": 560,
+  "draws_used": 2000,
+  "p_ri": 0.0,
+  "perm_mean": -0.064,
+  "perm_sd": 0.0402,
+  "owners_permuted": 541,
+  "owners_mixed_fixed": 38
+ },
+ "primary es M1": {
+  "beta": 0.0322,
+  "t": 0.657,
+  "p_wcb": 0.5214,
+  "replications": 9999,
+  "clusters": 432,
+  "draws_used": 2000,
+  "p_ri": 0.458,
+  "perm_mean": -0.0028,
+  "perm_sd": 0.0425,
+  "owners_permuted": 426,
+  "owners_mixed_fixed": 12
+ }
+}

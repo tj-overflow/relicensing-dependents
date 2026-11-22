@@ -1,0 +1,99 @@
+{
+ "n_hand_coded": 58,
+ "n_unclear": 1,
+ "agree_raw": 0.947,
+ "agree_weighted": 0.958,
+ "agree_by_stratum": {
+  "dual_or_partial": "9/9",
+  "freeze": "13/14",
+  "removed": "16/18",
+  "switch": "10/10",
+  "upgrade": "6/6"
+ },
+ "switch_or_dual_agree_raw": 0.947,
+ "switch_or_dual_agree_weighted": 0.958,
+ "kappa_5way": 0.932,
+ "kappa_switch_or_dual": 0.886,
+ "registry_accuracy_vs_adjudicated_raw": 0.965,
+ "registry_accuracy_vs_adjudicated_weighted": 0.963,
+ "shaded": [
+  "github.com/apache/flink"
+ ],
+ "confusion": {
+  "removed->switch": 2,
+  "freeze->dual": 1
+ },
+ "disagreements": [
+  [
+   "github.com/apache/flink",
+   "removed",
+   "switch"
+  ],
+  [
+   "github.com/scalamolecule/molecule",
+   "removed",
+   "switch"
+  ],
+  [
+   "github.com/zalando-incubator/kanadi",
+   "freeze",
+   "dual"
+  ]
+ ],
+ "exposure_A1": {
+  "n": 54,
+  "agree": 0.778,
+  "kappa": 0.576,
+  "false_pos": [
+   "github.com/arpnetworking/open-telemetry-protocol",
+   "github.com/bluebrain/nexus",
+   "github.com/dmlc/xgboost",
+   "github.com/insubric/box",
+   "github.com/playframework/play-grpc",
+   "github.com/playframework/play-ws",
+   "github.com/pureconfig/pureconfig",
+   "github.com/reactivemongo/reactivemongo",
+   "github.com/scalamolecule/molecule",
+   "github.com/scalatra/scalatra",
+   "github.com/scanamo/scanamo",
+   "github.com/tuprolog/arg2p-kt"
+  ],
+  "false_neg": []
+ },
+ "exposure_A2": {
+  "n": 54,
+  "agree": 0.593,
+  "kappa": 0.288,
+  "false_pos": [
+   "github.com/an-tex/sc8s",
+   "github.com/arpnetworking/open-telemetry-protocol",
+   "github.com/ben-manes/caffeine",
+   "github.com/bluebrain/nexus",
+   "github.com/dacr/lorem-ipsum-server-akkahttp",
+   "github.com/dacr/spy",
+   "github.com/dmlc/xgboost",
+   "github.com/ghostdogpr/caliban",
+   "github.com/insubric/box",
+   "github.com/j5ik2o/akka-persistence-dynamodb",
+   "github.com/j5ik2o/chronos-scheduler-scala",
+   "github.com/katrix/ackcord",
+   "github.com/mdedetrich/akka-streams-json",
+   "github.com/playframework/play-grpc",
+   "github.com/playframework/play-ws",
+   "github.com/pureconfig/pureconfig",
+   "github.com/reactivemongo/reactivemongo",
+   "github.com/reugn/aerospike-client-scala",
+   "github.com/scalamolecule/molecule",
+   "github.com/scalatra/scalatra",
+   "github.com/scanamo/scanamo",
+   "github.com/tuprolog/arg2p-kt"
+  ],
+  "false_neg": []
+ },
+ "maintainer_hand_counts": {
+  "individual": 31,
+  "foundation": 4,
+  "company": 20,
+  "academic": 3
+ }
+}

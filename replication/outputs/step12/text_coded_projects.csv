@@ -1,0 +1,136 @@
+event,repo,R,codes,action,evidence,note
+akka,adzerk/apso,1,LICENCE_UNSPEC,SWITCH,805,
+akka,alephium/alephium,1,,SWITCH,1352,
+akka,altoo-ag/akka-kryo-serialization,1,LEGAL_OWN,STAY,300,kept 2.6; Pekko variant in a separate repository
+akka,apache/flink,1,,SWITCH,,
+akka,arpnetworking/commons,1,,SWITCH,182,
+akka,arpnetworking/metrics-aggregator-daemon,1,,SWITCH,397,
+akka,arpnetworking/metrics-cluster-aggregator,1,,SWITCH,257,
+akka,arpnetworking/open-telemetry-protocol,1,,SWITCH,46,
+akka,avast/grpc-json-bridge,0,,,,
+akka,avsystem/scala-commons,1,,SWITCH,547,
+akka,bitcoin-s/bitcoin-s,1,LICENCE_UNSPEC,SWITCH,5413,
+akka,bluebrain/nexus,1,LEGAL_OWN,REMOVE,4058;4557,must move away; cannot be updated any more
+akka,bot4s/telegram,1,,SWITCH,358,
+akka,clevercloud/pulsar4s,1,LICENCE_UNSPEC;USER_REQUEST,DUAL,491;540,
+akka,clulab/reach,0,,,,
+akka,comcast/money,0,,,,
+akka,cornerman/mycelium,1,LEGAL_OWN,SWITCH,189,own OSS licence could not be held past 2.7.0
+akka,crobox/clickhouse-scala-client,1,,SWITCH,149,
+akka,d-exclaimation/over-layer,1,TRUST;LEGAL_USERS,REMOVE,13,sunset; uncertain future; users would need BSL libraries
+akka,davidmoten/xuml-tools,1,LICENCE_UNSPEC,REMOVE,100,
+akka,digital-asset/canton,1,,SWITCH,402,
+akka,digital-asset/daml,1,USER_REQUEST;LICENCE_UNSPEC,SWITCH,17352,
+akka,dmlc/xgboost,1,LEGAL_USERS,STAY,8920,pinned 2.6 because BSL may cause issues for some users
+akka,doriordan/skuber,1,USER_REQUEST,SWITCH,354,
+akka,eclipse-ditto/ditto,1,LEGAL_OWN,SWITCH,1477;1728,incompatible with EPL 2.0
+akka,eed3si9n/gigahorse,1,,SWITCH,93,
+akka,endless4s/endless,1,LEGAL_USERS,DUAL,551;239,Akka module kept on 2.6.21 so consumers do not pull BSL
+akka,endpoints4s/endpoints4s,1,LICENCE_UNSPEC,SWITCH,1103;1207,
+akka,enragedginger/akka-quartz-scheduler,1,USER_REQUEST;LICENCE_UNSPEC,DUAL,117;118,
+akka,erikvanoosten/metrics-scala,1,USER_REQUEST;LICENCE_UNSPEC,DUAL,459;482,
+akka,es-meta/esmeta,1,LICENCE_UNSPEC,REMOVE,290,moved to http4s
+akka,exini/dicom-streams,1,,SWITCH,29,
+akka,failurewall/failurewall,1,,SWITCH,225,
+akka,firstbirdtech/backbone,1,LEGAL_OWN,STAY,846,downgraded to a version that does not need a licence key (2025-01)
+akka,fomkin/korolev,1,,DUAL,459,
+akka,gatling/gatling,1,,REMOVE,4457,home-made actor system
+akka,ghostdogpr/caliban,1,USER_REQUEST,DUAL,1823;1862,
+akka,giiita/refuel,1,USER_REQUEST;LICENCE_UNSPEC,DISCUSS,95,
+akka,guardian/atom-maker,1,COORD,SWITCH,98,Play 3.0 brings Pekko
+akka,guardian/social-sign-in,1,,SWITCH,16,
+akka,hagay3/skuber,1,,SWITCH,328,
+akka,hseeberger/akka-http-json,1,USER_REQUEST,DUAL,780,
+akka,influxdata/influxdb-client-java,1,LEGAL_OWN;USER_REQUEST,SWITCH,460;660,licence check in CI fails on akka 2.7.0
+akka,ing-bank/baker,1,,DUAL,1960,
+akka,insubric/box,1,LEGAL_OWN,SWITCH,347,BSL not suitable for an open-source project
+akka,j5ik2o/akka-persistence-dynamodb,1,LEGAL_USERS,DISCUSS,1970,users will worry about BSL
+akka,j5ik2o/chronos-scheduler-scala,1,,DUAL,383,
+akka,kamon-io/kamon,1,LICENCE_UNSPEC,DUAL,1264;1285,
+akka,lagom/lagom,1,TRUST,DISCUSS,3366,vendor project (Lightbend); excluded from shares
+akka,lerna-stack/akka-entity-replication,0,,,,
+akka,ligasgr/blocks,1,,SWITCH,14,
+akka,lomigmegard/akka-http-cors,1,USER_REQUEST;LEGAL_OWN,STAY,258;276;327;339,stayed on 2.6 until 2.7.0 and 2.8.0 converted to Apache 2.0 (2026)
+akka,maif/otoroshi,1,USER_REQUEST;AGEING;LICENCE_UNSPEC;COMPAT,SWITCH,2148;2595,
+akka,maif/thoth,1,USER_REQUEST;LICENCE_UNSPEC,SWITCH,54;77,
+akka,matsluni/aws-spi-akka-http,1,USER_REQUEST;LEGAL_OWN,DISCUSS,193;243,user: project cannot stay Apache-2.0 on akka 2.8.4
+akka,mdsol/mauth-jvm-clients,1,LICENCE_UNSPEC,STAY,180,Akka and akka-http remain pinned (licence) in 2026-11
+akka,mjakubowski84/parquet4s,1,USER_REQUEST;LICENCE_UNSPEC,DUAL,313;318,
+akka,moia-oss/itkit,1,,DUAL,144,
+akka,moia-oss/scala-http-client,1,,SWITCH,426,
+akka,neotypes/neotypes,1,,DUAL,807,
+akka,netflix-skunkworks/iep-apps,1,LICENCE_UNSPEC,SWITCH,373;488,
+akka,netflix/atlas,1,,SWITCH,,
+akka,netflix/mantis,0,,,,
+akka,nike-inc/fleam,1,,SWITCH,25,
+akka,paypal/squbs,1,USER_REQUEST,SWITCH,760;762,
+akka,pellse/assembler,1,USER_REQUEST;LICENCE_UNSPEC,DISCUSS,23,
+akka,pinpoint-apm/pinpoint,1,,DUAL,13818,
+akka,pjfanning/micrometer-akka,1,,SWITCH,3,
+akka,pjfanning/op-rabbit,1,COORD,SWITCH,6,Play 3 supports only Pekko
+akka,pureconfig/pureconfig,1,,DUAL,1615,
+akka,qvantel/jsonapi-scala,1,,SWITCH,56,
+akka,reactivemongo/reactivemongo,1,USER_REQUEST;LICENCE_UNSPEC,DUAL,1244;1245,
+akka,reactivemongo/reactivemongo-streaming,1,USER_REQUEST,DUAL,320;322,
+akka,rediscala/rediscala,1,,SWITCH,68;124,
+akka,ruippeixotog/akka-testkit-specs2,1,,DUAL,198,
+akka,rustedbones/akka-http-metrics,1,USER_REQUEST;LICENCE_UNSPEC,DUAL,336;337,
+akka,scalatra/scalatra,1,,REMOVE,1410,opened on the announcement day
+akka,scullxbones/akka-persistence-mongo,1,USER_REQUEST;LICENCE_UNSPEC;COST,DUAL,557;590,
+akka,senia-psm/zio-test-akka-http,1,USER_REQUEST;LICENCE_UNSPEC,DISCUSS,248,
+akka,shopstic/chopsticks,1,,SWITCH,526,
+akka,sirthias/borer,1,USER_REQUEST,DUAL,656;657,
+akka,sky-uk/kafka-topic-loader,1,,SWITCH,237,
+akka,slack-scala-client/slack-scala-client,1,USER_REQUEST;LICENCE_UNSPEC,SWITCH,273;295,
+akka,softwaremill/akka-http-session,1,USER_REQUEST,DUAL,88;89,
+akka,softwaremill/elasticmq,1,USER_REQUEST;LICENCE_UNSPEC,SWITCH,891,
+akka,softwaremill/macwire,1,,DUAL,,
+akka,softwaremill/sttp,1,,DUAL,1920,
+akka,softwaremill/sttp-shared,1,,DUAL,,
+akka,softwaremill/tapir,1,,DUAL,3114,
+akka,stackvista/akka-http-pac4j,1,,SWITCH,58,
+akka,streetcontxt/kcl-akka-stream,1,USER_REQUEST,DISCUSS,191,
+akka,swagger-akka-http/swagger-akka-http,1,LICENCE_UNSPEC;USER_REQUEST,DUAL,373,ramped down due to the move away from open source
+akka,theiterators/baklava,1,,DUAL,27,
+akka,theiterators/kebs,1,LICENCE_UNSPEC,DUAL,305,
+akka,timbertson/backpressure-sensor,1,,SWITCH,5,
+akka,touk/nussknacker,1,,SWITCH,7590,
+akka,twitter/chill,1,,SWITCH,799,
+akka,uptane/libats,1,,SWITCH,521,
+akka,vigoo/desert,1,,DUAL,520,
+akka,virtuslab/akka-serialization-helper,1,USER_REQUEST,DUAL,325;326,
+akka,xitrum-framework/xitrum,0,,,,
+es,allegro/elasticsearch-analysis-morfologik,1,USER_REQUEST,DISCUSS,100,
+es,allegro/hermes,0,,,,opensearch.xml browser search
+es,apache/atlas,1,,DUAL,750,
+es,apache/flink,1,,DUAL,18541,
+es,apache/pulsar,1,AGEING;LEGAL_OWN;COMPAT,DUAL,13867;14805,OpenSearch client to drop CVEs and keep Apache 2.0; later Elastic Apache client for ES 8
+es,apache/ranger,1,COMPAT,DUAL,284,
+es,apache/skywalking,1,LEGAL_OWN;COMPAT,DUAL,6219;7471,ASF Category X; cannot distribute SSPL client
+es,apiman/apiman,1,COMPAT;AGEING;USER_REQUEST,DUAL,2411;1782,clients deliberately incompatible
+es,bbossgroups/bboss-elasticsearch,1,USER_REQUEST,DISCUSS,53,
+es,cafaudit/audit-service,1,,SWITCH,136,
+es,cafdataprocessing/elastic-mapping-updater,1,,SWITCH,32,
+es,codelibs/fess,1,,SWITCH,,
+es,codelibs/fess-ds-gsuite,1,,SWITCH,,
+es,codelibs/fess-suggest,1,,SWITCH,,
+es,codelibs/fione,1,,SWITCH,,
+es,craftercms/search,1,,SWITCH,297,
+es,dadoonet/fscrawler,1,USER_REQUEST;COMPAT,DISCUSS,1274;1824,maintainer is an Elastic employee
+es,epam/indigo,1,USER_REQUEST;COMPAT;LICENCE_UNSPEC,DISCUSS,865;920,
+es,erudika/para-search-elasticsearch,1,,SWITCH,22,
+es,hazelcast/hazelcast,1,LEGAL_OWN,UPGRADE,20427,took the ELv2 client and added the licence notice (compliance)
+es,kamon-io/kamon,1,,DUAL,1324,
+es,lukas-krecan/shedlock,1,USER_REQUEST,DUAL,1062;1063,
+es,micronaut-projects/micronaut-elasticsearch,1,,DISCUSS,534,
+es,netflix/conductor,1,USER_REQUEST;COMPAT,DISCUSS,3556,M1 Mac compatibility
+es,opencast/opencast,1,,SWITCH,6415,
+es,prestodb/presto,1,USER_REQUEST;COMPAT,DUAL,17436;26900,
+es,quarkusio/quarkus,1,COMPAT;LICENCE_UNSPEC,DUAL,30036,
+es,rfoltyns/log4j2-elasticsearch,1,COMPAT,DUAL,81,
+es,sakaiproject/sakai,1,,SWITCH,10469,
+es,senacor/elasticsearch-evolution,1,USER_REQUEST;COMPAT,DUAL,220;566,
+es,sonarsource/sonarqube,0,,,,
+es,spring-projects/spring-boot,1,COMPAT,DISCUSS,33010,
+es,spring-projects/spring-data-elasticsearch,1,COMPAT;USER_REQUEST;LEGAL_USERS,DISCUSS,1918;1770;1880,
+es,trinodb/trino,1,,DUAL,,

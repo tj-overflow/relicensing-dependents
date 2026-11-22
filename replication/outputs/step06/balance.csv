@@ -1,0 +1,5 @@
+covariate,mean_akka,mean_cmp,smd_raw,smd_weighted
+rel_per_year_pre,56.095,50.931,0.017,0.099
+n_artifacts,5.459,5.725,-0.02,0.084
+scala3_pre,0.107,0.468,-0.871,0.028
+age_years_at_event,3.2,1.997,0.644,0.151

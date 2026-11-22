@@ -1,0 +1,11 @@
+bench,period,n,act240,y1_active,y1u
+org.typelevel:cats-core,early,174,0.6782,0.7458,0.5057
+org.typelevel:cats-core,late,331,0.5347,0.7514,0.4018
+com.fasterxml.jackson.module:jackson-module-scala,early,54,0.5926,0.4062,0.2407
+com.fasterxml.jackson.module:jackson-module-scala,late,74,0.5946,0.5455,0.3243
+pooled_kept,early,228,0.6579,0.6733,0.443
+pooled_kept,late,404,0.5446,0.7136,0.3886
+pooled_kept_plus_typelevel,early,313,0.6741,0.7773,0.524
+pooled_kept_plus_typelevel,late,566,0.5318,0.7442,0.3958
+typelevel,early,177,0.7627,0.8815,0.6723
+typelevel,late,290,0.5724,0.8313,0.4759

@@ -1,0 +1,26 @@
+{
+ "akka_M1": {
+  "n_pre": 6,
+  "n_post": 13,
+  "clusters": 567,
+  "n_obs": 4623
+ },
+ "akka_M1s": {
+  "n_pre": 6,
+  "n_post": 13,
+  "clusters": 486,
+  "n_obs": 3505
+ },
+ "es_M1": {
+  "n_pre": 7,
+  "n_post": 15,
+  "clusters": 432,
+  "n_obs": 3794
+ },
+ "es_M1s": {
+  "n_pre": 7,
+  "n_post": 15,
+  "clusters": 368,
+  "n_obs": 3346
+ }
+}

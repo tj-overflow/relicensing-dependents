@@ -1,0 +1,56 @@
+{
+ "conversion_dates": {
+  "akka 2.6.19": "2025-03-21",
+  "akka 2.6.20": "2025-09-06",
+  "akka 2.6.21": "2026-06-21",
+  "akka 2.7.0": "2025-10-19",
+  "akka 2.8.0": "2026-03-16",
+  "akka 2.8.1": "2026-04-27",
+  "akka 2.8.2": "2026-05-09",
+  "akka 2.8.3": "2026-06-28",
+  "akka 2.8.4": "2026-08-15",
+  "akka 2.8.5": "2026-09-20",
+  "akka_http 10.2.10": "2025-09-06",
+  "akka_http 10.2.8": "2025-02-14",
+  "akka_http 10.2.9": "2025-03-03",
+  "akka_http 10.4.0": "2025-10-19",
+  "akka_http 10.5.0": "2026-02-21",
+  "akka_http 10.5.1": "2026-04-19",
+  "akka_http 10.5.2": "2026-05-05",
+  "akka_http 10.5.3": "2026-10-16"
+ },
+ "W0_2024-10-19_to_2025-10-18": {
+  "open_line_projects_at_start": 365,
+  "releasing_in_window": 85,
+  "outcomes": {
+   "stayed_open_and_pekko": 23,
+   "stayed_open": 25,
+   "no_akka_declared": 7,
+   "took_unconverted_bsl": 7,
+   "pekko_only": 23
+  }
+ },
+ "W1_2025-10-19_to_2026-10-31": {
+  "open_line_projects_at_start": 360,
+  "releasing_in_window": 68,
+  "outcomes": {
+   "pekko_only": 22,
+   "stayed_open": 17,
+   "stayed_open_and_pekko": 16,
+   "no_akka_declared": 9,
+   "took_unconverted_bsl": 3,
+   "took_converted": 1
+  }
+ },
+ "converted_releases": {
+  "n_releases": 6,
+  "n_projects": 1,
+  "projects": [
+   "github.com/lomigmegard/akka-http-cors"
+  ],
+  "versions": {
+   "akka_http:10.4.0;akka:2.7.0": 3,
+   "akka_http:10.5.0;akka:2.8.0": 3
+  }
+ }
+}

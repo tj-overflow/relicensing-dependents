@@ -1,0 +1,258 @@
+{
+ "repositories_coded": {
+  "akka": 100,
+  "es": 34
+ },
+ "relevant": {
+  "akka": 94,
+  "es": 32
+ },
+ "shares_among_relevant": {
+  "akka": {
+   "LEGAL_OWN": {
+    "n": 9,
+    "share": 0.096
+   },
+   "LEGAL_USERS": {
+    "n": 4,
+    "share": 0.043
+   },
+   "LICENCE_UNSPEC": {
+    "n": 25,
+    "share": 0.266
+   },
+   "USER_REQUEST": {
+    "n": 28,
+    "share": 0.298
+   },
+   "TRUST": {
+    "n": 1,
+    "share": 0.011
+   },
+   "AGEING": {
+    "n": 1,
+    "share": 0.011
+   },
+   "COMPAT": {
+    "n": 1,
+    "share": 0.011
+   },
+   "COORD": {
+    "n": 2,
+    "share": 0.021
+   },
+   "COST": {
+    "n": 1,
+    "share": 0.011
+   },
+   "LEGAL_ANY": {
+    "n": 13,
+    "share": 0.138
+   },
+   "LICENCE_ANY": {
+    "n": 38,
+    "share": 0.404
+   },
+   "ANY_MOTIVE": {
+    "n": 40,
+    "share": 0.426
+   },
+   "n_relevant": 94,
+   "actions": {
+    "SWITCH": 46,
+    "DUAL": 31,
+    "REMOVE": 6,
+    "DISCUSS": 6,
+    "STAY": 5
+   }
+  },
+  "es": {
+   "LEGAL_OWN": {
+    "n": 3,
+    "share": 0.094
+   },
+   "LEGAL_USERS": {
+    "n": 1,
+    "share": 0.031
+   },
+   "LICENCE_UNSPEC": {
+    "n": 2,
+    "share": 0.062
+   },
+   "USER_REQUEST": {
+    "n": 10,
+    "share": 0.312
+   },
+   "TRUST": {
+    "n": 0,
+    "share": 0.0
+   },
+   "AGEING": {
+    "n": 2,
+    "share": 0.062
+   },
+   "COMPAT": {
+    "n": 13,
+    "share": 0.406
+   },
+   "COORD": {
+    "n": 0,
+    "share": 0.0
+   },
+   "COST": {
+    "n": 0,
+    "share": 0.0
+   },
+   "LEGAL_ANY": {
+    "n": 4,
+    "share": 0.125
+   },
+   "LICENCE_ANY": {
+    "n": 6,
+    "share": 0.188
+   },
+   "ANY_MOTIVE": {
+    "n": 14,
+    "share": 0.438
+   },
+   "n_relevant": 32,
+   "actions": {
+    "DUAL": 13,
+    "SWITCH": 10,
+    "DISCUSS": 8,
+    "UPGRADE": 1
+   }
+  }
+ },
+ "akka_vs_es": {
+  "LEGAL_ANY": {
+   "akka": [
+    13,
+    81
+   ],
+   "es": [
+    4,
+    28
+   ],
+   "fisher_p": 1.0
+  },
+  "LICENCE_ANY": {
+   "akka": [
+    38,
+    56
+   ],
+   "es": [
+    6,
+    26
+   ],
+   "fisher_p": 0.0319
+  },
+  "COMPAT": {
+   "akka": [
+    1,
+    93
+   ],
+   "es": [
+    13,
+    19
+   ],
+   "fisher_p": 0.0
+  },
+  "TRUST": {
+   "akka": [
+    1,
+    93
+   ],
+   "es": [
+    0,
+    32
+   ],
+   "fisher_p": 1.0
+  },
+  "USER_REQUEST": {
+   "akka": [
+    28,
+    66
+   ],
+   "es": [
+    10,
+    22
+   ],
+   "fisher_p": 1.0
+  }
+ },
+ "shares_among_stated_motive": {
+  "akka": {
+   "n": 40,
+   "LICENCE_ANY": 0.95,
+   "LEGAL_ANY": 0.325,
+   "TRUST": 0.025,
+   "COMPAT": 0.025,
+   "AGEING": 0.025,
+   "COORD": 0.05,
+   "COST": 0.025
+  },
+  "es": {
+   "n": 14,
+   "LICENCE_ANY": 0.429,
+   "LEGAL_ANY": 0.286,
+   "TRUST": 0.0,
+   "COMPAT": 0.929,
+   "AGEING": 0.143,
+   "COORD": 0.0,
+   "COST": 0.0
+  }
+ },
+ "agreement_A_vs_B_project_level": {
+  "R": {
+   "kappa": 0.758,
+   "A": 126,
+   "B": 129,
+   "n": 134
+  },
+  "LEGAL_OWN": {
+   "kappa": 0.213,
+   "A": 12,
+   "B": 26
+  },
+  "LEGAL_USERS": {
+   "kappa": 0.269,
+   "A": 5,
+   "B": 2
+  },
+  "TRUST": {
+   "kappa": -0.015,
+   "A": 1,
+   "B": 10
+  },
+  "AGEING": {
+   "kappa": 0.157,
+   "A": 3,
+   "B": 28
+  },
+  "COMPAT": {
+   "kappa": 0.237,
+   "A": 14,
+   "B": 41
+  },
+  "COORD": {
+   "kappa": 0.107,
+   "A": 2,
+   "B": 28
+  },
+  "COST": {
+   "kappa": -0.015,
+   "A": 1,
+   "B": 14
+  },
+  "LICENCE_ANY_vs_B_LEGAL_OWN": {
+   "kappa": 0.383,
+   "A": 44,
+   "B": 26
+  }
+ },
+ "validation_sample": {
+  "repositories": 60,
+  "items": 173
+ }
+}

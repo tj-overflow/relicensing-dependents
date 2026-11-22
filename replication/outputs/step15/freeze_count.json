@@ -1,0 +1,48 @@
+{
+ "A25": {
+  "active_non_adopters": 49,
+  "any_release_declares_old_line": 45,
+  "any_release_declares_pekko": 0,
+  "last_release_state": {
+   "old": 36,
+   "none": 13
+  },
+  "never_declares_old_line": [
+   "github.com/gilbertw/slack-scala-client",
+   "github.com/gilbertw1/slack-scala-client",
+   "github.com/hydrospheredata/mist",
+   "github.com/puspendubanerjee/akka-springctx-camel"
+  ]
+ },
+ "A26": {
+  "active_non_adopters": 88,
+  "any_release_declares_old_line": 82,
+  "any_release_declares_pekko": 0,
+  "last_release_state": {
+   "old": 73,
+   "none": 15
+  },
+  "never_declares_old_line": [
+   "github.com/clulab/processors",
+   "github.com/guardian/permissions",
+   "github.com/kamon-io/kamon-akka",
+   "github.com/scorexfoundation/scorex-util",
+   "github.com/shiftleftsecurity/codepropertygraph",
+   "maven:me.xethh.libs.toolkits.akka"
+  ]
+ },
+ "A27": {
+  "active_non_adopters": 100,
+  "any_release_declares_old_line": 97,
+  "any_release_declares_pekko": 1,
+  "last_release_state": {
+   "old": 81,
+   "none": 19
+  },
+  "never_declares_old_line": [
+   "github.com/ben-manes/caffeine",
+   "github.com/raphtory/raphtory",
+   "github.com/scalatra/scalatra"
+  ]
+ }
+}

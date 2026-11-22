@@ -1,0 +1,303 @@
+{
+ "event": "2022-09-07",
+ "windows": {
+  "main": [
+   "2021-09-07",
+   "2022-09-07",
+   "2024-09-06"
+  ],
+  "placebo": [
+   "2019-09-08",
+   "2020-09-07",
+   "2022-09-07"
+  ]
+ },
+ "matched_releases": 431633,
+ "main": {
+  "S_core": {
+   "users_pre": {
+    "akka": "83/267",
+    "cmp": "25/419",
+    "akka_share": 0.311,
+    "cmp_share": 0.06,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "46/51",
+    "cmp": "14/16",
+    "akka_share": 0.902,
+    "cmp_share": 0.875,
+    "fisher_p": 0.6687
+   },
+   "adopted": {
+    "akka": "3/114",
+    "cmp": "1/239",
+    "akka_share": 0.026,
+    "cmp_share": 0.004,
+    "fisher_p": 0.1008
+   }
+  },
+  "config_ssl": {
+   "users_pre": {
+    "akka": "42/267",
+    "cmp": "12/419",
+    "akka_share": 0.157,
+    "cmp_share": 0.029,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "26/27",
+    "cmp": "5/7",
+    "akka_share": 0.963,
+    "cmp_share": 0.714,
+    "fisher_p": 0.1006
+   },
+   "adopted": {
+    "akka": "4/138",
+    "cmp": "1/248",
+    "akka_share": 0.029,
+    "cmp_share": 0.004,
+    "fisher_p": 0.0571
+   }
+  },
+  "scala_logging": {
+   "users_pre": {
+    "akka": "55/267",
+    "cmp": "17/419",
+    "akka_share": 0.206,
+    "cmp_share": 0.041,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "26/32",
+    "cmp": "11/12",
+    "akka_share": 0.812,
+    "cmp_share": 0.917,
+    "fisher_p": 0.6532
+   },
+   "adopted": {
+    "akka": "1/133",
+    "cmp": "0/243",
+    "akka_share": 0.008,
+    "cmp_share": 0.0,
+    "fisher_p": 0.3537
+   }
+  },
+  "slick": {
+   "users_pre": {
+    "akka": "12/267",
+    "cmp": "1/419",
+    "akka_share": 0.045,
+    "cmp_share": 0.002,
+    "fisher_p": 0.0001
+   },
+   "retained": {
+    "akka": "8/10",
+    "cmp": "1/1",
+    "akka_share": 0.8,
+    "cmp_share": 1.0,
+    "fisher_p": 1.0
+   },
+   "adopted": {
+    "akka": "2/155",
+    "cmp": "0/254",
+    "akka_share": 0.013,
+    "cmp_share": 0.0,
+    "fisher_p": 0.143
+   }
+  },
+  "play_json": {
+   "users_pre": {
+    "akka": "26/267",
+    "cmp": "2/419",
+    "akka_share": 0.097,
+    "cmp_share": 0.005,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "19/21",
+    "cmp": "1/1",
+    "akka_share": 0.905,
+    "cmp_share": 1.0,
+    "fisher_p": 1.0
+   },
+   "adopted": {
+    "akka": "0/144",
+    "cmp": "0/254",
+    "akka_share": 0.0,
+    "cmp_share": 0.0,
+    "fisher_p": 1.0
+   }
+  },
+  "play_other": {
+   "users_pre": {
+    "akka": "16/267",
+    "cmp": "2/419",
+    "akka_share": 0.06,
+    "cmp_share": 0.005,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "13/13",
+    "cmp": "2/2",
+    "akka_share": 1.0,
+    "cmp_share": 1.0,
+    "fisher_p": 1.0
+   },
+   "adopted": {
+    "akka": "3/152",
+    "cmp": "0/253",
+    "akka_share": 0.02,
+    "cmp_share": 0.0,
+    "fisher_p": 0.0522
+   }
+  }
+ },
+ "placebo": {
+  "S_core": {
+   "users_pre": {
+    "akka": "56/199",
+    "cmp": "23/232",
+    "akka_share": 0.281,
+    "cmp_share": 0.099,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "53/56",
+    "cmp": "15/23",
+    "akka_share": 0.946,
+    "cmp_share": 0.652,
+    "fisher_p": 0.0017
+   },
+   "adopted": {
+    "akka": "4/143",
+    "cmp": "0/209",
+    "akka_share": 0.028,
+    "cmp_share": 0.0,
+    "fisher_p": 0.0266
+   }
+  },
+  "config_ssl": {
+   "users_pre": {
+    "akka": "36/199",
+    "cmp": "8/232",
+    "akka_share": 0.181,
+    "cmp_share": 0.034,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "33/36",
+    "cmp": "6/8",
+    "akka_share": 0.917,
+    "cmp_share": 0.75,
+    "fisher_p": 0.2189
+   },
+   "adopted": {
+    "akka": "3/163",
+    "cmp": "0/224",
+    "akka_share": 0.018,
+    "cmp_share": 0.0,
+    "fisher_p": 0.0739
+   }
+  },
+  "scala_logging": {
+   "users_pre": {
+    "akka": "35/199",
+    "cmp": "16/232",
+    "akka_share": 0.176,
+    "cmp_share": 0.069,
+    "fisher_p": 0.0009
+   },
+   "retained": {
+    "akka": "33/35",
+    "cmp": "11/16",
+    "akka_share": 0.943,
+    "cmp_share": 0.688,
+    "fisher_p": 0.025
+   },
+   "adopted": {
+    "akka": "3/164",
+    "cmp": "0/216",
+    "akka_share": 0.018,
+    "cmp_share": 0.0,
+    "fisher_p": 0.0795
+   }
+  },
+  "slick": {
+   "users_pre": {
+    "akka": "6/199",
+    "cmp": "3/232",
+    "akka_share": 0.03,
+    "cmp_share": 0.013,
+    "fisher_p": 0.313
+   },
+   "retained": {
+    "akka": "6/6",
+    "cmp": "2/3",
+    "akka_share": 1.0,
+    "cmp_share": 0.667,
+    "fisher_p": 0.3333
+   },
+   "adopted": {
+    "akka": "0/193",
+    "cmp": "0/229",
+    "akka_share": 0.0,
+    "cmp_share": 0.0,
+    "fisher_p": 1.0
+   }
+  },
+  "play_json": {
+   "users_pre": {
+    "akka": "20/199",
+    "cmp": "1/232",
+    "akka_share": 0.101,
+    "cmp_share": 0.004,
+    "fisher_p": 0.0
+   },
+   "retained": {
+    "akka": "18/20",
+    "cmp": "0/1",
+    "akka_share": 0.9,
+    "cmp_share": 0.0,
+    "fisher_p": 0.1429
+   },
+   "adopted": {
+    "akka": "2/179",
+    "cmp": "2/231",
+    "akka_share": 0.011,
+    "cmp_share": 0.009,
+    "fisher_p": 1.0
+   }
+  },
+  "play_other": {
+   "users_pre": {
+    "akka": "13/199",
+    "cmp": "1/232",
+    "akka_share": 0.065,
+    "cmp_share": 0.004,
+    "fisher_p": 0.0004
+   },
+   "retained": {
+    "akka": "11/13",
+    "cmp": "0/1",
+    "akka_share": 0.846,
+    "cmp_share": 0.0,
+    "fisher_p": 0.2143
+   },
+   "adopted": {
+    "akka": "1/186",
+    "cmp": "2/231",
+    "akka_share": 0.005,
+    "cmp_share": 0.009,
+    "fisher_p": 1.0
+   }
+  }
+ },
+ "main_S_core_retention_by_outcome": {
+  "dual_or_partial": "6/6",
+  "freeze": "18/20",
+  "removed": "3/5",
+  "switch": "17/18",
+  "upgrade": "2/2"
+ }
+}

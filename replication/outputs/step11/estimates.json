@@ -1,0 +1,412 @@
+{
+ "weights akka": {
+  "projects": 965,
+  "trimmed": 7,
+  "ps_range_treated": [
+   0.051,
+   0.942
+  ],
+  "ps_range_cmp": [
+   0.05,
+   0.868
+  ]
+ },
+ "weights es": {
+  "projects": 559,
+  "trimmed": 0,
+  "ps_range_treated": [
+   0.194,
+   0.755
+  ],
+  "ps_range_cmp": [
+   0.14,
+   0.794
+  ]
+ },
+ "5.1 akka all M1": {
+  "coef": -0.2968,
+  "se": 0.0591,
+  "ci95": [
+   -0.4129,
+   -0.1807
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545,
+  "mean_treated_pre": 0.502
+ },
+ "5.3 akka all M1 balanced_nonswitchers": {
+  "coef": -0.2325,
+  "se": 0.0637,
+  "ci95": [
+   -0.358,
+   -0.107
+  ],
+  "p": 0.0003,
+  "n_obs": 2650,
+  "n_clusters": 246,
+  "n_treated": 101,
+  "n_cmp": 267
+ },
+ "5.1 akka all M3": {
+  "coef": -0.5776,
+  "se": 0.0571,
+  "ci95": [
+   -0.6897,
+   -0.4654
+  ],
+  "p": 0.0,
+  "n_obs": 4307,
+  "n_clusters": 560,
+  "n_treated": 385,
+  "n_cmp": 545,
+  "mean_treated_pre": 0.743
+ },
+ "5.3 akka all M3 balanced_nonswitchers": {
+  "coef": -0.5737,
+  "se": 0.0628,
+  "ci95": [
+   -0.6975,
+   -0.45
+  ],
+  "p": 0.0,
+  "n_obs": 2650,
+  "n_clusters": 246,
+  "n_treated": 101,
+  "n_cmp": 267
+ },
+ "5.2 akka all event_study": {
+  "joint_pre_F": 1.904,
+  "joint_pre_p": 0.0782,
+  "df": 6,
+  "linear_pretrend": {
+   "coef": -0.0502,
+   "se": 0.0185,
+   "ci95": [
+    -0.0865,
+    -0.0138
+   ],
+   "p": 0.0069,
+   "n_obs": 2423,
+   "n_clusters": 546
+  },
+  "post_mean_coef": -0.1751
+ },
+ "5.1 es all M1": {
+  "coef": 0.0322,
+  "se": 0.049,
+  "ci95": [
+   -0.0641,
+   0.1284
+  ],
+  "p": 0.5118,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260,
+  "mean_treated_pre": 0.426
+ },
+ "5.3 es all M1 balanced_nonswitchers": {
+  "coef": 0.0438,
+  "se": 0.0465,
+  "ci95": [
+   -0.0479,
+   0.1355
+  ],
+  "p": 0.3478,
+  "n_obs": 2676,
+  "n_clusters": 222,
+  "n_treated": 110,
+  "n_cmp": 157
+ },
+ "5.1 es all M3": {
+  "coef": -0.0704,
+  "se": 0.0569,
+  "ci95": [
+   -0.1823,
+   0.0415
+  ],
+  "p": 0.2168,
+  "n_obs": 3598,
+  "n_clusters": 432,
+  "n_treated": 290,
+  "n_cmp": 260,
+  "mean_treated_pre": 0.58
+ },
+ "5.3 es all M3 balanced_nonswitchers": {
+  "coef": -0.0738,
+  "se": 0.0554,
+  "ci95": [
+   -0.183,
+   0.0354
+  ],
+  "p": 0.1843,
+  "n_obs": 2676,
+  "n_clusters": 222,
+  "n_treated": 110,
+  "n_cmp": 157
+ },
+ "5.2 es all event_study": {
+  "joint_pre_F": 3.973,
+  "joint_pre_p": 0.0003,
+  "df": 7,
+  "linear_pretrend": {
+   "coef": 0.0303,
+   "se": 0.0101,
+   "ci95": [
+    0.0105,
+    0.0501
+   ],
+   "p": 0.0028,
+   "n_obs": 1893,
+   "n_clusters": 428
+  },
+  "post_mean_coef": -0.0775
+ },
+ "5.1 es excl_codelibs M1": {
+  "coef": 0.0295,
+  "se": 0.051,
+  "ci95": [
+   -0.0708,
+   0.1298
+  ],
+  "p": 0.5632,
+  "n_obs": 3324,
+  "n_clusters": 431,
+  "n_treated": 252,
+  "n_cmp": 260,
+  "mean_treated_pre": 0.308
+ },
+ "5.3 es excl_codelibs M1 balanced_nonswitchers": {
+  "coef": 0.0368,
+  "se": 0.0481,
+  "ci95": [
+   -0.0581,
+   0.1317
+  ],
+  "p": 0.4455,
+  "n_obs": 2578,
+  "n_clusters": 221,
+  "n_treated": 103,
+  "n_cmp": 157
+ },
+ "5.1 es excl_codelibs M3": {
+  "coef": -0.0636,
+  "se": 0.0602,
+  "ci95": [
+   -0.1819,
+   0.0547
+  ],
+  "p": 0.2913,
+  "n_obs": 3324,
+  "n_clusters": 431,
+  "n_treated": 252,
+  "n_cmp": 260,
+  "mean_treated_pre": 0.48
+ },
+ "5.3 es excl_codelibs M3 balanced_nonswitchers": {
+  "coef": -0.0702,
+  "se": 0.0592,
+  "ci95": [
+   -0.187,
+   0.0465
+  ],
+  "p": 0.2371,
+  "n_obs": 2578,
+  "n_clusters": 221,
+  "n_treated": 103,
+  "n_cmp": 157
+ },
+ "5.2 es excl_codelibs event_study": {
+  "joint_pre_F": 2.821,
+  "joint_pre_p": 0.007,
+  "df": 7,
+  "linear_pretrend": {
+   "coef": 0.0235,
+   "se": 0.0102,
+   "ci95": [
+    0.0035,
+    0.0435
+   ],
+   "p": 0.0213,
+   "n_obs": 1675,
+   "n_clusters": 427
+  },
+  "post_mean_coef": -0.0624
+ },
+ "5.1 es client M1": {
+  "coef": 0.0804,
+  "se": 0.0547,
+  "ci95": [
+   -0.0273,
+   0.188
+  ],
+  "p": 0.1429,
+  "n_obs": 2048,
+  "n_clusters": 275,
+  "n_treated": 202,
+  "n_cmp": 120,
+  "mean_treated_pre": 0.287
+ },
+ "5.3 es client M1 balanced_nonswitchers": {
+  "coef": 0.0952,
+  "se": 0.0502,
+  "ci95": [
+   -0.0041,
+   0.1945
+  ],
+  "p": 0.06,
+  "n_obs": 1492,
+  "n_clusters": 131,
+  "n_treated": 83,
+  "n_cmp": 72
+ },
+ "5.1 es client M3": {
+  "coef": -0.0159,
+  "se": 0.075,
+  "ci95": [
+   -0.1635,
+   0.1317
+  ],
+  "p": 0.8321,
+  "n_obs": 2048,
+  "n_clusters": 275,
+  "n_treated": 202,
+  "n_cmp": 120,
+  "mean_treated_pre": 0.442
+ },
+ "5.3 es client M3 balanced_nonswitchers": {
+  "coef": -0.0321,
+  "se": 0.0737,
+  "ci95": [
+   -0.178,
+   0.1138
+  ],
+  "p": 0.664,
+  "n_obs": 1492,
+  "n_clusters": 131,
+  "n_treated": 83,
+  "n_cmp": 72
+ },
+ "5.2 es client event_study": {
+  "joint_pre_F": 2.386,
+  "joint_pre_p": 0.022,
+  "df": 7,
+  "linear_pretrend": {
+   "coef": 0.0295,
+   "se": 0.0142,
+   "ci95": [
+    0.0016,
+    0.0575
+   ],
+   "p": 0.0382,
+   "n_obs": 1062,
+   "n_clusters": 271
+  },
+  "post_mean_coef": -0.0651
+ },
+ "5.1 es embedded M1": {
+  "coef": 0.0493,
+  "se": 0.0701,
+  "ci95": [
+   -0.089,
+   0.1876
+  ],
+  "p": 0.4829,
+  "n_obs": 1550,
+  "n_clusters": 169,
+  "n_treated": 88,
+  "n_cmp": 140,
+  "mean_treated_pre": 0.681
+ },
+ "5.3 es embedded M1 balanced_nonswitchers": {
+  "coef": 0.0454,
+  "se": 0.0662,
+  "ci95": [
+   -0.086,
+   0.1767
+  ],
+  "p": 0.4945,
+  "n_obs": 1184,
+  "n_clusters": 95,
+  "n_treated": 27,
+  "n_cmp": 85
+ },
+ "5.1 es embedded M3": {
+  "coef": -0.1685,
+  "se": 0.0715,
+  "ci95": [
+   -0.3096,
+   -0.0274
+  ],
+  "p": 0.0196,
+  "n_obs": 1550,
+  "n_clusters": 169,
+  "n_treated": 88,
+  "n_cmp": 140,
+  "mean_treated_pre": 0.832
+ },
+ "5.3 es embedded M3 balanced_nonswitchers": {
+  "coef": -0.145,
+  "se": 0.0754,
+  "ci95": [
+   -0.2948,
+   0.0048
+  ],
+  "p": 0.0576,
+  "n_obs": 1184,
+  "n_clusters": 95,
+  "n_treated": 27,
+  "n_cmp": 85
+ },
+ "5.2 es embedded event_study": {
+  "joint_pre_F": 2.809,
+  "joint_pre_p": 0.0086,
+  "df": 7,
+  "linear_pretrend": {
+   "coef": 0.0358,
+   "se": 0.0126,
+   "ci95": [
+    0.011,
+    0.0606
+   ],
+   "p": 0.0049,
+   "n_obs": 831,
+   "n_clusters": 169
+  },
+  "post_mean_coef": -0.04
+ },
+ "5.5 delta akka_all - es_all M1": {
+  "delta": -0.329,
+  "se": 0.0768,
+  "ci95": [
+   -0.4795,
+   -0.1785
+  ]
+ },
+ "5.5 delta akka_all - es_excl_codelibs M1": {
+  "delta": -0.3263,
+  "se": 0.0781,
+  "ci95": [
+   -0.4793,
+   -0.1733
+  ]
+ },
+ "5.5 treated owner overlap": [
+  "apache",
+  "arpnetworking",
+  "ben-manes",
+  "euler-io",
+  "kamon-io",
+  "maven:org.apache.james",
+  "netflix",
+  "ohze",
+  "sksamuel"
+ ],
+ "check statsmodels dummies akka M1": {
+  "coef": -0.2968,
+  "se": 0.0668
+ }
+}

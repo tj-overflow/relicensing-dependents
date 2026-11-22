@@ -1,0 +1,122 @@
+{
+ "A25": {
+  "library": "akka",
+  "launch": "2017-04-12",
+  "new_line": "2.5",
+  "risk_set": 246,
+  "active_240d": 115,
+  "active_365d": 125,
+  "excluded_play": 12,
+  "excluded_vendor": 3,
+  "excluded_already_on_new_line_or_milestone": 3
+ },
+ "A26": {
+  "library": "akka",
+  "launch": "2019-11-06",
+  "new_line": "2.6",
+  "risk_set": 282,
+  "active_240d": 164,
+  "active_365d": 170,
+  "excluded_already_on_new_line_or_milestone": 5,
+  "excluded_scala_ineligible": 24,
+  "excluded_play": 6,
+  "excluded_vendor": 4
+ },
+ "A27": {
+  "library": "akka",
+  "launch": "2022-10-19",
+  "new_line": "2.7",
+  "risk_set": 212,
+  "active_240d": 108,
+  "active_365d": 125,
+  "excluded_vendor": 8,
+  "excluded_play": 5
+ },
+ "F21": {
+  "library": "fs2",
+  "launch": "2019-11-05",
+  "new_line": "2.1",
+  "risk_set": 45,
+  "active_240d": 37,
+  "active_365d": 37
+ },
+ "C21": {
+  "library": "cats_effect",
+  "launch": "2020-01-31",
+  "new_line": "2.1",
+  "risk_set": 157,
+  "active_240d": 120,
+  "active_365d": 128,
+  "excluded_declares_akka": 6
+ },
+ "F34": {
+  "library": "fs2",
+  "launch": "2022-11-20",
+  "new_line": "3.4",
+  "risk_set": 155,
+  "active_240d": 101,
+  "active_365d": 109,
+  "excluded_declares_akka": 1
+ },
+ "C34": {
+  "library": "cats_effect",
+  "launch": "2022-11-13",
+  "new_line": "3.4",
+  "risk_set": 249,
+  "active_240d": 141,
+  "active_365d": 151,
+  "excluded_already_on_new_line_or_milestone": 1,
+  "excluded_declares_akka": 6
+ },
+ "_core_artifacts": [
+  "akka-actor",
+  "akka-actor-testkit-typed",
+  "akka-actor-typed",
+  "akka-agent",
+  "akka-bom",
+  "akka-camel",
+  "akka-cluster",
+  "akka-cluster-metrics",
+  "akka-cluster-sharding",
+  "akka-cluster-sharding-typed",
+  "akka-cluster-tools",
+  "akka-cluster-typed",
+  "akka-contrib",
+  "akka-coordination",
+  "akka-discovery",
+  "akka-distributed-data",
+  "akka-multi-node-testkit",
+  "akka-osgi",
+  "akka-persistence",
+  "akka-persistence-query",
+  "akka-persistence-tck",
+  "akka-persistence-testkit",
+  "akka-persistence-typed",
+  "akka-pki",
+  "akka-protobuf",
+  "akka-protobuf-v3",
+  "akka-remote",
+  "akka-serialization-jackson",
+  "akka-slf4j",
+  "akka-stream",
+  "akka-stream-testkit",
+  "akka-stream-typed",
+  "akka-testkit",
+  "akka-typed"
+ ],
+ "_akka_actor_scala_suffixes": {
+  "2.5": [
+   "2.11",
+   "2.12"
+  ],
+  "2.6": [
+   "2.12",
+   "2.13"
+  ],
+  "2.7": [
+   "2.12",
+   "2.13",
+   "3"
+  ]
+ }
+}

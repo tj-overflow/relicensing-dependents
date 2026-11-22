@@ -1,0 +1,27 @@
+{
+ "risk_set_projects": 427,
+ "active_post_event": 214,
+ "active_post_pekko1": 171,
+ "ever_switched": 79,
+ "ever_switched_among_active": 79,
+ "non_switchers_among_active": 135,
+ "ever_upgraded_bsl": 44,
+ "dual_within_6m": 59,
+ "projects_with_hidden_akka_decls": 15,
+ "outcome_at_horizon": {
+  "dual_or_partial": 34,
+  "switch": 43,
+  "no_release": 213,
+  "freeze": 93,
+  "upgrade": 24,
+  "removed": 20
+ },
+ "outcome_at_horizon_active": {
+  "dual_or_partial": 34,
+  "switch": 43,
+  "freeze": 93,
+  "upgrade": 24,
+  "removed": 20
+ },
+ "github_linked": 407
+}

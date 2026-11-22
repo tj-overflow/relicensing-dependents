@@ -1,0 +1,464 @@
+{
+ "C1": {
+  "org.typelevel:cats-core": {
+   "y1_DiD_weighted": {
+    "coef": -0.4147,
+    "se": 0.0921,
+    "ci95": [
+     -0.5953,
+     -0.2341
+    ],
+    "n": 567,
+    "owners": 326,
+    "p_wcb": 0.0
+   },
+   "y1_DiD_unweighted": {
+    "coef": -0.395,
+    "se": 0.0723,
+    "ci95": [
+     -0.5367,
+     -0.2533
+    ],
+    "n": 567,
+    "owners": 326
+   },
+   "y1_bench_late_minus_early_weighted": {
+    "coef": 0.0131,
+    "se": 0.0637,
+    "ci95": [
+     -0.1118,
+     0.1379
+    ],
+    "n": 295,
+    "owners": 166
+   },
+   "y1u_DiD_weighted": {
+    "coef": -0.1772,
+    "se": 0.0901,
+    "ci95": [
+     -0.3538,
+     -0.0005
+    ],
+    "n": 999,
+    "owners": 529,
+    "p_wcb": 0.0579
+   },
+   "y1u_DiD_unweighted": {
+    "coef": -0.1278,
+    "se": 0.0728,
+    "ci95": [
+     -0.2705,
+     0.0149
+    ],
+    "n": 999,
+    "owners": 529
+   },
+   "y1u_bench_late_minus_early_weighted": {
+    "coef": -0.1253,
+    "se": 0.0729,
+    "ci95": [
+     -0.2682,
+     0.0176
+    ],
+    "n": 505,
+    "owners": 256
+   }
+  },
+  "com.fasterxml.jackson.module:jackson-module-scala": {
+   "y1_DiD_weighted": {
+    "coef": -0.2138,
+    "se": 0.1472,
+    "ci95": [
+     -0.5023,
+     0.0748
+    ],
+    "n": 348,
+    "owners": 229,
+    "p_wcb": 0.1636
+   },
+   "y1_DiD_unweighted": {
+    "coef": -0.5285,
+    "se": 0.1306,
+    "ci95": [
+     -0.7845,
+     -0.2726
+    ],
+    "n": 348,
+    "owners": 229
+   },
+   "y1_bench_late_minus_early_weighted": {
+    "coef": -0.1879,
+    "se": 0.1338,
+    "ci95": [
+     -0.4502,
+     0.0744
+    ],
+    "n": 76,
+    "owners": 53
+   },
+   "y1u_DiD_weighted": {
+    "coef": -0.224,
+    "se": 0.1278,
+    "ci95": [
+     -0.4746,
+     0.0265
+    ],
+    "n": 622,
+    "owners": 392,
+    "p_wcb": 0.0996
+   },
+   "y1u_DiD_unweighted": {
+    "coef": -0.3154,
+    "se": 0.0945,
+    "ci95": [
+     -0.5006,
+     -0.1301
+    ],
+    "n": 622,
+    "owners": 392
+   },
+   "y1u_bench_late_minus_early_weighted": {
+    "coef": -0.0784,
+    "se": 0.1208,
+    "ci95": [
+     -0.3152,
+     0.1583
+    ],
+    "n": 128,
+    "owners": 87
+   }
+  },
+  "pooled_kept": {
+   "y1_DiD_weighted": {
+    "coef": -0.4238,
+    "se": 0.0897,
+    "ci95": [
+     -0.5995,
+     -0.2481
+    ],
+    "n": 642,
+    "owners": 368,
+    "p_wcb": 0.0
+   },
+   "y1_DiD_unweighted": {
+    "coef": -0.4296,
+    "se": 0.0726,
+    "ci95": [
+     -0.572,
+     -0.2873
+    ],
+    "n": 642,
+    "owners": 368
+   },
+   "y1_bench_late_minus_early_weighted": {
+    "coef": 0.0221,
+    "se": 0.0605,
+    "ci95": [
+     -0.0964,
+     0.1407
+    ],
+    "n": 370,
+    "owners": 216
+   },
+   "y1u_DiD_weighted": {
+    "coef": -0.2448,
+    "se": 0.0844,
+    "ci95": [
+     -0.4101,
+     -0.0794
+    ],
+    "n": 1126,
+    "owners": 602,
+    "p_wcb": 0.0055
+   },
+   "y1u_DiD_unweighted": {
+    "coef": -0.1774,
+    "se": 0.0667,
+    "ci95": [
+     -0.3082,
+     -0.0466
+    ],
+    "n": 1126,
+    "owners": 602
+   },
+   "y1u_bench_late_minus_early_weighted": {
+    "coef": -0.0577,
+    "se": 0.0658,
+    "ci95": [
+     -0.1867,
+     0.0713
+    ],
+    "n": 632,
+    "owners": 340
+   }
+  },
+  "pooled_kept_plus_typelevel": {
+   "y1_DiD_weighted": {
+    "coef": -0.3753,
+    "se": 0.0888,
+    "ci95": [
+     -0.5494,
+     -0.2012
+    ],
+    "n": 784,
+    "owners": 416,
+    "p_wcb": 0.0
+   },
+   "y1_DiD_unweighted": {
+    "coef": -0.3563,
+    "se": 0.061,
+    "ci95": [
+     -0.4759,
+     -0.2367
+    ],
+    "n": 784,
+    "owners": 416
+   },
+   "y1_bench_late_minus_early_weighted": {
+    "coef": -0.0263,
+    "se": 0.0551,
+    "ci95": [
+     -0.1344,
+     0.0818
+    ],
+    "n": 512,
+    "owners": 272
+   },
+   "y1u_DiD_weighted": {
+    "coef": -0.1813,
+    "se": 0.0696,
+    "ci95": [
+     -0.3177,
+     -0.0449
+    ],
+    "n": 1373,
+    "owners": 688,
+    "p_wcb": 0.0131
+   },
+   "y1u_DiD_unweighted": {
+    "coef": -0.1036,
+    "se": 0.0479,
+    "ci95": [
+     -0.1974,
+     -0.0097
+    ],
+    "n": 1373,
+    "owners": 688
+   },
+   "y1u_bench_late_minus_early_weighted": {
+    "coef": -0.1212,
+    "se": 0.0428,
+    "ci95": [
+     -0.2052,
+     -0.0372
+    ],
+    "n": 879,
+    "owners": 441
+   }
+  },
+  "typelevel": {
+   "y1_DiD_weighted": {
+    "coef": -0.4081,
+    "se": 0.0968,
+    "ci95": [
+     -0.5979,
+     -0.2183
+    ],
+    "n": 573,
+    "owners": 311,
+    "p_wcb": 0.0
+   },
+   "y1_DiD_unweighted": {
+    "coef": -0.3392,
+    "se": 0.0629,
+    "ci95": [
+     -0.4625,
+     -0.2159
+    ],
+    "n": 573,
+    "owners": 311
+   },
+   "y1_bench_late_minus_early_weighted": {
+    "coef": 0.0065,
+    "se": 0.061,
+    "ci95": [
+     -0.1131,
+     0.1261
+    ],
+    "n": 301,
+    "owners": 149
+   },
+   "y1u_DiD_weighted": {
+    "coef": -0.1778,
+    "se": 0.0906,
+    "ci95": [
+     -0.3554,
+     -0.0002
+    ],
+    "n": 961,
+    "owners": 502,
+    "p_wcb": 0.0602
+   },
+   "y1u_DiD_unweighted": {
+    "coef": -0.0353,
+    "se": 0.0572,
+    "ci95": [
+     -0.1475,
+     0.0768
+    ],
+    "n": 961,
+    "owners": 502
+   },
+   "y1u_bench_late_minus_early_weighted": {
+    "coef": -0.1246,
+    "se": 0.0707,
+    "ci95": [
+     -0.2632,
+     0.0139
+    ],
+    "n": 467,
+    "owners": 223
+   }
+  }
+ },
+ "C2": {
+  "exposure_by_cohort": {
+   "A24": {
+    "count": 163.0,
+    "mean": 2.39,
+    "std": 14.35,
+    "min": 0.0,
+    "25%": 0.0,
+    "50%": 0.0,
+    "75%": 0.0,
+    "max": 131.0
+   },
+   "A25": {
+    "count": 246.0,
+    "mean": 1.17,
+    "std": 6.5,
+    "min": 0.0,
+    "25%": 0.0,
+    "50%": 0.0,
+    "75%": 0.0,
+    "max": 94.0
+   },
+   "A26": {
+    "count": 282.0,
+    "mean": 2.65,
+    "std": 12.77,
+    "min": 0.0,
+    "25%": 0.0,
+    "50%": 0.0,
+    "75%": 0.0,
+    "max": 135.0
+   },
+   "A27": {
+    "count": 212.0,
+    "mean": 2.01,
+    "std": 6.85,
+    "min": 0.0,
+    "25%": 0.0,
+    "50%": 0.0,
+    "75%": 0.0,
+    "max": 50.0
+   }
+  },
+  "adopt240_interaction_weighted": {
+   "coef": 0.0181,
+   "se": 0.0365,
+   "ci95": [
+    -0.0535,
+    0.0897
+   ],
+   "n": 494,
+   "owners": 317,
+   "p_wcb": 0.6357
+  },
+  "adopt240_interaction_unweighted": {
+   "coef": -0.0374,
+   "se": 0.0309,
+   "ci95": [
+    -0.0979,
+    0.0232
+   ],
+   "n": 494,
+   "owners": 317
+  },
+  "adopt240_lexp_main_weighted": {
+   "coef": -0.0244,
+   "se": 0.0353,
+   "ci95": [
+    -0.0936,
+    0.0448
+   ],
+   "n": 494,
+   "owners": 317
+  },
+  "freeze240_interaction_weighted": {
+   "coef": -0.0263,
+   "se": 0.0431,
+   "ci95": [
+    -0.1108,
+    0.0582
+   ],
+   "n": 494,
+   "owners": 317,
+   "p_wcb": 0.5623
+  },
+  "freeze240_interaction_unweighted": {
+   "coef": 0.0287,
+   "se": 0.0424,
+   "ci95": [
+    -0.0544,
+    0.1118
+   ],
+   "n": 494,
+   "owners": 317
+  },
+  "freeze240_lexp_main_weighted": {
+   "coef": 0.1419,
+   "se": 0.0319,
+   "ci95": [
+    0.0794,
+    0.2044
+   ],
+   "n": 494,
+   "owners": 317
+  },
+  "es_M1_post_x_lexp": {
+   "coef": -0.0648,
+   "se": 0.0368,
+   "ci95": [
+    -0.1368,
+    0.0073
+   ],
+   "n": 1710,
+   "projects": 290,
+   "owners": 213,
+   "note": "SE not corrected for absorbed fixed effects (conservative df ignored)"
+  },
+  "es_M1_restr_post_x_lexp": {
+   "coef": -0.0475,
+   "se": 0.0396,
+   "ci95": [
+    -0.125,
+    0.0301
+   ],
+   "n": 1710,
+   "projects": 290,
+   "owners": 213,
+   "note": "SE not corrected for absorbed fixed effects (conservative df ignored)"
+  },
+  "es_exposure": {
+   "count": 290.0,
+   "mean": 8.4,
+   "std": 121.89,
+   "min": 0.0,
+   "25%": 0.0,
+   "50%": 0.0,
+   "75%": 0.0,
+   "max": 2069.0
+  }
+ }
+}

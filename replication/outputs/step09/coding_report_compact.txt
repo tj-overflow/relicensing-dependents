@@ -1,0 +1,487 @@
+==========================================================================================
+github.com/annot8/annot8-components 
+-- default@develop 2022-03-22 files=39 es/os-files=2
+   ART co.elastic.clients:elasticsearch-java (annot8-components-elasticsearch/pom.xml)
+   VER <elasticsearch.version>8.1.0</elasticsearch.version>
+   README # Annot8 Components | This repository contains components and utilities for use with the [Annot8 Data Processing Framework](https://
+==========================================================================================
+github.com/apache/karaf-decanter 
+-- default@main 2023-02-19 files=75 es/os-files=5
+   ART co.elastic.clients:elasticsearch-java (appender/elasticsearch/pom.xml)
+   ART co.elastic.clients:elasticsearch-java (collector/elasticsearch/pom.xml)
+   PARENT <parent>
+   PARENT <artifactId>apache</artifactId>
+   README Licensed to the Apache Software Foundation (ASF) under one | or more contributor license agreements.  See the NOTICE file
+-- branch@release/2.12.0@2024-07-12 2024-07-12: same as previous reference
+==========================================================================================
+github.com/apache/pulsar 
+-- default@master 2024-10-15 files=130 es/os-files=5
+   ART co.elastic.clients:elasticsearch-java (pom.xml)
+   ART co.elastic.clients:elasticsearch-java (pulsar-io/elastic-search/pom.xml)
+   ART co.elastic.clients:elasticsearch-java [<scope>test</scope>] (tests/integration/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (pulsar-io/elastic-search/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client [<scope>test</scope>] (tests/integration/pom.xml)
+   VER <opensearch.version>2.16.0</opensearch.version>
+   VER <elasticsearch-java.version>8.12.1</elasticsearch-java.version>
+   PARENT <parent>
+   PARENT <groupId>org.apache</groupId>
+   PARENT <scope>import</scope>
+   README Licensed to the Apache Software Foundation (ASF) under one | or more contributor license agreements.  See the NOTICE file
+==========================================================================================
+github.com/apache/skywalking 
+-- default@master 2024-09-29 files=98 es/os-files=7
+   VER <test.elasticsearch.version>6.3.2</test.elasticsearch.version>
+   PARENT <parent>
+   PARENT <artifactId>apache</artifactId>
+   PARENT <scope>import</scope>
+   README Apache SkyWalking | ==========
+-- branch@10.0.x@2024-05-30 2024-05-30: same as previous reference
+==========================================================================================
+github.com/apache/streampipes 
+-- default@dev 2024-06-27 files=99 es/os-files=1
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (streampipes-extensions/streampipes-pipeline-elements-experimental-flink/pom.xml)
+   ART org.elasticsearch:elasticsearch (streampipes-extensions/streampipes-pipeline-elements-experimental-flink/pom.xml)
+   PARENT <parent>
+   PARENT <artifactId>apache</artifactId>
+   PARENT <scope>import</scope>
+   README ~ Licensed to the Apache Software Foundation (ASF) under one or more | ~ contributor license agreements.  See the NOTICE file distributed with
+==========================================================================================
+github.com/basestar/basestar 
+-- default@master 2021-05-12 files=37 es/os-files=4
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (basestar-bom/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (basestar-storage-elasticsearch/pom.xml)
+   ART org.elasticsearch:elasticsearch-spark-20_2.12 (basestar-bom/pom.xml)
+   VER <elasticsearch.version>7.4.2</elasticsearch.version>
+   VER <elasticsearch-rest-high-level-client.version>6.4.3</elasticsearch-rest-high-level-client.version>
+   README # The modern, declarative data toolkit | Writing CRUD layers is a pain, maintaining generated CRUD layers is a pain, you've defined CRUD APIs a million
+-- branch@1.2.2@2021-05-11 2021-05-11: same as previous reference
+==========================================================================================
+github.com/bedework/bw-util-index 
+-- default@master 2023-12-07 files=3 es/os-files=2
+   ART org.opensearch.client:opensearch-rest-high-level-client (bw-util-opensearch/pom.xml)
+   ART org.opensearch:opensearch (bw-util-opensearch/pom.xml)
+   PARENT <parent>
+   PARENT <groupId>org.bedework</groupId>
+   README # bw-util-index [![Build Status](https://travis-ci.org/Bedework/bw-util-index.svg)](https://travis-ci.org/Bede | This project provides a number of utility classes and methods related to indexing for
+==========================================================================================
+github.com/ben-manes/caffeine 
+-- default@master 2023-08-10 files=11 es/os-files=0
+   README Caffeine is a [high performance][benchmarks], [near optimal][efficiency] caching library. For more | details, see our [user's guide][users-guide] and browse the [API docs][javadoc] for the latest
+-- branch@v3.dev@2024-11-11 2024-11-11: same as previous reference
+==========================================================================================
+github.com/buttercam/sisyphus 
+-- default@master 2024-01-15 files=39 es/os-files=3
+   ART org.elasticsearch.client:elasticsearch-rest-client (gradle/libs.versions.toml)
+   README Sisyphus is the way how we provide backend services. It integrates all tools and libraries needed for designin | which follows the [Google API Improvement Proposals](https://aip.bybutter.com).
+==========================================================================================
+github.com/cafaudit/audit-service 
+-- default@develop 2024-09-24 files=17 es/os-files=5
+   ART org.opensearch.client:opensearch-java (caf-audit-binding-elasticsearch/pom.xml)
+   ART org.opensearch.client:opensearch-java (pom.xml)
+   ART org.opensearch.client:opensearch-rest-client (caf-audit-binding-elasticsearch/pom.xml)
+   ART org.opensearch.client:opensearch-rest-client (pom.xml)
+   PARENT <parent>
+   PARENT <groupId>com.github.cafapi</groupId>
+   README # Audit Service | Manifest of the components which make up the Audit Service:
+==========================================================================================
+github.com/cafdataprocessing/elastic-mapping-updater 
+-- default@master 2024-06-14 files=5 es/os-files=5
+   ART org.opensearch.client:opensearch-java (elastic-mapping-updater/pom.xml)
+   ART org.opensearch.client:opensearch-java (pom.xml)
+   ART org.opensearch.client:opensearch-rest-client (elastic-mapping-updater/pom.xml)
+   ART org.opensearch.client:opensearch-rest-client (pom.xml)
+   PARENT <parent>
+   PARENT <groupId>com.github.cafapi</groupId>
+   README # elastic-mapping-updater | This is a tool to update the mapping of existing indexes in Elasticsearch.
+==========================================================================================
+github.com/castorini/anserini 
+-- default@master 2024-09-07 files=1 es/os-files=0
+   README Anserini <img src="docs/anserini-logo.png" width="300" /> | ========
+==========================================================================================
+github.com/codelibs/fess-ds-db 
+-- default@main 2024-09-30 files=1 es/os-files=1
+   ART org.opensearch:opensearch [<scope>provided</scope>] (pom.xml)
+   PARENT <parent>
+   PARENT <groupId>org.codelibs.fess</groupId>
+   README DB Data Store for Fess | ==========================
+==========================================================================================
+github.com/codelibs/fess-ds-gitbucket 
+-- default@master 2023-06-26 files=1 es/os-files=1
+   ART org.opensearch:opensearch [<scope>provided</scope>] (pom.xml)
+   PARENT <parent>
+   PARENT <groupId>org.codelibs.fess</groupId>
+   README GitBucket Data Store for Fess | ==========================
+-- branch@14.9.x@2023-06-26 2023-06-26: same as previous reference
+-- branch@14.8.x@2023-05-13 2023-05-13: same as previous reference
+-- branch@14.7.x@2023-03-24 2023-03-24: same as previous reference
+-- branch@14.6.x@2023-01-25 2023-01-25: same as previous reference
+==========================================================================================
+github.com/craftercms/search 
+-- default@develop 2024-08-21 files=4 es/os-files=2
+   ART org.opensearch.client:opensearch-java (crafter-search-opensearch/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (crafter-search-opensearch/pom.xml)
+   PARENT <parent>
+   PARENT <groupId>org.craftercms</groupId>
+   README search | ======
+-- branch@support/4.x@2024-10-11 2024-10-11: same as previous reference
+-- branch@support/4.2.x@2024-10-11 2024-10-11: same as previous reference
+-- branch@support/4.1.x@2024-09-13 2024-09-13: same as previous reference
+-- branch@support/4.0.x@2024-03-26 2024-03-26 files=4 es/os-files=2
+   ART co.elastic.clients:elasticsearch-java (crafter-search-elasticsearch/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (crafter-search-elasticsearch/pom.xml)
+   VER <elasticsearch.maven.plugin.version>6.23</elasticsearch.maven.plugin.version>
+   PARENT <parent>
+   PARENT <groupId>org.craftercms</groupId>
+==========================================================================================
+github.com/digitalpebble/storm-crawler 
+-- default@main 2024-01-02 files=18 es/os-files=7
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (external/elasticsearch/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (external/elasticsearch/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (external/opensearch/pom.xml)
+   VER <elasticsearch.version>7.17.7</elasticsearch.version>
+   VER <elasticsearch-version>${elasticsearch.version}</elasticsearch-version>
+   VER <opensearch.version>2.11.1</opensearch.version>
+   VER <opensearch-version>${opensearch.version}</opensearch-version>
+   PARENT <scope>import</scope>
+   README ============= | StormCrawler is an open source collection of resources for building low-latency, scalable web crawlers on [Apa
+-- branch@tika-4.2.x@2024-11-10 2024-11-10 files=18 es/os-files=4
+   ART org.opensearch.client:opensearch-rest-client-sniffer (external/opensearch/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (external/opensearch/pom.xml)
+   VER <opensearch.version>2.17.0</opensearch.version>
+   VER <opensearch-version>${opensearch.version}</opensearch-version>
+   PARENT <parent>
+   PARENT <groupId>org.apache</groupId>
+   PARENT <scope>import</scope>
+-- branch@2303@2024-11-10 2024-11-10: same as previous reference
+==========================================================================================
+github.com/epam/gmp-tools 
+-- default@master 2022-01-04 files=3 es/os-files=2
+   ART org.elasticsearch.client:transport (build.gradle)
+   ART org.elasticsearch.client:x-pack-transport (build.gradle)
+   VER elasticSearchVersion=7.16.1
+   README # Tools module for GMP [![Build Status](https://travis-ci.org/epam/gmp-tools.svg?branch=master)](https://travi | Integration module for [GMP](https://github.com/epam/GMP) allows to work with Jira, Confluence and ElasticSear
+==========================================================================================
+github.com/epam/indigo 
+-- default@master 2024-11-05 files=8 es/os-files=1
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (bingo/bingo-elastic/java/pom.xml)
+   README # EPAM Indigo projects # | Copyright (c) 2009-2022 EPAM Systems, Inc.
+-- branch@release/1.26@2024-11-12 2024-11-12: same as previous reference
+-- branch@release/1.50@2024-11-11 2024-11-11: same as previous reference
+-- branch@release/1.49@2024-11-11 2024-11-11: same as previous reference
+==========================================================================================
+github.com/erudika/para-search-elasticsearch 
+-- default@master 2024-10-31 files=1 es/os-files=1
+   ART co.elastic.clients:elasticsearch-java (pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (pom.xml)
+   VER <elasticsearch.version>8.15.3</elasticsearch.version>
+   README ============================ | > ### Elasticsearch plugin for Para
+==========================================================================================
+github.com/geomesa/geomesa-geoserver 
+-- default@main 2024-10-11 files=4 es/os-files=2
+   ART co.elastic.clients:elasticsearch-java (geomesa-gs-monitor-elasticsearch/pom.xml)
+   VER <elasticsearch.version>7.17.0</elasticsearch.version>
+   PARENT <scope>import</scope>
+   README # geomesa-geoserver | GeoMesa-related code for GeoServer that can't be part of the Locationtech GeoMesa project
+-- branch@5.2.x@2024-10-11 2024-10-11: same as previous reference
+-- branch@5.0.x@2024-07-12 2024-07-12: same as previous reference
+==========================================================================================
+github.com/gravitee-io/parent 
+-- default@master 2024-11-05 files=1 es/os-files=0
+   README = Gravitee.io - Parent POM | ifdef::env-github[]
+-- branch@24.x@2024-11-05 2024-11-05: same as previous reference
+-- branch@22.x@2024-11-05 2024-11-05: same as previous reference
+==========================================================================================
+github.com/hs-web/hsweb-easy-orm 
+-- default@4.2 2023-02-10 files=3 es/os-files=1
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   PARENT <scope>import</scope>
+   README # 一个简单的orm工具 | # 场景
+==========================================================================================
+github.com/iamazy/elasticsearch-sql 
+-- default@main 2022-01-24 files=5 es/os-files=5
+   ART org.elasticsearch.client:elasticsearch-rest-client (elasticsearch-sql-core/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client (pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (elasticsearch-sql-core/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (elasticsearch-sql-core/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (pom.xml)
+   ART org.elasticsearch.plugin:parent-join-client (elasticsearch-sql-core/pom.xml)
+   ART org.elasticsearch.plugin:parent-join-client (pom.xml)
+   ART org.elasticsearch:elasticsearch (elasticsearch-sql-core/pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   ART org.elasticsearch:elasticsearch-plugin-classloader (elasticsearch-sql-core/pom.xml)
+   VER <elasticsearch.version>${project.version}</elasticsearch.version>
+   README ## Description | rewrite [elasticsearch-sql2](https://github.com/iamazy/elasticsearch-sql2) with **antlr4**, support [**jdbc**]
+-- branch@7.17.6@2022-08-28 2022-08-28: same as previous reference
+-- branch@7.17.5@2022-08-28 2022-08-28: same as previous reference
+-- branch@7.17.4@2022-08-28 2022-08-28: same as previous reference
+-- branch@7.17.3@2022-08-28 2022-08-28: same as previous reference
+-- branch@7.17.2@2022-08-28 2022-08-28: same as previous reference
+==========================================================================================
+github.com/jm-lab/utils-elasticsearch 
+-- default@master 2022-09-26 files=1 es/os-files=1
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (pom.xml)
+   ART org.elasticsearch.client:transport (pom.xml)
+   VER <elasticsearch.version>${project.version}</elasticsearch.version>
+   README JMLab Utility Libraries For Elasticsearch 7 | ===========================================
+==========================================================================================
+github.com/kahle23/artoria-extend 
+-- default@master 2024-05-05 files=1 es/os-files=1
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client [<scope>provided</scope>] (pom.xml)
+   README # 简介 | Kunlun 是一个基于门面模式的 Java 技术框架。它的设计思想是通过门面模式为使用者提供一个统一的接口去和其他模块交互。使用者不必了解其他模块的实现细节，并且使用者不会和具体的某种实现进行耦合，更利于扩展和维护。
+==========================================================================================
+github.com/kamon-io/kamon 
+-- default@master 2024-10-11 files=13 es/os-files=1
+   README # Kamon Telemetry<img align="right" src="https://raw.githubusercontent.com/kamon-io/kamon.io/279f4d3a658437a51 | Kamon Telemetry is a set of libraries for instrumenting applications running on the JVM. With Kamon Telemetry 
+==========================================================================================
+github.com/nemerosa/ontrack 
+-- default@main 2023-02-09 files=62 es/os-files=5
+   ART org.elasticsearch.client:elasticsearch-rest-client (build.gradle.kts)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (build.gradle.kts)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (ontrack-service/build.gradle.kts)
+   ART org.elasticsearch:elasticsearch (build.gradle.kts)
+   PARENT apply(plugin = "io.spring.dependency-management")
+   PARENT useJUnitPlatform()
+   README ontrack | =======
+-- branch@release/5.5@2024-11-11 2024-11-11 files=70 es/os-files=5
+   ART co.elastic.clients:elasticsearch-java (ontrack-extension-elastic/build.gradle.kts)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (ontrack-service/build.gradle.kts)
+   PARENT apply(plugin = "io.spring.dependency-management")
+   PARENT useJUnitPlatform()
+-- branch@release/4.13@2024-11-11 2024-11-11: same as previous reference
+-- branch@release/4.12@2024-11-11 2024-11-11: same as previous reference
+-- branch@release/4.11@2024-11-11 2024-11-11: same as previous reference
+==========================================================================================
+github.com/oa-pass/java-fedora-client 
+-- default@main 2021-04-14 files=10 es/os-files=3
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (pass-data-client/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (pom.xml)
+   VER <elasticsearch-client.version>6.7.2</elasticsearch-client.version>
+   README # Java Fedora Client | Java client for managing interactions with the PASS data in Fedora. Includes the data model represented as POJ
+-- branch@277-Release-0.1.0@2022-07-14 2022-07-14: same as previous reference
+-- branch@241-java-11@2022-06-23 2022-06-23: same as previous reference
+-- branch@244-pass-java-client-integration-tests-fail@2022-05-24 2022-05-24: same as previous reference
+-- branch@221-apply-checkstyle@2022-05-23 2022-05-23: same as previous reference
+==========================================================================================
+github.com/openingo/spring-boot-x 
+-- default@master 2021-06-15 files=2 es/os-files=2
+   ART org.elasticsearch.client:elasticsearch-rest-client (pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client (spring-boot-x-demo/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (spring-boot-x-demo/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client [<scope>provided</scope>] (pom.xml)
+   ART org.elasticsearch.client:transport (pom.xml)
+   ART org.elasticsearch.client:transport (spring-boot-x-demo/pom.xml)
+   ART org.elasticsearch.plugin:transport-netty4-client (pom.xml)
+   ART org.elasticsearch.plugin:transport-netty4-client (spring-boot-x-demo/pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   ART org.elasticsearch:elasticsearch (spring-boot-x-demo/pom.xml)
+   VER <elasticsearch.version>7.2.0</elasticsearch.version>
+   PARENT <artifactId>spring-boot-dependencies</artifactId>
+   PARENT <scope>import</scope>
+   README ## spring-boot-x | > spring-boot-extensions
+==========================================================================================
+github.com/pivotal/java-functions 
+-- default@master 2022-07-19 files=20 es/os-files=0
+   README == Standalone Java Functions | These are self contained Java functions that can be used in a variety of streaming application platforms such 
+==========================================================================================
+github.com/pkiraly/metadata-qa-marc 
+-- default@main 2022-11-22 files=2 es/os-files=0
+   README # QA catalogue<br/>a metadata quality assessment tool for library catalogue records (MARC, PICA) | QA catalogue reads MARC (in binary MARC, MARCXML or other serialization
+==========================================================================================
+github.com/quarkusio/quarkus 
+-- default@main 2024-11-07 files=400 es/os-files=14
+   ART co.elastic.clients:elasticsearch-java (bom/application/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client (bom/application/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (bom/application/pom.xml)
+   ART org.opensearch:opensearch-testcontainers (bom/application/pom.xml)
+   VER <elasticsearch-opensource-components.version>8.15.3</elasticsearch-opensource-components.version>
+   VER <opensearch-testcontainers.version>2.0.2</opensearch-testcontainers.version>
+   VER <elasticsearch-server.version>8.15.0</elasticsearch-server.version>
+   VER <opensearch-server.version>2.16.0</opensearch-server.version>
+   README # Quarkus - Supersonic Subatomic Java | Quarkus is a Cloud Native, (Linux) Container First framework for writing Java applications.
+-- branch@3.40.1-emergency@2024-11-12 2024-11-12: same as previous reference
+-- branch@3.40@2024-11-12 2024-11-12: same as previous reference
+-- branch@3.39@2024-11-12 2024-11-12: same as previous reference
+-- branch@3.38@2024-11-12 2024-11-12: same as previous reference
+==========================================================================================
+github.com/rebue/mbgx 
+-- default@master 2021-11-09 files=1 es/os-files=0
+   PARENT <parent>
+   PARENT <artifactId>common-pom</artifactId>
+   README # mbgx | MyBatis自动生成代码的扩展工具
+-- branch@3.9.65@2024-11-08 2024-11-08: same as previous reference
+-- branch@3.8.64@2024-11-08 2024-11-08: same as previous reference
+-- branch@3.8.63@2024-11-08 2024-11-08: same as previous reference
+-- branch@3.8.62@2024-11-08 2024-11-08: same as previous reference
+-- branch@3.8.61@2024-11-08 2024-11-08: same as previous reference
+-- branch@3.8.60@2024-11-08 2024-11-08: same as previous reference
+==========================================================================================
+github.com/sakaiproject/sakai 
+-- default@master 2024-10-16 files=338 es/os-files=10
+   ART org.opensearch.client:opensearch-rest-client (deploy/pom.xml)
+   ART org.opensearch.client:opensearch-rest-client [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (deploy/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client (samigo/samigo-impl/pom.xml)
+   ART org.opensearch.client:opensearch-rest-high-level-client [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.plugin:aggs-matrix-stats-client (deploy/pom.xml)
+   ART org.opensearch.plugin:aggs-matrix-stats-client [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.plugin:analysis-common (deploy/pom.xml)
+   ART org.opensearch.plugin:analysis-common [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.plugin:lang-mustache-client (deploy/pom.xml)
+   ART org.opensearch.plugin:lang-mustache-client [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.plugin:mapper-extras-client (deploy/pom.xml)
+   ART org.opensearch.plugin:mapper-extras-client [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.plugin:parent-join-client (deploy/pom.xml)
+   ART org.opensearch.plugin:parent-join-client [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.plugin:rank-eval-client (deploy/pom.xml)
+   ART org.opensearch.plugin:rank-eval-client [<scope>provided</scope>] (master/pom.xml)
+   ART org.opensearch.plugin:transport-netty4-client (deploy/pom.xml)
+   ART ... 25 more
+   VER <sakai.opensearch.version>2.16.0</sakai.opensearch.version>
+   PARENT <parent>
+   PARENT <artifactId>master</artifactId>
+   README # Sakai Collaboration and Learning Environment (Sakai CLE) | This is the source code for the Sakai CLE.
+==========================================================================================
+github.com/skroutz/elasticsearch-analysis-greeklish 
+-- default@main 2024-03-08 files=1 es/os-files=1
+   ART org.elasticsearch.test:framework [<scope>test</scope>] (pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   VER <elasticsearch.version>7.8.0</elasticsearch.version>
+   PARENT <parent>
+   PARENT <groupId>org.sonatype.oss</groupId>
+   README Greeklish Token Filter for ElasticSearch | ========================================
+-- branch@9.x@2024-03-08 2024-03-08: same as previous reference
+-- branch@9.4.1@2024-03-08 2024-03-08: same as previous reference
+-- branch@9.4.0@2024-03-08 2024-03-08: same as previous reference
+==========================================================================================
+github.com/skroutz/elasticsearch-analysis-turkishstemmer 
+-- default@5.4.2 2018-02-16 files=1 es/os-files=1
+   ART org.elasticsearch.index.analysis.UpdateStemmingSamples:mainClass (pom.xml)
+   ART org.elasticsearch.test:framework [<scope>test</scope>] (pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   VER <elasticsearch.version>5.4.2</elasticsearch.version>
+   PARENT <parent>
+   PARENT <artifactId>oss-parent</artifactId>
+   README # TurkishStemmer plugin for Elasticsearch | Stemmer algorithm for Τurkish language.
+-- branch@7.7.0@2021-12-20 2021-12-20 files=1 es/os-files=1
+   ART org.elasticsearch.index.analysis.UpdateStemmingSamples:mainClass (pom.xml)
+   ART org.elasticsearch.test:framework [<scope>test</scope>] (pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   VER <elasticsearch.version>7.7.0</elasticsearch.version>
+   PARENT <parent>
+   PARENT <artifactId>oss-parent</artifactId>
+==========================================================================================
+github.com/skroutz/elasticsearch-skroutz-greekstemmer 
+-- default@main 2024-03-08 files=1 es/os-files=1
+   ART org.elasticsearch.index.analysis.UpdateStemmingSamples:mainClass (pom.xml)
+   ART org.elasticsearch.test:framework [<scope>test</scope>] (pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   VER <elasticsearch.version>7.8.0</elasticsearch.version>
+   PARENT <parent>
+   PARENT <artifactId>oss-parent</artifactId>
+   README SkroutzGreekStemmer plugin for ElasticSearch | ===========================================
+-- branch@9.x@2024-03-08 2024-03-08: same as previous reference
+-- branch@9.4.1@2024-03-08 2024-03-08: same as previous reference
+-- branch@9.4.0@2024-03-08 2024-03-08: same as previous reference
+==========================================================================================
+github.com/sonarsource/sonarqube 
+-- default@master 2024-09-27 files=54 es/os-files=5
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (build.gradle)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (server/sonar-main/build.gradle)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (server/sonar-server-common/build.gradle)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (sonar-application/build.gradle)
+   ART org.elasticsearch.plugin:transport-netty4-client (build.gradle)
+   ART org.elasticsearch.plugin:transport-netty4-client (server/sonar-server-common/build.gradle)
+   ART org.elasticsearch.plugin:transport-netty4-client [testImplementation] (server/sonar-server-common/build.gradle)
+   ART org.elasticsearch:mocksocket (build.gradle)
+   ART org.elasticsearch:mocksocket (server/sonar-server-common/build.gradle)
+   VER elasticSearchClientVersion = '7.17.22'
+   VER elasticSearchServerVersion=8.14.1
+   PARENT id 'io.spring.dependency-management' version '1.1.5'
+   PARENT apply plugin: 'io.spring.dependency-management'
+   README # SonarQube [![Build Status](https://api.cirrus-ci.com/github/SonarSource/sonarqube.svg?branch=master)](https: | ## Continuous Inspection
+-- branch@branch-26.5b@2024-11-11 2024-11-11 files=53 es/os-files=5
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (build.gradle)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (server/sonar-main/build.gradle)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (server/sonar-server-common/build.gradle)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (sonar-application/build.gradle)
+   ART org.elasticsearch.plugin:transport-netty4-client (build.gradle)
+   ART org.elasticsearch.plugin:transport-netty4-client (server/sonar-server-common/build.gradle)
+   ART org.elasticsearch.plugin:transport-netty4-client [testImplementation] (server/sonar-server-common/build.gradle)
+   ART org.elasticsearch:mocksocket (build.gradle)
+   ART org.elasticsearch:mocksocket (server/sonar-server-common/build.gradle)
+   VER elasticSearchClientVersion = '7.17.24'
+   VER elasticSearchServerVersion=8.14.3
+   PARENT id 'io.spring.dependency-management' version '1.1.6'
+   PARENT apply plugin: 'io.spring.dependency-management'
+-- branch@branch-26.11@2024-11-11 2024-11-11: same as previous reference
+-- branch@branch-25.8@2024-11-11 2024-11-11: same as previous reference
+-- branch@branch-25.12@2024-11-11 2024-11-11: same as previous reference
+==========================================================================================
+github.com/spring-projects/spring-data-elasticsearch 
+-- default@main 2024-10-18 files=1 es/os-files=1
+   ART co.elastic.clients:elasticsearch-java (pom.xml)
+   PARENT <parent>
+   PARENT <groupId>org.springframework.data.build</groupId>
+   README = Spring Data for Elasticsearch image:https://jenkins.spring.io/buildStatus/icon?job=spring-data-elasticsearch | The primary goal of the https://projects.spring.io/spring-data[Spring Data] project is to make it easier to bu
+-- branch@6.1.x@2024-11-08 2024-11-08: same as previous reference
+-- branch@6.0.x@2024-11-08 2024-11-08: same as previous reference
+-- branch@5.5.x@2024-11-08 2024-11-08: same as previous reference
+-- branch@5.4.x@2024-11-08 2024-11-08: same as previous reference
+-- branch@5.3.x@2024-11-08 2024-11-08 files=1 es/os-files=1
+   ART co.elastic.clients:elasticsearch-java (pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client (pom.xml)
+   PARENT <parent>
+   PARENT <groupId>org.springframework.data.build</groupId>
+-- branch@5.2.x@2024-11-07 2024-11-07: same as previous reference
+==========================================================================================
+github.com/vertigo-io/vertigo-connectors 
+-- default@master 2024-07-04 files=22 es/os-files=3
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (vertigo-elasticsearch-connector/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (vertigo-elasticsearch_7_17-connector/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client [<optional>true</optional>] (vertigo-elasticsearch-connector/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client [<optional>true</optional>] (vertigo-elasticsearch_7_17-connector/pom.xml)
+   ART org.elasticsearch.client:transport (vertigo-elasticsearch-connector/pom.xml)
+   ART org.elasticsearch.client:transport [<optional>true</optional>] (vertigo-elasticsearch-connector/pom.xml)
+   ART org.elasticsearch.client:x-pack-transport (vertigo-elasticsearch-connector/pom.xml)
+   ART org.elasticsearch.client:x-pack-transport (vertigo-elasticsearch_7_17-connector/pom.xml)
+   ART org.elasticsearch.client:x-pack-transport [<optional>true</optional>] (vertigo-elasticsearch-connector/pom.xml)
+   ART org.elasticsearch.client:x-pack-transport [<optional>true</optional>] (vertigo-elasticsearch_7_17-connector/pom.xml)
+   ART org.elasticsearch:elasticsearch (vertigo-elasticsearch-connector/pom.xml)
+   ART org.elasticsearch:elasticsearch (vertigo-elasticsearch_7_17-connector/pom.xml)
+   PARENT <parent>
+   PARENT <groupId>io.vertigo</groupId>
+   PARENT <scope>import</scope>
+   README # vertigo-connectors
+==========================================================================================
+github.com/ymm-tech/ebatis 
+-- default@master 2021-11-30 files=8 es/os-files=3
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (ebatis-core/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (ebatis-spring/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (ebatis-core/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (ebatis-spring/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (pom.xml)
+   ART org.elasticsearch:elasticsearch (ebatis-core/pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   VER <es.version>7.5.1</es.version>
+   PARENT <scope>import</scope>
+   README # ebatis是什么 | `ebatis`是一个声明式`Elasticsearch ORM`框架。只需要定义接口，便可轻松访问`Elasticsearch`。`ebatis`优雅地帮你隔离业务对`Elasticserach`底层驱动接口的直接调用
+-- branch@7.15.0.6-SNAPSHOT@2024-10-21 2024-10-21 files=8 es/os-files=3
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (ebatis-core/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (ebatis-spring/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-client-sniffer (pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (ebatis-core/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (ebatis-spring/pom.xml)
+   ART org.elasticsearch.client:elasticsearch-rest-high-level-client (pom.xml)
+   ART org.elasticsearch:elasticsearch (ebatis-core/pom.xml)
+   ART org.elasticsearch:elasticsearch (pom.xml)
+   VER <es.version>7.15.0</es.version>
+   PARENT <scope>import</scope>
+-- branch@7.15.0.5-SNAPSHOT@2024-10-21 2024-10-21: same as previous reference
+-- branch@7.15.0.5@2024-10-21 2024-10-21: same as previous reference
+-- branch@7.15.0.4-SNAPSHOT@2024-10-21 2024-10-21: same as previous reference
+-- branch@7.15.0.4@2024-10-21 2024-10-21: same as previous reference
+-- branch@7.15.0.3-SNAPSHOT@2024-10-21 2024-10-21: same as previous reference

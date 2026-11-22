@@ -1,0 +1,42 @@
+project,coded,coded_provided_as_declared,provided_only,kind,bom_managed,note
+github.com/annot8/annot8-components,vendor_open,vendor_open,0,client,0,co.elastic.clients elasticsearch-java 8.1.0 only
+github.com/apache/karaf-decanter,vendor_open,vendor_open,0,client,0,elasticsearch-java only (appender and collector)
+github.com/apache/pulsar,dual,dual,0,client,0,elasticsearch-java 8.12.1 and OpenSearch HLRC 2.16.0 in pulsar-io/elastic-search
+github.com/apache/skywalking,removed,removed,0,other,0,only a test.elasticsearch.version property; storage uses its own HTTP client
+github.com/apache/streampipes,unclear,unclear,0,client,0,HLRC and server jar in experimental-flink module; version not set in repository (external management)
+github.com/basestar/basestar,freeze,freeze,0,client,0,HLRC 6.4.3 / elasticsearch.version 7.4.2
+github.com/bedework/bw-util-index,switch,switch,0,client,0,OpenSearch HLRC and server only
+github.com/ben-manes/caffeine,removed,removed,0,other,0,no Elasticsearch artifact in build files
+github.com/buttercam/sisyphus,vendor_open,vendor_open,0,client,0,low-level elasticsearch-rest-client only (libs.versions.toml)
+github.com/cafaudit/audit-service,switch,switch,0,client,0,opensearch-java and opensearch-rest-client only
+github.com/cafdataprocessing/elastic-mapping-updater,switch,switch,0,client,0,opensearch-java and opensearch-rest-client only
+github.com/castorini/anserini,removed,removed,0,other,0,no Elasticsearch artifact in build files
+github.com/codelibs/fess-ds-db,removed,switch,1,plugin,1,OpenSearch server jar in provided scope only (Fess plugin); version from org.codelibs.fess parent
+github.com/codelibs/fess-ds-gitbucket,removed,switch,1,plugin,1,OpenSearch server jar in provided scope only (Fess plugin); version from org.codelibs.fess parent
+github.com/craftercms/search,dual,dual,0,client,0,OpenSearch on default branch; ES HLRC and elasticsearch-java on maintained support/4.0.x
+github.com/digitalpebble/storm-crawler,dual,dual,0,client,0,ES HLRC 7.17.7 and OpenSearch HLRC 2.11.1 modules on default branch
+github.com/epam/gmp-tools,upgrade,upgrade,0,client,0,transport and x-pack-transport 7.16.1 (Gradle)
+github.com/epam/indigo,upgrade,upgrade,0,client,0,HLRC 7.13.0 in bingo-elastic
+github.com/erudika/para-search-elasticsearch,dual,dual,0,client,0,elasticsearch-java 8.15.3 and OpenSearch HLRC in one module
+github.com/geomesa/geomesa-geoserver,vendor_open,vendor_open,0,client,0,elasticsearch-java 7.17.0 only
+github.com/gravitee-io/parent,removed,removed,0,other,0,parent POM; no Elasticsearch dependency
+github.com/hs-web/hsweb-easy-orm,removed,removed,0,other,0,server 7.11.2 in root dependencyManagement only; no module declares it
+github.com/iamazy/elasticsearch-sql,upgrade,upgrade,0,plugin,0,elasticsearch.version = project.version 7.16.3 (server jar and HLRC)
+github.com/jm-lab/utils-elasticsearch,freeze,freeze,0,client,0,elasticsearch.version = project.version 7.10.2 (HLRC and transport)
+github.com/kahle23/artoria-extend,removed,freeze,1,client,0,HLRC 6.7.1 provided scope only
+github.com/kamon-io/kamon,removed,dual,1,client,0,sbt: ES rest-client and HLRC 7.9.1 provided; opensearch-rest-client 1.3.14 provided
+github.com/nemerosa/ontrack,upgrade,upgrade,0,client,0,elasticVersion 7.17.4 in buildSrc Versions.kt; Gradle dependency management in repository
+github.com/oa-pass/java-fedora-client,freeze,freeze,0,client,0,HLRC 6.7.2
+github.com/openingo/spring-boot-x,freeze,freeze,0,client,0,elasticsearch.version 7.2.0 overriding spring-boot-dependencies import
+github.com/pivotal/java-functions,removed,removed,0,other,0,no Elasticsearch artifact in build files
+github.com/pkiraly/metadata-qa-marc,removed,removed,0,other,0,no Elasticsearch artifact in build files
+github.com/quarkusio/quarkus,vendor_open,vendor_open,0,client,0,extensions declare only low-level rest client and elasticsearch-java (8.15.3); BOM holds server version for dev services
+github.com/rebue/mbgx,removed,removed,0,other,0,no Elasticsearch artifact in build files
+github.com/sakaiproject/sakai,switch,switch,0,client,0,OpenSearch artifacts only (2.16.0)
+github.com/skroutz/elasticsearch-analysis-greeklish,freeze,freeze,0,plugin,0,server jar 7.8.0 (project 7.8.0.2-SNAPSHOT); release branches identical at horizon
+github.com/skroutz/elasticsearch-analysis-turkishstemmer,freeze,freeze,0,plugin,0,server jar 7.7.0 on maintained branch 7.7.0; default branch 5.4.2
+github.com/skroutz/elasticsearch-skroutz-greekstemmer,freeze,freeze,0,plugin,0,server jar 7.8.0; release branches identical at horizon
+github.com/sonarsource/sonarqube,upgrade,upgrade,0,client,0,HLRC 7.17.22 (server distribution 8.14.1 is not a library dependency)
+github.com/spring-projects/spring-data-elasticsearch,vendor_open,vendor_open,0,client,0,elasticsearch-java only on main and release branches
+github.com/vertigo-io/vertigo-connectors,upgrade,upgrade,0,client,0,"server jar, HLRC, transport, x-pack-transport 7.17.22"
+github.com/ymm-tech/ebatis,freeze,freeze,0,client,0,es.version 7.5.1 on default; 7.15.0.x branches were committed after the last release (not maintained lines by the codebook)

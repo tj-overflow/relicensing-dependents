@@ -1,0 +1,12 @@
+# Python 3.12.10 (versions used for the reported results)
+pandas==3.1.1
+numpy==2.5.4
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+# collection scripts only
+google-cloud-bigquery==3.47.0
+db-dtypes==1.9.0
+pyarrow==26.0.1
+requests==2.34.2
+# R 4.5.2 with HonestDiD 0.2.8 (CRAN) for step13e_honestdid.R

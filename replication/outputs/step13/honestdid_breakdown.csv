@@ -1,0 +1,9 @@
+"event","outcome","target","theta","breakdown_RM","breakdown_SD"
+"akka","M1","avg_post",-0.175073886866583,0.05,0
+"akka","M1","first_year",-0.18156881800347,0.1,0
+"akka","M1s","avg_post",-0.193650082384978,0.05,0
+"akka","M1s","first_year",-0.149174687184363,0,0
+"es","M1","avg_post",-0.0775005254821702,0,0.0025
+"es","M1","first_year",-0.0269427017146088,0,0.0025
+"es","M1s","avg_post",-0.0952498403754815,0,0
+"es","M1s","first_year",-0.0480278033227351,0,0

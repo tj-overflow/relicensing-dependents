@@ -1,0 +1,167 @@
+{
+ "human_codes_coder": {
+  "n_units": 60,
+  "by_target": {
+   "R": {
+    "kappa": 0.3478260869565216,
+    "ci95": [
+     0.0,
+     0.6536827669253399
+    ],
+    "pct_agree": 0.85,
+    "human_n": 48,
+    "coderA_n": 57
+   },
+   "LICENCE_ANY": {
+    "kappa": 0.8986486486486486,
+    "ci95": [
+     0.766640625,
+     1.0
+    ],
+    "pct_agree": 0.95,
+    "human_n": 26,
+    "coderA_n": 27
+   },
+   "COMPAT": {
+    "kappa": 0.803921568627451,
+    "ci95": [
+     0.5831033123028391,
+     0.9545454545454544
+    ],
+    "pct_agree": 0.9333333333333333,
+    "human_n": 14,
+    "coderA_n": 12
+   },
+   "TRUST": {
+    "kappa": -0.022727272727271694,
+    "ci95": [
+     -0.0499999999999998,
+     0.0
+    ],
+    "pct_agree": 0.95,
+    "human_n": 2,
+    "coderA_n": 1
+   },
+   "LEGAL_SPEC": {
+    "kappa": 0.7349042709867452,
+    "ci95": [
+     0.5043918918918918,
+     0.917920656634747
+    ],
+    "pct_agree": 0.9,
+    "human_n": 13,
+    "coderA_n": 17
+   },
+   "LEGAL_OWN": {
+    "kappa": 0.761904761904762,
+    "ci95": [
+     0.4983866581346985,
+     0.9545454545454544
+    ],
+    "pct_agree": 0.9333333333333333,
+    "human_n": 8,
+    "coderA_n": 12
+   },
+   "LEGAL_USERS": {
+    "kappa": 0.7818181818181821,
+    "ci95": [
+     0.2982456140350885,
+     1.0
+    ],
+    "pct_agree": 0.9666666666666667,
+    "human_n": 5,
+    "coderA_n": 5
+   },
+   "LICENCE_UNSPEC": {
+    "kappa": 0.6249999999999999,
+    "ci95": [
+     0.3429890510948906,
+     0.8491626871450686
+    ],
+    "pct_agree": 0.8833333333333333,
+    "human_n": 13,
+    "coderA_n": 10
+   },
+   "USER_REQUEST": {
+    "kappa": 0.7407407407407407,
+    "ci95": [
+     0.5378584596766441,
+     0.9069767441860466
+    ],
+    "pct_agree": 0.8833333333333333,
+    "human_n": 21,
+    "coderA_n": 20
+   },
+   "AGEING": {
+    "kappa": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "pct_agree": 1.0,
+    "human_n": 2,
+    "coderA_n": 2
+   },
+   "COORD": {
+    "kappa": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "pct_agree": 0.9833333333333333,
+    "human_n": 1,
+    "coderA_n": 0
+   },
+   "COST": {
+    "kappa": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "pct_agree": 0.9666666666666667,
+    "human_n": 2,
+    "coderA_n": 0
+   },
+   "action": {
+    "kappa": 0.6681645350846872,
+    "ci95": [
+     0.5335606579335368,
+     0.7933190373025341
+    ],
+    "pct_agree": 0.7333333333333333
+   }
+  },
+  "verdict": "PASS",
+  "trust_revision": false,
+  "sample_shares_by_event": {
+   "akka": {
+    "relevant_h": 26,
+    "relevant_a": 28,
+    "LICENCE_ANY_share_h": 0.8076923076923077,
+    "LEGAL_SPEC_share_h": 0.4230769230769231,
+    "COMPAT_share_h": 0.11538461538461539,
+    "TRUST_share_h": 0.038461538461538464,
+    "USER_REQUEST_share_h": 0.4230769230769231,
+    "LICENCE_ANY_share_a": 0.75,
+    "LEGAL_SPEC_share_a": 0.4642857142857143,
+    "COMPAT_share_a": 0.0,
+    "TRUST_share_a": 0.03571428571428571,
+    "USER_REQUEST_share_a": 0.39285714285714285
+   },
+   "es": {
+    "relevant_h": 22,
+    "relevant_a": 29,
+    "LICENCE_ANY_share_h": 0.22727272727272727,
+    "LEGAL_SPEC_share_h": 0.09090909090909091,
+    "COMPAT_share_h": 0.5,
+    "TRUST_share_h": 0.045454545454545456,
+    "USER_REQUEST_share_h": 0.45454545454545453,
+    "LICENCE_ANY_share_a": 0.20689655172413793,
+    "LEGAL_SPEC_share_a": 0.13793103448275862,
+    "COMPAT_share_a": 0.41379310344827586,
+    "TRUST_share_a": 0.0,
+    "USER_REQUEST_share_a": 0.3103448275862069
+   }
+  }
+ }
+}

@@ -1,0 +1,3 @@
+replication/data/raw/
+__pycache__/
+*.pyc

@@ -1,0 +1,29 @@
+{
+ "event": "2021-01-14",
+ "horizon": "2024-11-11",
+ "note": "versions set by properties/dependencyManagement are unresolved in this slim extraction: they count for presence (risk set, OpenSearch, vendor-open) but freeze vs upgrade is unknown",
+ "outcome_freeze_includes_unresolved": 106,
+ "treated_risk_set": 310,
+ "treated_active": 179,
+ "treated_owners_active": 127,
+ "outcome_active": {
+  "freeze": 106,
+  "switch": 25,
+  "dual": 11,
+  "upgrade": 10,
+  "vendor_open": 14,
+  "removed": 13
+ },
+ "ever_opensearch_active": 38,
+ "ever_restricted_active": 15,
+ "first_opensearch_by_half_year": {
+  "2021H2": 1,
+  "2022H1": 25,
+  "2022H2": 2,
+  "2023H1": 3,
+  "2023H2": 4,
+  "2024H1": 3
+ },
+ "control_lowlevel_only": 20,
+ "control_active": 12
+}

@@ -1,0 +1,76 @@
+{
+ "cmp_risk_set": 266,
+ "cmp_active": 171,
+ "cmp_by_tracked": {
+  "solrj": 65,
+  "lucene": 142,
+  "hbase": 59
+ },
+ "cmp_active_by_tracked": {
+  "solrj": 46,
+  "lucene": 91,
+  "hbase": 34
+ },
+ "cmp_owners_active": 153,
+ "rule5_common_support_pass": {
+  "solrj": true,
+  "lucene": true,
+  "hbase": true
+ },
+ "cmp_dropped_es_overlap": 5,
+ "es_risk": 293,
+ "es_active": 173,
+ "es_by_stratum": {
+  "embedded": 88,
+  "client": 205
+ },
+ "cmp_by_stratum": {
+  "client": 124,
+  "embedded": 142
+ },
+ "bom_pre_share": {
+  "es": 0.02,
+  "cmp": 0.015
+ },
+ "trimmed_outside_005_095": 0,
+ "ps_range": {
+  "es": [
+   0.194,
+   0.755
+  ],
+  "cmp": [
+   0.14,
+   0.794
+  ]
+ },
+ "balance": [
+  {
+   "covariate": "rel_per_year_pre",
+   "mean_es": 12.63,
+   "mean_cmp": 12.827,
+   "smd_raw": -0.006,
+   "smd_weighted": -0.038
+  },
+  {
+   "covariate": "n_artifacts",
+   "mean_es": 1.846,
+   "mean_cmp": 2.323,
+   "smd_raw": -0.163,
+   "smd_weighted": 0.036
+  },
+  {
+   "covariate": "age_years_at_event",
+   "mean_es": 2.746,
+   "mean_cmp": 3.66,
+   "smd_raw": -0.357,
+   "smd_weighted": 0.04
+  },
+  {
+   "covariate": "bom_pre",
+   "mean_es": 0.02,
+   "mean_cmp": 0.015,
+   "smd_raw": 0.041,
+   "smd_weighted": 0.026
+  }
+ ]
+}

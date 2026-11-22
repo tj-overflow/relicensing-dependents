@@ -1,0 +1,647 @@
+==========================================================================================
+github.com/alibaba/ververica-connectors ERROR git ls-remote --symref origin: remote: Repository not found.
+fatal: repository '
+==========================================================================================
+github.com/an-tex/sc8s 
+-- default@main 2025-09-08 files=5 akka/pekko-files=2
+   AKKA(43): akka-actor, akka-actor-testkit-typed, akka-actor-typed, akka-cluster, akka-cluster-sharding, akka-cluster-sharding-typed, akka-cluster-tools, akka-cluster-typed, akka-components-persistence-cassandra-lagom-api, akka-components-persistence-projection-api, akka-components-persistence-projection-lagom-api, akka-components-persistence-r2dbc-lagom-api, akka-coordination, akka-discovery ...
+   PEKKO(0): 
+   VER private val akkaVersion = "2.6.20"
+   VER private val akkaLicensedVersion = "2.9.5"
+   VER private val akkaHttpVersion = "10.2.10"
+   VER private val akkaHttpLicensedVersion = "10.6.3"
+   SCOPE akka.testkitTyped % Test,
+   SCOPE akka.persistenceTestkit % Test
+   SCOPE akka.persistenceTestkit % Test,
+   SCOPE .dependsOn(`akka-components`, `lagom-server-circe-testkit`, `akka-components-persistence-projection-cassandra` % Test, `akka-components-pers
+   SCOPE elastic4s.clientAkka % Test,
+   FILES build.sbt, project/Dependencies.scala
+   README # sc8s | ### akka-circe | [Akka](https://akka.io) serializers using [circe](https://github.com/circe/circe). Includes serializers for `A
+==========================================================================================
+github.com/apache/flink 
+-- default@master 2025-09-19 files=177 akka/pekko-files=7
+   AKKA(0): 
+   PEKKO(3): pekko-actor, pekko-remote, pekko-slf4j
+   VER <pekko.version>1.1.2</pekko.version>
+   FILES flink-rpc/flink-rpc-akka-loader/pom.xml, flink-rpc/flink-rpc-akka/pom.xml, flink-rpc/pom.xml, flink-runtime/pom.xml, flink-table/flink-table-planner-loader/pom.xml, flink-test-utils-parent/flink-test-utils/pom.xml, pom.xml
+   README # Apache Flink | Apache Flink is an open source stream processing framework with powerful stream- and batch-processing capabili | Learn more about Flink at [https://flink.apache.org/](https://flink.apache.org/)
+-- branch@release-japicmp@2025-09-30 2025-09-30: same as previous reference
+-- branch@release-2.4@2025-09-30 2025-09-30: same as previous reference
+-- branch@release-2.3@2025-09-30 2025-09-30: same as previous reference
+-- branch@release-2.2.1-rc2@2025-09-30 2025-09-30: same as previous reference
+-- branch@release-2.2.1-rc1@2025-09-30 2025-09-30: same as previous reference
+-- branch@release-2.2@2025-09-30 2025-09-30: same as previous reference
+==========================================================================================
+github.com/apache/incubator-nlpcraft 
+-- default@master 2023-02-22 files=12 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(0): 
+   FILES nlpcraft/pom.xml
+   README Licensed to the Apache Software Foundation (ASF) under one or more | contributor license agreements.  See the NOTICE file distributed with | this work for additional information regarding copyright ownership.
+==========================================================================================
+github.com/apache/inlong 
+-- default@master 2025-05-15 files=155 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README Licensed to the Apache Software Foundation (ASF) under one | or more contributor license agreements.  See the NOTICE file | distributed with this work for additional information
+-- branch@release-2.4.0@2025-09-28 2025-09-28: same as previous reference
+-- branch@release-2.3.0@2025-09-28 2025-09-28: same as previous reference
+-- branch@branch-2.4@2025-09-28 2025-09-28: same as previous reference
+-- branch@branch-2.3@2025-09-28 2025-09-28: same as previous reference
+-- branch@release-2.2.0@2025-05-13 2025-05-13: same as previous reference
+-- branch@branch-2.2@2025-05-13 2025-05-13: same as previous reference
+==========================================================================================
+github.com/arpnetworking/open-telemetry-protocol 
+-- default@master 2025-05-29 files=1 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(6): pekko-actor, pekko-grpc-maven-plugin, pekko-grpc-runtime, pekko-http-core, pekko-slf4j, pekko-stream
+   VER <pekko.grpc.version>1.1.1</pekko.grpc.version>
+   VER <pekko.http.version>1.2.0</pekko.http.version>
+   VER <pekko.version>1.1.3</pekko.version>
+   FILES pom.xml
+   README Open Telemetry Protocol | =========================== | alt="License: Apache 2">
+==========================================================================================
+github.com/avsystem/scala-commons 
+-- default@master 2025-07-10 files=5 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(1): pekko-stream
+   VER val pekkoVersion = "1.1.4"
+   FILES project/Commons.scala
+   README # AVSystem Commons Library for Scala | **NOTE** This library is available to the public but it's mostly used internally at AVSystem. Therefore, API m | ## Modules and features
+==========================================================================================
+github.com/ben-manes/caffeine 
+-- default@master 2025-07-12 files=11 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README Caffeine is a [high performance][benchmarks], [near optimal][efficiency] caching library. For more | details, see our [user's guide][users-guide] and browse the [API docs][javadoc] for the latest | release.
+-- branch@v3.dev@2025-09-20 2025-09-20: same as previous reference
+==========================================================================================
+github.com/bitcoin-s/bitcoin-s 
+-- default@master 2025-09-03 files=44 akka/pekko-files=3
+   AKKA(0): 
+   PEKKO(11): pekko-actor, pekko-discovery, pekko-grpc-runtime, pekko-grpc-sbt-plugin, pekko-http, pekko-http-testkit, pekko-http2-support, pekko-slf4j, pekko-stream, pekko-stream-testkit, pekko-testkit
+   SCOPE "org.apache.pekko" %% "pekko-http-testkit" % V.akkav % "test" withSources () withJavadoc ()
+   SCOPE "org.apache.pekko" %% "pekko-stream-testkit" % V.akkaStreamv % "test" withSources () withJavadoc ()
+   FILES lnd-rpc/lnd-rpc.sbt, project/Deps.scala, project/plugins.sbt
+   README Feature-rich toolkit for making Bitcoin and Lightning applications on the JVM. | For a complete guide on how to get started with Bitcoin-S, see our website at [Bitcoin-S.org](https://bitcoin- | ### Contents
+==========================================================================================
+github.com/bluebrain/nexus 
+-- default@master 2024-06-07 files=13 akka/pekko-files=2
+   AKKA(13): akka-actor-testkit-typed, akka-actor-typed, akka-http, akka-http-circe, akka-http-core, akka-http-cors, akka-http-testkit, akka-http-xml, akka-slf4j, akka-stream, akka-stream-alpakka-file, akka-stream-alpakka-sse, akka-testkit
+   PEKKO(0): 
+   VER val akkaHttpVersion            = "10.2.10"
+   VER val akkaHttpCirceVersion       = "1.39.2"
+   VER val akkaCorsVersion            = "1.2.0"
+   VER val akkaVersion                = "2.6.21"
+   VER val alpakkaVersion             = "3.0.4"
+   SCOPE akkaSlf4j   % Test,
+   SCOPE akkaTestKit % Test,
+   SCOPE akkaTestKitTyped % Test,
+   SCOPE akkaHttpTestKit  % Test,
+   SCOPE akkaHttpTestKit % Test,
+   FILES build.sbt, storage/src/main/scala/ch/epfl/bluebrain/nexus/storage/config/Settings.scala
+   README # Blue Brain Nexus | Blue Brain Nexus is an ecosystem that allows you to organize and better leverage your data through the use of  | ## Products
+-- branch@v1.11.x@2024-12-09 2024-12-09 files=11 akka/pekko-files=1
+   AKKA(11): akka-http, akka-http-circe, akka-http-core, akka-http-cors, akka-http-testkit, akka-http-xml, akka-slf4j, akka-stream, akka-stream-alpakka-file, akka-stream-alpakka-sse, akka-testkit
+   PEKKO(0): 
+   VER val akkaHttpVersion            = "10.2.10"
+   VER val akkaHttpCirceVersion       = "1.39.2"
+   VER val akkaCorsVersion            = "1.2.0"
+   VER val akkaVersion                = "2.6.21"
+   VER val alpakkaVersion             = "3.0.4"
+   SCOPE akkaTestKit     % Test,
+   SCOPE akkaHttpTestKit % Test
+   SCOPE akkaSlf4j       % Test,
+   SCOPE kamonAkkaHttp % Provided,
+   SCOPE kamonAkkaHttp % Provided
+   FILES build.sbt
+-- branch@v1.10.x@2024-12-09 2024-12-09 files=13 akka/pekko-files=2
+   AKKA(13): akka-actor-testkit-typed, akka-actor-typed, akka-http, akka-http-circe, akka-http-core, akka-http-cors, akka-http-testkit, akka-http-xml, akka-slf4j, akka-stream, akka-stream-alpakka-file, akka-stream-alpakka-sse, akka-testkit
+   PEKKO(0): 
+   VER val akkaHttpVersion            = "10.2.10"
+   VER val akkaHttpCirceVersion       = "1.39.2"
+   VER val akkaCorsVersion            = "1.2.0"
+   VER val akkaVersion                = "2.6.21"
+   VER val alpakkaVersion             = "3.0.4"
+   SCOPE akkaSlf4j   % Test,
+   SCOPE akkaTestKit % Test,
+   SCOPE akkaTestKitTyped % Test,
+   SCOPE akkaHttpTestKit  % Test,
+   SCOPE akkaHttpTestKit % Test,
+   FILES build.sbt, storage/src/main/scala/ch/epfl/bluebrain/nexus/storage/config/Settings.scala
+-- branch@v1.9.x@2024-10-14 2024-10-14 files=13 akka/pekko-files=2
+   AKKA(14): akka-actor-testkit-typed, akka-actor-typed, akka-http, akka-http-circe, akka-http-core, akka-http-cors, akka-http-testkit, akka-http-xml, akka-slf4j, akka-stream, akka-stream-alpakka-file, akka-stream-alpakka-s3, akka-stream-alpakka-sse, akka-testkit
+   PEKKO(0): 
+   VER val akkaHttpVersion         = "10.2.10"
+   VER val akkaHttpCirceVersion    = "1.39.2"
+   VER val akkaCorsVersion         = "1.2.0"
+   VER val akkaVersion             = "2.6.21"
+   VER val alpakkaVersion          = "3.0.4"
+   SCOPE akkaSlf4j   % Test,
+   SCOPE akkaTestKit % Test,
+   SCOPE akkaTestKitTyped % Test,
+   SCOPE akkaHttpTestKit  % Test,
+   SCOPE akkaHttpTestKit % Test,
+   FILES build.sbt, storage/src/main/scala/ch/epfl/bluebrain/nexus/storage/config/Settings.scala
+-- branch@v1.8.x@2024-10-14 2024-10-14 files=14 akka/pekko-files=2
+   AKKA(15): akka-actor-testkit-typed, akka-actor-typed, akka-http, akka-http-circe, akka-http-core, akka-http-cors, akka-http-testkit, akka-http-xml, akka-slf4j, akka-stream, akka-stream-alpakka-cassandra, akka-stream-alpakka-file, akka-stream-alpakka-s3, akka-stream-alpakka-sse ...
+   PEKKO(0): 
+   VER val akkaHttpVersion         = "10.2.10"
+   VER val akkaHttpCirceVersion    = "1.39.2"
+   VER val akkaCorsVersion         = "1.1.3"
+   VER val akkaVersion             = "2.6.20"
+   VER val alpakkaVersion          = "3.0.4"
+   SCOPE akkaSlf4j   % Test,
+   SCOPE akkaTestKit % Test,
+   SCOPE akkaTestKitTyped % Test,
+   SCOPE akkaHttpTestKit  % Test,
+   SCOPE akkaHttpTestKit % Test,
+   FILES build.sbt, storage/src/main/scala/ch/epfl/bluebrain/nexus/storage/config/Settings.scala
+==========================================================================================
+github.com/cafienne/cafienne-engine ERROR git ls-remote --symref origin: remote: Repository not found.
+fatal: repository '
+==========================================================================================
+github.com/combust/mleap 
+-- default@master 2024-11-27 files=36 akka/pekko-files=1
+   AKKA(6): akka-http, akka-http-spray-json, akka-http-testkit, akka-stream, akka-stream-testkit, akka-testkit
+   PEKKO(0): 
+   VER val akkaVersion = "2.6.21" // Stay below akka v2.7.0 since they swapped to a BSL license
+   VER val akkaHttpVersion = "10.2.10" // Stay below akka-http v10.3.0 since they swapped to a BSL license
+   SCOPE val akkaHttpTestkit =  "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % "test"
+   SCOPE val akkaTestKit = "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test"
+   SCOPE val akkaStreamTestKit = "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % "test"
+   FILES project/Dependencies.scala
+   README Deploying machine learning data pipelines and algorithms should not be a time-consuming or difficult task. MLe | ## Documentation | Documentation is available at [https://combust.github.io/mleap-docs/](https://combust.github.io/mleap-docs/).
+==========================================================================================
+github.com/cornerman/mycelium 
+-- default@master 2023-11-12 files=3 akka/pekko-files=2
+   AKKA(0): 
+   PEKKO(4): pekko-actor, pekko-http, pekko-stream, pekko-testkit
+   SCOPE Deps.pekko.testkit.value % Test ::
+   FILES build.sbt, project/Deps.scala
+   README # mycelium | Requests, Responses and Events over Websockets in scala | ## Get started
+==========================================================================================
+github.com/dacr/lorem-ipsum-server-akkahttp 
+-- default@master 2025-04-12 files=6 akka/pekko-files=2
+   AKKA(0): 
+   PEKKO(7): pekko-http, pekko-http-json4s, pekko-http-testkit, pekko-slf4j, pekko-stream, pekko-stream-testkit, pekko-testkit
+   SCOPE "org.apache.pekko"      %% "pekko-testkit"        % versions.pekko     % Test,
+   SCOPE "org.apache.pekko"      %% "pekko-stream-testkit" % versions.pekko     % Test,
+   SCOPE "org.apache.pekko"      %% "pekko-http-testkit"   % versions.pekkoHttp % Test,
+   FILES built.sbt, src/main/scala/loremipsum/server/akkahttp/ServiceDependencies.scala
+   README # ![](images/logo-base-32.png) Lorem ipsum web ![tests][tests-workflow] [![License][licenseImg]][licenseLink]  | A [lorem ipsum][wiki-lorem] web application server based on [akka http][akka-http] framework, and | a dedicated [lorem ipsum library][lorem-lib].
+==========================================================================================
+github.com/dacr/spy 
+-- default@master 2025-04-12 files=6 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(9): pekko-actor-typed, pekko-http, pekko-http-caching, pekko-http-json4s, pekko-http-testkit, pekko-slf4j, pekko-stream, pekko-stream-testkit, pekko-testkit
+   SCOPE "org.apache.pekko"      %% "pekko-testkit"        % versions.pekko     % Test,
+   SCOPE "org.apache.pekko"      %% "pekko-stream-testkit" % versions.pekko     % Test,
+   SCOPE "org.apache.pekko"      %% "pekko-http-testkit"   % versions.pekkoHttp % Test,
+   FILES built.sbt
+   README # ![](images/logo-base-32.png) spy service ![tests][tests-workflow] [![License][licenseImg]][licenseLink] [![] | It has been deployed on [https://mapland.fr/spy][deployed] | ## Quick local start
+==========================================================================================
+github.com/davidmoten/xuml-tools 
+-- default@master 2022-10-27 files=16 akka/pekko-files=2
+   AKKA(0): 
+   PEKKO(0): 
+   VER <akka.version>2.5.32</akka.version>
+   FILES pom.xml, xuml-model-compiler-runtime/pom.xml
+   README xuml-tools | ========== | [Executable UML](http://en.wikipedia.org/wiki/Executable_UML) tools based on the [miUML](http://miuml.org) [me
+-- branch@akka-to-reels@2022-10-09 2022-10-09: same as previous reference
+==========================================================================================
+github.com/dmlc/xgboost 
+-- default@master 2025-08-25 files=7 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README =========== | [Community](https://xgboost.ai/community) | | [Documentation](https://xgboost.readthedocs.org) |
+-- branch@release_3.4.0@2025-09-30 2025-09-30: same as previous reference
+-- branch@release_3.3.0@2025-09-30 2025-09-30: same as previous reference
+-- branch@release_3.2.0@2025-09-30 2025-09-30: same as previous reference
+-- branch@release_3.1.0@2025-09-30 2025-09-30: same as previous reference
+==========================================================================================
+github.com/emartech/emarsys-client-scala-sdk 
+-- default@master 2022-10-24 files=2 akka/pekko-files=1
+   AKKA(5): akka-http, akka-http-core, akka-http-spray-json, akka-http-testkit, akka-stream-testkit
+   PEKKO(0): 
+   SCOPE "com.typesafe.akka"     %% "akka-http-testkit"    % akkaHttpV  % Test,
+   SCOPE "com.typesafe.akka"     %% "akka-stream-testkit"  % akkaV      % Test,
+   FILES build.sbt
+   README # emarsys-client-scala-sdk | ## Usage | ### `0.4.10` and above
+==========================================================================================
+github.com/emartech/escher-akka-http ERROR git ls-remote --symref origin: remote: Repository not found.
+fatal: repository '
+==========================================================================================
+github.com/firstbirdtech/backbone 
+-- default@master 2025-05-20 files=7 akka/pekko-files=4
+   AKKA(6): akka-pki, akka-slf4j, akka-stream, akka-stream-alpakka-sns, akka-stream-alpakka-sqs, akka-testkit
+   PEKKO(0): 
+   VER private[this] val alpakkaVersion        = "8.0.0"
+   VER private[this] val akkaVersion           = "2.9.5"
+   FILES build.sbt, consumer/src/main/scala/backbone/consumer/Settings.scala, core/src/main/scala/backbone/consumer/ConsumerSettings.scala, project/Dependencies.scala
+   README # Backbone | Backbone is a durable publish-subscribe platform built on top of Amazon AWS SQS and Amazon AWS SNS utilizing | Akka to stream messages. This library currently is under active development, changes to the public API are sti
+-- branch@pekko@2025-09-27 2025-09-27: same as previous reference
+==========================================================================================
+github.com/gatling/gatling 
+-- default@main 2025-09-23 files=7 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README # Gatling [![Build Status](https://github.com/gatling/gatling/actions/workflows/build.yml/badge.svg?branch=mai | ## What is Gatling ? | Gatling is a load test tool.
+==========================================================================================
+github.com/ghostdogpr/caliban 
+-- default@series/3.x 2025-07-15 files=23 akka/pekko-files=1
+   AKKA(3): akka-actor-typed, akka-http, akka-serialization-jackson
+   PEKKO(1): pekko-http
+   VER val akkaVersion               = "2.6.20"
+   VER val akkaHttpVersion           = "10.2.10"
+   VER val pekkoHttpVersion          = "1.2.0"
+   SCOPE "org.playframework"           %% "play-pekko-http-server" % playVersion % Test
+   FILES build.sbt
+   README # Caliban | [Link-SonatypeReleases]: https://central.sonatype.com/artifact/com.github.ghostdogpr/caliban_3 "Sonatype Relea | [Badge-SonatypeReleases]: https://img.shields.io/maven-central/v/com.github.ghostdogpr/caliban_3 "Sonatype Rel
+-- branch@series/2.x@2025-09-29 2025-09-29: same as previous reference
+==========================================================================================
+github.com/guardian/atom-maker 
+-- default@main 2025-09-04 files=6 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README # Atom maker libraries [![Release](https://github.com/guardian/atom-maker/actions/workflows/release.yml/badge. | This repository contains two libraries for creating, publishing and managing content atoms. | You should first define your new content atom model by adding it [here](https://github.com/guardian/content-at
+-- branch@release-workflow/temporary/17458398082@2025-09-04 2025-09-04: same as previous reference
+==========================================================================================
+github.com/guardian/membership-common ERROR git ls-remote --symref origin: remote: Repository not found.
+fatal: repository '
+==========================================================================================
+github.com/guardian/social-sign-in 
+-- default@main 2024-05-03 files=4 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(1): pekko-http
+   FILES build.sbt
+   README Publish library with | ``` | sbt "release"
+==========================================================================================
+github.com/h2oai/xgboost 
+-- default@master 2017-06-14 files=5 akka/pekko-files=1
+   AKKA(2): akka-actor, akka-testkit
+   PEKKO(0): 
+   FILES jvm-packages/xgboost4j/pom.xml
+   README =========== | [Documentation](https://xgboost.readthedocs.org) | | [Resources](demo/README.md) |
+==========================================================================================
+github.com/insubric/box 
+-- default@main 2025-09-25 files=4 akka/pekko-files=1
+   AKKA(8): akka-actor, akka-http-caching, akka-http-circe, akka-http-core, akka-http-testkit, akka-quartz-scheduler, akka-stream, akka-testkit
+   PEKKO(0): 
+   SCOPE "com.typesafe.akka"        %% "akka-testkit"     % versions.akka      % "test",
+   SCOPE "com.typesafe.akka"        %% "akka-http-testkit"% versions.akkaHttp  % "test",
+   FILES project/Settings.scala
+   README BOX | ============================ | Bring the power of PostgreSQL to the web
+-- branch@1.17.x@2025-09-25 2025-09-25: same as previous reference
+-- branch@1.16.x@2025-09-25 2025-09-25: same as previous reference
+==========================================================================================
+github.com/j5ik2o/akka-persistence-dynamodb 
+-- default@main 2025-04-23 files=4 akka/pekko-files=3
+   AKKA(26): akka-persistence, akka-persistence-dynamodb-base, akka-persistence-dynamodb-base-v1, akka-persistence-dynamodb-base-v2, akka-persistence-dynamodb-benchmark, akka-persistence-dynamodb-example, akka-persistence-dynamodb-journal-base, akka-persistence-dynamodb-journal-v1, akka-persistence-dynamodb-journal-v2, akka-persistence-dynamodb-root, akka-persistence-dynamodb-snapshot-base, akka-persistence-dynamodb-snapshot-v1, akka-persistence-dynamodb-snapshot-v2, akka-persistence-dynamodb-state-base ...
+   PEKKO(0): 
+   VER val akkaVersion = "2.9.5"
+   SCOPE akka.testkit(akkaVersion)               % Test,
+   SCOPE akka.streamTestkit(akkaVersion)         % Test,
+   SCOPE akka.persistenceTck(akkaVersion)        % Test,
+   SCOPE akka.persistenceTestkit(akkaVersion)    % Test,
+   FILES base/base/src/main/scala/com/github/j5ik2o/akka/persistence/dynamodb/config/client/ClientVersion.scala, build.sbt, project/Dependencies.scala
+   README # akka-persistence-dynamodb | `j5ik2o/akka-persistence-dynamodb` is an `akka-persistence` plugin for persist `akka-actor` to AWS DynamoDB. | The plugin features the following.
+==========================================================================================
+github.com/j5ik2o/chronos-scheduler-scala 
+-- default@main 2023-02-25 files=3 akka/pekko-files=1
+   AKKA(5): akka-actor, akka-actor-testkit-typed, akka-actor-typed, akka-persistence-typed, akka-serialization-jackson
+   PEKKO(0): 
+   SCOPE "com.typesafe.akka" %% "akka-actor-testkit-typed"   % AkkaVersion % Test,
+   FILES build.sbt
+   README # chronos-scheduler-scala | A job scheduler for Scala. | ## Installation
+==========================================================================================
+github.com/katrix/ackcord 
+-- default@main 2023-10-16 files=8 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README # AckCord | *Do what you want, exactly how you want it.* | AckCord is a Scala Discord library powered by sttp. AckCord's focus is on letting you choose the level of abst
+-- branch@0.x@2025-08-15 2025-08-15 files=9 akka/pekko-files=6
+   AKKA(6): akka-actor-typed, akka-http-core, akka-slf4j, akka-stream-testkit, akka-stream-typed, akka-testkit
+   PEKKO(0): 
+   VER lazy val akkaVersion     = "2.6.18"
+   VER lazy val akkaHttpVersion = "10.2.8"
+   SCOPE libraryDependencies += "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % Test,
+   SCOPE "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,
+   FILES ackCord/src/main/scala/ackcord/ClientSettings.scala, build.sbt, gateway/src/main/scala/ackcord/util/AckCordGatewaySettings.scala, requests/src/main/scala/ackcord/requests/RequestSettings.scala, requests/src/main/scala/ackcord/util/AckCordRequestSettings.scala, voice/src/main/scala/ackcord/util/AckCordVoiceSettings.scala
+==========================================================================================
+github.com/lerna-stack/akka-entity-replication 
+-- default@master 2023-12-14 files=15 akka/pekko-files=13
+   AKKA(19): akka-actor-testkit-typed, akka-cluster, akka-cluster-sharding, akka-cluster-typed, akka-entity-replication, akka-entity-replication-rollback-tool-cassandra, akka-entity-replication-root, akka-kryo-serialization, akka-multi-node-testkit, akka-persistence, akka-persistence-cassandra, akka-persistence-cassandra-launcher, akka-persistence-inmemory, akka-persistence-query ...
+   PEKKO(0): 
+   VER lazy val akkaVersion                     = "2.6.17"
+   VER lazy val akkaPersistenceCassandraVersion = "1.0.5"
+   SCOPE "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Optional,
+   SCOPE "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test,
+   SCOPE "io.altoo"          %% "akka-kryo-serialization"  % "1.1.5"     % Test,
+   SCOPE "com.typesafe.akka" %% "akka-slf4j"               % akkaVersion % Test,
+   SCOPE "com.typesafe.akka" %% "akka-multi-node-testkit"  % akkaVersion % Test,
+   FILES build.sbt, core/src/main/scala/lerna/akka/entityreplication/ClusterReplicationSettings.scala, core/src/main/scala/lerna/akka/entityreplication/raft/RaftSettings.scala, core/src/main/scala/lerna/akka/entityreplication/typed/ClusterReplicationSettings.scala, publish.sbt, rollback-tool-cassandra/src/main/scala/lerna/akka/entityreplication/rollback/RaftShardRollbackSettings.scala, rollback-tool-cassandra/src/main/scala/lerna/akka/entityreplication/rollback/cassandra/CassandraEventsByTagSettings.scala, rollback-tool-cassandra/src/main/scala/lerna/akka/entityreplication/rollback/cassandra/CassandraJournalSettings.scala ...
+   README akka-entity-replication | === | ## Introduction
+==========================================================================================
+github.com/maif/jooq-async 
+-- default@master 2025-06-16 files=7 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README # Reactive jooq API [![ga-badge][]][ga] [![jar-badge][]][jar] | [ga]:               https://github.com/MAIF/jooq-async/actions?query=workflow%3ABuild | [ga-badge]:         https://github.com/MAIF/jooq-async/workflows/Build/badge.svg
+==========================================================================================
+github.com/maif/thoth 
+-- default@master 2025-07-03 files=20 akka/pekko-files=10
+   AKKA(0): 
+   PEKKO(0): 
+   VER alpakkaKafkaVersion   = "2.0.7"
+   VER akkaVersion           = "2.6.14"
+   FILES build.gradle, demo/demo-postgres-kafka-reactive/build.gradle, settings.gradle, thoth-core-akka/build.gradle, thoth-core/build.gradle, thoth-jooq-akka/build.gradle, thoth-jooq/build.gradle, thoth-kafka-consumer-akka/build.gradle ...
+   README # Event sourcing [![github-action-badge][]][github-action] [![jar-badge][]][jar] | [github-action]:        https://github.com/MAIF/thoth/actions?query=workflow%3ABuild | [github-action-badge]:  https://github.com/MAIF/thoth/workflows/Build/badge.svg?branch=master
+==========================================================================================
+github.com/maxstreese/registravka4s 
+-- default@main 2023-01-20 files=6 akka/pekko-files=4
+   AKKA(1): akka-stream-kafka
+   PEKKO(0): 
+   FILES akka/src/main/scala/com/streese/registravka4s/akka/ConsumerSettings.scala, akka/src/main/scala/com/streese/registravka4s/akka/ProducerSettings.scala, build.sbt, project/dependencies.scala
+   README # RegistrAvKa4s | [<img src="https://img.shields.io/github/actions/workflow/status/maxstreese/registravka4s/build.yml?branch=mai | [<img src="https://img.shields.io/maven-central/v/com.streese.registravka4s/registravka4s-core_2.13?style=flat
+==========================================================================================
+github.com/mdedetrich/akka-streams-json 
+-- default@main 2023-06-01 files=2 akka/pekko-files=1
+   AKKA(7): akka-http, akka-http-circe, akka-http-json, akka-stream, akka-stream-circe, akka-stream-json, akka-streams-json
+   PEKKO(0): 
+   VER val akkaVersion      = "2.6.20"
+   VER val akkaHttpVersion  = "10.2.10"
+   SCOPE "com.typesafe.akka" %% "akka-stream" % akkaVersion % Provided,
+   SCOPE "com.typesafe.akka" %% "akka-stream" % akkaVersion     % Provided,
+   SCOPE "com.typesafe.akka" %% "akka-http"   % akkaHttpVersion % Provided
+   SCOPE "com.typesafe.akka" %% "akka-http" % akkaHttpVersion % Provided
+   SCOPE "com.typesafe.akka" %% "akka-stream"   % akkaVersion      % Test,
+   FILES build.sbt
+   README # Akka Streams Json Support | This library provides Json support for stream based applications using [jawn](https://github.com/non/jawn) | as a parser. It supports all backends that jawn supports with support for [circe](https://github.com/travisbro
+==========================================================================================
+github.com/newca12/tmdb-async-client 
+-- default@without-X-RateLimit 2023-03-30 files=2 akka/pekko-files=1
+   AKKA(6): akka-actor, akka-http, akka-http-core, akka-http-spray-json, akka-stream, akka-stream-contrib
+   PEKKO(0): 
+   FILES build.sbt
+   README # TMDb-async-client | ### About ### | TMDb-async-client is a native Scala SDK that provides asynchronous access to [The Movie Database][1] (TMDb) AP
+==========================================================================================
+github.com/oheger/cloud-files 
+-- default@main 2025-07-04 files=2 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(5): pekko-actor-testkit-typed, pekko-actor-typed, pekko-http, pekko-http-spray-json, pekko-stream
+   SCOPE "org.apache.pekko" %% "pekko-actor-testkit-typed" % VersionPekko % Test,
+   FILES build.sbt
+   README :toc: | :toc-placement!: | :toclevels: 3
+==========================================================================================
+github.com/pityka/tasks 
+-- default@master 2025-07-27 files=3 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README This library provides persistent memoization around asynchronous distributed computations. | It also provides a framework to execute those computations on remote machines. For the latter it supports AWS  | # Example
+==========================================================================================
+github.com/playframework/play-grpc 
+-- default@main 2025-07-17 files=8 akka/pekko-files=5
+   AKKA(0): 
+   PEKKO(14): pekko-actor-testkit-typed, pekko-actor-typed, pekko-cluster-sharding-typed, pekko-discovery, pekko-grpc-codegen, pekko-grpc-runtime, pekko-grpc-sbt-plugin, pekko-http, pekko-http-spray-json, pekko-persistence-query, pekko-persistence-typed, pekko-serialization-jackson, pekko-stream, pekko-stream-testkit
+   FILES build.sbt, project/Dependencies.scala, project/ProjectExtensions.scala, project/ReflectiveCodeGen.scala, project/plugins.sbt
+   README # Play gRPC | Play support for [akka-grpc](https://doc.akka.io/docs/akka-grpc/current/) and [pekko-grpc](https://pekko.apach | ## Project Status
+-- branch@0.12.x@2025-09-25 2025-09-25: same as previous reference
+-- branch@0.11.x@2025-09-25 2025-09-25 files=8 akka/pekko-files=5
+   AKKA(15): akka-actor-testkit-typed, akka-actor-typed, akka-cluster-sharding-typed, akka-discovery, akka-grpc-codegen, akka-grpc-runtime, akka-http, akka-http-core, akka-http-spray-json, akka-http2-support, akka-persistence-query, akka-persistence-typed, akka-serialization-jackson, akka-stream ...
+   PEKKO(0): 
+   SCOPE "com.typesafe.akka" %% "akka-http2-support" % Versions.akkaHttp(sv) % Provided
+   FILES build.sbt, project/Dependencies.scala, project/ProjectExtensions.scala, project/ReflectiveCodeGen.scala, project/plugins.sbt
+==========================================================================================
+github.com/playframework/play-ws 
+-- default@main 2025-09-10 files=5 akka/pekko-files=2
+   AKKA(0): 
+   PEKKO(4): pekko-actor-typed, pekko-serialization-jackson, pekko-slf4j, pekko-stream
+   VER val pekkoVersion = "1.0.3"
+   FILES build.sbt, project/Dependencies.scala
+   README # Play WS Standalone | Play WS is a powerful HTTP Client library, originally developed by the Play team for use with Play Framework.  | We've provided some documentation here on how to use Play WS in your app (without Play). For more information 
+-- branch@3.0.x@2025-09-29 2025-09-29: same as previous reference
+-- branch@2.2.x@2025-09-29 2025-09-29 files=5 akka/pekko-files=1
+   AKKA(4): akka-actor-typed, akka-serialization-jackson, akka-slf4j, akka-stream
+   PEKKO(0): 
+   VER val akkaVersion = "2.6.21"
+   FILES project/Dependencies.scala
+==========================================================================================
+github.com/pureconfig/pureconfig 
+-- default@master 2025-04-23 files=40 akka/pekko-files=5
+   AKKA(3): akka-actor, akka-http, akka-stream
+   PEKKO(2): pekko-actor, pekko-http
+   SCOPE "com.typesafe.akka" %% "akka-stream" % "2.6.20" % "provided",
+   SCOPE "org.apache.pekko" %% "pekko-actor" % "1.1.3" % "provided",
+   FILES build.sbt, modules/akka-http/build.sbt, modules/akka/build.sbt, modules/pekko-http/build.sbt, modules/pekko/build.sbt
+   README # PureConfig | PureConfig is a Scala library for loading configuration files. It reads [Typesafe Config](https://github.com/l | ## Why
+==========================================================================================
+github.com/raphtory/raphtory 
+-- default@db_v4 2023-03-24 files=0 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README &nbsp | &nbsp | &nbsp
+-- branch@v4-algo-tests@2025-10-01 2025-10-01: same as previous reference
+-- branch@v17@2025-10-01 2025-10-01: same as previous reference
+-- branch@v16@2025-10-01 2025-10-01: same as previous reference
+==========================================================================================
+github.com/reactivemongo/reactivemongo 
+-- default@master 2025-08-21 files=12 akka/pekko-files=4
+   AKKA(3): akka-actor, akka-slf4j, akka-testkit
+   PEKKO(3): pekko-actor, pekko-slf4j, pekko-testkit
+   SCOPE "com.typesafe.akka" %% "akka-testkit" % ver % Test,
+   SCOPE "com.typesafe.akka" %% "akka-slf4j" % ver % Test
+   SCOPE "org.apache.pekko" %% "pekko-testkit" % ver % Test,
+   SCOPE "org.apache.pekko" %% "pekko-slf4j" % ver % Test
+   FILES build.sbt, project/Common.scala, project/Dependencies.scala, project/Driver.scala
+   README # ReactiveMongo | ReactiveMongo is a scala driver that provides fully non-blocking and asynchronous I/O operations. | ## Usage
+==========================================================================================
+github.com/reugn/aerospike-client-scala 
+-- default@master 2024-12-28 files=3 akka/pekko-files=1
+   AKKA(1): akka-stream
+   PEKKO(0): 
+   FILES build.sbt
+   README # aerospike-client-scala | Idiomatic and reactive Scala client for [Aerospike](https://www.aerospike.com/) database. | ## Modules
+==========================================================================================
+github.com/romansky/nozzler ERROR git ls-remote --symref origin: remote: Repository not found.
+fatal: repository '
+==========================================================================================
+github.com/rssh/cps-async-connect 
+-- default@master 2024-12-20 files=3 akka/pekko-files=1
+   AKKA(1): akka-stream
+   PEKKO(1): pekko-stream
+   FILES build.sbt
+   README This is a helper connect objects for providing [dotty-cps-async](https://github.com/rssh/dotty-cps-async) CpsA | ## cats-effects: | ```
+==========================================================================================
+github.com/scalamolecule/molecule 
+-- default@main 2025-09-30 files=3 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(2): pekko-actor-typed, pekko-serialization-jackson
+   VER val pekkoVersion             = "1.1.3"
+   FILES build.sbt
+   README Molecule is a Scala 3 library for querying and updating SQL databases using a type-safe DSL — not one for SQL, | Most libraries offer a DSL to express _their_ concepts — like SQL or JSON. Molecule inverts that: it builds a  | After defining your domain structure, Molecule generates boilerplate code for your custom DSL. You can then de
+==========================================================================================
+github.com/scalatra/scalatra 
+-- default@main 2023-07-22 files=10 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README ## Scalatra ![Scala CI](https://github.com/scalatra/scalatra/workflows/build/badge.svg?branch=2.7.x) | Scalatra is a tiny, [Sinatra](https://sinatrarb.com/)-like web framework for | [Scala](http://www.scala-lang.org/).
+==========================================================================================
+github.com/scanamo/scanamo 
+-- default@main 2025-08-08 files=3 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(1): pekko-connectors-dynamodb
+   FILES build.sbt
+   README # Scanamo | Scanamo is a library to make using [DynamoDB](https://aws.amazon.com/documentation/dynamodb/) with Scala | simpler and less error-prone. The library is currently maintained by Roberto Tyley (@rtyley).
+==========================================================================================
+github.com/scullxbones/akka-persistence-mongo 
+-- default@master 2023-10-21 files=5 akka/pekko-files=4
+   AKKA(9): akka-actor, akka-cluster-sharding, akka-persistence, akka-persistence-mongo, akka-persistence-query, akka-persistence-tck, akka-slf4j, akka-stream, akka-testkit
+   PEKKO(0): 
+   SCOPE "com.typesafe.akka"         %% "akka-slf4j"               % akkaV     % "test",
+   SCOPE "com.typesafe.akka"         %% "akka-testkit"             % akkaV     % "test",
+   SCOPE "com.typesafe.akka"         %% "akka-persistence-tck"     % akkaV     % "test",
+   SCOPE "com.typesafe.akka"         %% "akka-cluster-sharding"    % akkaV     % "test"
+   FILES build.sbt, common/src/main/scala/akka/contrib/persistence/mongodb/OfficialDriverSettings.scala, common/src/main/scala/akka/contrib/persistence/mongodb/ServerVersion.scala, scala/src/main/scala/akka/contrib/persistence/mongodb/ScalaDriverSettings.scala
+   README # Akka Persistence MongoDB driver (Journal + Read Journal, Snapshots) | * Test suite verifies against MongoDB 3.6, 4.0, 4.2 | ### Preparing to migrate to Apache Pekko? Not to worry, an incremental upgrade is supported.
+==========================================================================================
+github.com/sftwnd/crayfish-alarms 
+-- default@master 2023-06-16 files=3 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README # CrayFish Alarms | The library contains primitives that allow you to control the installation of tasks for processing on a schedu | ## TimeRange
+-- branch@28-move-to-requires-static-lombok-in-timerange-project@2023-06-16 2023-06-16: same as previous reference
+==========================================================================================
+github.com/sfxcode/sapphire-javafx 
+-- default@main 2023-01-29 files=5 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README # Sapphire JavaFX (SFX) | A JavaFX Application Framework for Scala User. | This project replaces [sapphire-core](https://github.com/sfxcode/sapphire-core) and [sapphire-extension](https
+==========================================================================================
+github.com/softwaremill/akka-http-session 
+-- default@master 2023-08-29 files=2 akka/pekko-files=1
+   AKKA(5): akka-http, akka-http-session-root, akka-http-testkit, akka-stream, akka-stream-testkit
+   PEKKO(4): pekko-http, pekko-http-testkit, pekko-stream, pekko-stream-testkit
+   VER val akkaHttpVersion = "10.2.7"
+   VER val akkaStreamsVersion = "2.6.18"
+   VER val pekkoHttpVersion = "1.0.0"
+   VER val pekkoStreamsVersion = "1.0.1"
+   SCOPE val akkaStreamsProvided = "com.typesafe.akka" %% "akka-stream" % akkaStreamsVersion % "provided"
+   SCOPE val akkaStreamsTestkit = "com.typesafe.akka" %% "akka-stream-testkit" % akkaStreamsVersion % "test"
+   SCOPE akkaStreamsProvided,
+   SCOPE "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % "test",
+   SCOPE val pekkoStreamsProvided = "org.apache.pekko" %% "pekko-stream" % pekkoStreamsVersion % "provided"
+   FILES build.sbt
+   README [`akka-http`](https://doc.akka.io/docs/akka-http/current/index.html) is an Akka | module, originating from [spray.io](http://spray.io), for building *reactive* REST services with an elegant DS | [`pekko-http`](https://pekko.apache.org/docs/pekko-http/current/) is an open-source fork of akka-http.
+==========================================================================================
+github.com/softwaremill/elasticmq 
+-- default@master 2025-09-22 files=3 akka/pekko-files=2
+   AKKA(0): 
+   PEKKO(8): pekko-actor, pekko-http, pekko-http-spray-json, pekko-http-testkit, pekko-slf4j, pekko-stream, pekko-stream-testkit, pekko-testkit
+   VER val pekkoVersion = "1.2.0"
+   VER val pekkoHttpVersion = "1.2.0"
+   SCOPE val pekkoTestkit = "org.apache.pekko" %% "pekko-testkit" % pekkoVersion % "test"
+   SCOPE val pekkoHttpTestkit = "org.apache.pekko" %% "pekko-http-testkit" % pekkoHttpVersion % "test"
+   FILES build.sbt, rest/rest-sqs/src/main/scala/org/elasticmq/rest/sqs/MarshallerDependencies.scala
+   README # tl;dr | * in-memory message queue system | * runs stand-alone, via [Docker](https://hub.docker.com/r/softwaremill/elasticmq-native/) or embedded
+==========================================================================================
+github.com/softwaremill/macwire 
+-- default@master 2025-09-01 files=4 akka/pekko-files=1
+   AKKA(1): akka-actor
+   PEKKO(1): pekko-actor
+   SCOPE .settings(libraryDependencies ++= Seq(akkaActor % "provided"))
+   SCOPE .settings(libraryDependencies ++= Seq(pekkoActor % "provided"))
+   FILES build.sbt
+   README Zero-cost, compile-time, type-safe dependency injection library. | The core of MacWire is a set of macros, that is code which runs at compile-time. The macros generate the `new` | creation code automatically, allowing you to avoid a ton of boilerplate code, while maintaining type-safety.
+==========================================================================================
+github.com/stackvista/akka-http-pac4j 
+-- default@master 2024-12-17 files=4 akka/pekko-files=2
+   AKKA(5): akka-http, akka-http-pac4j, akka-http-testkit, akka-stream, akka-stream-testkit
+   PEKKO(0): 
+   VER val akkaHttpVersion = "10.2.7"
+   VER val akkaStreamsVersion = "2.6.18"
+   SCOPE libraryDependencies ++= Seq(akkaHttp, akkaStream, pac4j, scalaTestCore % Test, scalacheck % Test, akkaHttpTestKit % Test, akkaStreamTestKit 
+   FILES build.sbt, project/Dependencies.scala
+   README ## akka-http-pac4j ## | A wrapper around pac4j (www.pac4j.org) built using AkkaHTTP | ## how to use it ##
+-- branch@pekko@2024-12-17 2024-12-17: same as previous reference
+==========================================================================================
+github.com/tuprolog/arg2p-kt 
+-- default@develop 2025-09-26 files=8 akka/pekko-files=2
+   AKKA(0): 
+   PEKKO(0): 
+   FILES actor-solver/build.gradle.kts, gradle/libs.versions.toml
+   README # Arg2P | Arg2P is a lightweight implementation of the ASPIC<sup>+</sup> framework for structured argumentation. | Built on top of the [tuProlog](https://apice.unibo.it/xwiki/bin/view/Tuprolog/) engine, it supports both JVM a
+==========================================================================================
+github.com/waves-enterprise/we-core 
+-- default@release-1.16 2024-07-12 files=12 akka/pekko-files=3
+   AKKA(0): 
+   PEKKO(0): 
+   FILES build.sbt, grpc-protobuf/build.sbt, project/plugins.sbt
+   README --- | ## 1. Introduction | `we-core` is a fundamental library for Waves Enterprise blockchain platform. It lies in the core of the Waves 
+-- branch@release-1.15@2024-04-10 2024-04-10: same as previous reference
+-- branch@release-1.14@2024-03-25 2024-03-25: same as previous reference
+==========================================================================================
+github.com/wb14123/scala2grpc 
+-- default@master 2025-04-22 files=2 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README # Scala2grpc | Scala2grpc is a SBT plugin to make it non-invasive to use gRPC with Scala. | Normally gRPC generates models and API interfaces. And in order to create a gRPC server, the program needs to 
+==========================================================================================
+github.com/wehkamp/cakemix 
+-- default@main 2024-11-24 files=3 akka/pekko-files=1
+   AKKA(1): akka-actor
+   PEKKO(1): pekko-actor
+   SCOPE lazy val akkaActor = "com.typesafe.akka" %% "akka-actor" % "2.6.21" % Provided
+   SCOPE lazy val pekkoActor = "org.apache.pekko" %% "pekko-actor" % "1.1.2" % Provided
+   FILES build.sbt
+   README # cakemix | Scala micro-lib containing handy mixin traits for building Akka or Apache Pekko applications | ## Setup
+==========================================================================================
+github.com/wherby/doradilla 
+-- default@master 2023-10-10 files=4 akka/pekko-files=1
+   AKKA(5): akka-actor, akka-cluster, akka-cluster-tools, akka-slf4j, akka-testkit
+   PEKKO(0): 
+   FILES project/Dependencies.scala
+   README Doradilla | =========================== | Doradilla-core is a job manage system.
+==========================================================================================
+github.com/wuyushuo/spring-boxes ERROR git ls-remote --symref origin: remote: Repository not found.
+fatal: repository '
+==========================================================================================
+github.com/zalando-incubator/kanadi 
+-- default@master 2023-09-15 files=6 akka/pekko-files=1
+   AKKA(0): 
+   PEKKO(6): pekko-http, pekko-http-circe, pekko-slf4j, pekko-stream, pekko-stream-circe, pekko-testkit
+   FILES project/Dependencies.scala
+   README ## Kanadi | Kanadi is [Nakadi](https://github.com/zalando/nakadi) client for Scala. | ### Goals
+-- branch@0.11.x@2023-09-15 2023-09-15 files=4 akka/pekko-files=1
+   AKKA(5): akka-http, akka-http-circe, akka-slf4j, akka-stream, akka-stream-circe
+   PEKKO(0): 
+   VER val akkaVersion                        = "2.6.20"  // NOTE: the last version with apache2 license
+   VER val akkaHttpVersion                    = "10.2.10" // NOTE: the last version under apache2 license
+   VER val akkaStreamsJsonVersion             = "0.8.3"
+   SCOPE "com.typesafe.akka"          %% "akka-http"           % akkaHttpVersion % Provided,
+   SCOPE "com.typesafe.akka"          %% "akka-slf4j"          % akkaVersion     % Provided,
+   SCOPE "com.typesafe.akka"          %% "akka-stream"         % akkaVersion     % Provided,
+   FILES build.sbt
+==========================================================================================
+maven:org.opendaylight.odlparent 
+-- default@master 2025-09-09 files=67 akka/pekko-files=0
+   AKKA(0): 
+   PEKKO(0): 
+   FILES 
+   README ## ODLParent Project | Details regarding this project repo can be found on the project page | located [here](https://wiki.opendaylight.org/display/ODL/ODL+Root+Parent).
+-- branch@14.4.x@2025-09-30 2025-09-30: same as previous reference
+-- branch@14.3.x@2025-09-30 2025-09-30: same as previous reference
+-- branch@13.1.x@2025-08-08 2025-08-08: same as previous reference

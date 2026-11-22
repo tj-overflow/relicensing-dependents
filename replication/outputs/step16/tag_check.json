@@ -1,0 +1,20 @@
+{
+ "freeze": {
+  "projects": 86,
+  "repo_reachable": 81,
+  "with_version_tags": 78,
+  "flagged_later_tag": 19
+ },
+ "no_release": {
+  "projects": 203,
+  "repo_reachable": 183,
+  "with_version_tags": 158,
+  "flagged_later_tag": 31
+ },
+ "all": {
+  "projects": 289,
+  "repo_reachable": 264,
+  "with_version_tags": 236,
+  "flagged_later_tag": 50
+ }
+}

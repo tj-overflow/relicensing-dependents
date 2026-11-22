@@ -1,0 +1,64 @@
+{
+ "cmp_risk_set": 570,
+ "cmp_active": 301,
+ "cmp_by_tracked": {
+  "cats_effect": 348,
+  "zio": 114,
+  "fs2": 49,
+  "http4s": 59
+ },
+ "cmp_active_by_tracked": {
+  "cats_effect": 177,
+  "fs2": 30,
+  "http4s": 35,
+  "zio": 59
+ },
+ "cmp_owners_active": 186,
+ "cmp_dropped_also_akka": 0,
+ "cmp_release_rows_in_akka_riskset_projects": 172226,
+ "akka_nonvendor_risk": 418,
+ "akka_by_tracked": {
+  "akka": 380,
+  "": 23,
+  "akka_http": 15
+ },
+ "trimmed_outside_005_095": 7,
+ "ps_range_akka": [
+  0.051,
+  0.942
+ ],
+ "ps_range_cmp": [
+  0.05,
+  0.868
+ ],
+ "balance": [
+  {
+   "covariate": "rel_per_year_pre",
+   "mean_akka": 56.095,
+   "mean_cmp": 50.931,
+   "smd_raw": 0.017,
+   "smd_weighted": 0.099
+  },
+  {
+   "covariate": "n_artifacts",
+   "mean_akka": 5.459,
+   "mean_cmp": 5.725,
+   "smd_raw": -0.02,
+   "smd_weighted": 0.084
+  },
+  {
+   "covariate": "scala3_pre",
+   "mean_akka": 0.107,
+   "mean_cmp": 0.468,
+   "smd_raw": -0.871,
+   "smd_weighted": 0.028
+  },
+  {
+   "covariate": "age_years_at_event",
+   "mean_akka": 3.2,
+   "mean_cmp": 1.997,
+   "smd_raw": 0.644,
+   "smd_weighted": 0.151
+  }
+ ]
+}

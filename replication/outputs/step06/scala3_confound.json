@@ -1,0 +1,73 @@
+{
+ "switchers": 76,
+ "scala3_status_at_first_switch": {
+  "already_scala3": 20,
+  "no_scala3_at_switch": 48,
+  "changed_at_switch": 8
+ },
+ "switchers_with_unchanged_scala_status": 68,
+ "step1_test_ge_15": true,
+ "switch_or_dual_by_scala3_pre_and_http": {
+  "scala3_pre=0, http_user=0": {
+   "n": 87,
+   "switch_or_dual": 26,
+   "share": 0.299
+  },
+  "scala3_pre=0, http_user=1": {
+   "n": 89,
+   "switch_or_dual": 34,
+   "share": 0.382
+  },
+  "scala3_pre=1, http_user=0": {
+   "n": 16,
+   "switch_or_dual": 7,
+   "share": 0.438
+  },
+  "scala3_pre=1, http_user=1": {
+   "n": 14,
+   "switch_or_dual": 7,
+   "share": 0.5
+  }
+ },
+ "never_scala3_by_horizon": {
+  "n": 137,
+  "switch_or_dual": 31,
+  "share": 0.226,
+  "outcomes": {
+   "switch": 26,
+   "freeze": 72,
+   "upgrade": 18,
+   "removed": 16,
+   "dual_or_partial": 5
+  }
+ },
+ "scala3_by_horizon": {
+  "n": 69,
+  "switch_or_dual": 43,
+  "share": 0.623,
+  "outcomes": {
+   "dual_or_partial": 25,
+   "freeze": 17,
+   "upgrade": 6,
+   "switch": 18,
+   "removed": 3
+  }
+ },
+ "outcomes_by_scala3_pre": {
+  "0": {
+   "switch": 41,
+   "dual_or_partial": 19,
+   "freeze": 75,
+   "upgrade": 23,
+   "removed": 18
+  },
+  "1": {
+   "dual_or_partial": 11,
+   "freeze": 14,
+   "upgrade": 1,
+   "switch": 3,
+   "removed": 1
+  }
+ },
+ "n_active_nonvendor": 206
+}

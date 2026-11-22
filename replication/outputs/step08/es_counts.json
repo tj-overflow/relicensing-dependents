@@ -1,0 +1,62 @@
+{
+ "event": "2021-01-14",
+ "horizon_main": "2024-11-11",
+ "horizon_post_reversal": "2025-09-30",
+ "pom_check_rows_added": 11,
+ "artifact_licence_classes": {
+  "open": 7,
+  "no_post_event_version": 13,
+  "restricted": 22
+ },
+ "direct_risk_set": 296,
+ "direct_active_nonvendor": 173,
+ "direct_active_owners": 122,
+ "direct_active_after_opensearch": 153,
+ "pre_version_unresolved": 4,
+ "outcome_2024_11": {
+  "freeze": 62,
+  "switch": 26,
+  "dual": 9,
+  "upgrade": 48,
+  "vendor_open": 15,
+  "removed": 11,
+  "es_version_unresolved": 2
+ },
+ "outcome_2025_09": {
+  "freeze": 60,
+  "switch": 29,
+  "dual": 9,
+  "upgrade": 45,
+  "vendor_open": 14,
+  "spring_only": 1,
+  "upgrade_agpl": 2,
+  "removed": 11,
+  "es_version_unresolved": 2
+ },
+ "ever_opensearch": 36,
+ "ever_restricted": 63,
+ "ever_vendor_new_client": 21,
+ "first_opensearch_by_half": {
+  "2021H2": 1,
+  "2022H1": 25,
+  "2022H2": 2,
+  "2023H1": 3,
+  "2023H2": 3,
+  "2024H1": 2
+ },
+ "spring_user_pre_among_direct": 3,
+ "spring_only_group": {
+  "n": 3,
+  "active": 2
+ },
+ "control_open_vendor_only": {
+  "n": 30,
+  "active": 16
+ },
+ "vendor_projects": [],
+ "fork_affiliated": [
+  "github.com/opendistro-for-elasticsearch/security",
+  "github.com/opendistro-for-elasticsearch/security-advanced-modules",
+  "github.com/opendistro-for-elasticsearch/security-ssl"
+ ]
+}
