@@ -30,7 +30,7 @@ shutil.copytree(RP, GH / "replication", ignore=shutil.ignore_patterns("raw"))
 (GH / "replication/data/README.md").write_text(
     "# Raw extracts\n\n"
     "The raw extracts (`data/raw/`, about 560 MB) are too large for this repository. They are archived on Zenodo "
-    "with the full replication package: [DOI to be added on deposit].\n\n"
+    "with the full replication package: [doi:10.5281/zenodo.24440614](https://doi.org/10.5281/zenodo.24440614).\n\n"
     "Download `replication_package.zip` from the Zenodo record and copy its `data/raw/` folder here, so that this "
     "folder contains `raw/`. Then run `python run_all.py` from `replication/` as described in "
     "`replication/README.md`.\n", encoding="utf-8")
@@ -42,6 +42,7 @@ shutil.copy2(RP / "LICENSE", GH / "LICENSE")
     f'title: "{TITLE}: replication package"\n'
     'version: "1.0"\n'
     'date-released: "2026-11-22"\n'
+    'doi: "10.5281/zenodo.24440614"\n'
     'license: MIT\n'
     'authors:\n'
     '  - family-names: Oh\n'
@@ -71,7 +72,7 @@ reproduces every result in the paper.
 | `replication/` | Scripts, outputs and instructions to reproduce the results (code under MIT). See `replication/README.md`. |
 
 The raw extracts used by the scripts (about 560 MB) are archived on Zenodo with the full replication package:
-[DOI to be added on deposit]. See `replication/data/README.md`.
+[doi:10.5281/zenodo.24440614](https://doi.org/10.5281/zenodo.24440614). See `replication/data/README.md`.
 
 ## Licence
 

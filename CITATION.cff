@@ -3,6 +3,7 @@ message: "If you use this code or data, please cite the paper below."
 title: "Frozen on the Last Open Version: How Dependent Libraries Respond When an Open-Source Supplier Relicenses: replication package"
 version: "1.0"
 date-released: "2026-11-22"
+doi: "10.5281/zenodo.24440614"
 license: MIT
 authors:
   - family-names: Oh

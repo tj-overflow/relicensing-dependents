@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below, and credit deps.dev (Google Open Source Insights) and Maven Central as the sources of the underlying package data."
 title: "Dependents of Relicensed Open-Source Suppliers: Akka and Elasticsearch"
 version: "1.0"
+doi: "10.5281/zenodo.24440614"
 date-released: "2026-11-22"
 license: CC-BY-4.0
 authors:

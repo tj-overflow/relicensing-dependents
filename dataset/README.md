@@ -1,6 +1,6 @@
 # Dependents of Relicensed Open-Source Suppliers: Akka (BSL, 2022) and Elasticsearch (ELv2, 2021)
 
-Version 1.0 (November 2026).
+Version 1.0 (November 2026). Archived on Zenodo: [doi:10.5281/zenodo.24440614](https://doi.org/10.5281/zenodo.24440614).
 
 This dataset records what downstream Maven projects did after two open-source suppliers moved new versions to non-OSI licences:
 - **Akka.** Moved from Apache-2.0 to BUSL-1.1 in September 2022. Its fork is Apache Pekko.
@@ -83,4 +83,4 @@ The dataset covers every package in the deps.dev Maven snapshot of 2026-11-02 th
 
 ## Citation
 
-Oh, Taejun (2026). *Dependents of Relicensed Open-Source Suppliers: Akka and Elasticsearch* (dataset, version 1.0). Accompanies "Frozen on the Last Open Version: How Dependent Libraries Respond When an Open-Source Supplier Relicenses", working paper.
+Oh, Taejun (2026). *Dependents of Relicensed Open-Source Suppliers: Akka and Elasticsearch* (dataset, version 1.0). Zenodo. https://doi.org/10.5281/zenodo.24440614. Accompanies "Frozen on the Last Open Version: How Dependent Libraries Respond When an Open-Source Supplier Relicenses", working paper.

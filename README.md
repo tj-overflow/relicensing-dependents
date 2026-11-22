@@ -13,7 +13,7 @@ reproduces every result in the paper.
 | `replication/` | Scripts, outputs and instructions to reproduce the results (code under MIT). See `replication/README.md`. |
 
 The raw extracts used by the scripts (about 560 MB) are archived on Zenodo with the full replication package:
-[DOI to be added on deposit]. See `replication/data/README.md`.
+[doi:10.5281/zenodo.24440614](https://doi.org/10.5281/zenodo.24440614). See `replication/data/README.md`.
 
 ## Licence
 

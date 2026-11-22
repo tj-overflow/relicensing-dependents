@@ -2,7 +2,7 @@
 
 *Frozen on the Last Open Version: How Dependent Libraries Respond When an Open-Source Supplier Relicenses* (Oh, 2026).
 
-This package contains the data and code needed to reproduce every result reported in the paper.
+This package contains the data and code needed to reproduce every result reported in the paper. It is archived on Zenodo ([doi:10.5281/zenodo.24440614](https://doi.org/10.5281/zenodo.24440614)); the GitHub repository (https://github.com/TJ-overflow/relicensing-dependents) holds the same files except the raw extracts in `data/raw/`.
 
 ## What is here
 
